@@ -449,13 +449,20 @@ async def scrape_today():
                     race_info['course'] = course_elem.text.strip()
                 except: pass
                 
-                # クラス判定
+                # クラス判定（グレードレースを優先的に判定）
+                # body textとHTMLソース両方を検索（metaタグにグレード情報がある場合がある）
                 page_text = driver.find_element(By.TAG_NAME, 'body').text
-                if '(G1)' in page_text or '（G1）' in page_text:
+                html_source = driver.page_source
+                search_text = page_text + ' ' + html_source
+                
+                # GI判定（複数パターン対応）
+                if any(p in search_text for p in ['(G1)', '（G1）', '(GⅠ)', '（GⅠ）', 'GⅠ']):
                     race_info['class'] = 'GI'
-                elif '(G2)' in page_text or '（G2）' in page_text:
+                # GII判定
+                elif any(p in search_text for p in ['(G2)', '（G2）', '(GⅡ)', '（GⅡ）', 'GⅡ']):
                     race_info['class'] = 'GII'
-                elif '(G3)' in page_text or '（G3）' in page_text:
+                # GIII判定
+                elif any(p in search_text for p in ['(G3)', '（G3）', '(GⅢ)', '（GⅢ）', 'GⅢ']):
                     race_info['class'] = 'GIII'
                 elif 'リステッド' in page_text or '(L)' in page_text:
                     race_info['class'] = 'リステッド'

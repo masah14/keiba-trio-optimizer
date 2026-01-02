@@ -1,0 +1,65 @@
+name: Race Data Auto-Update
+
+on:
+  schedule:
+    # 土日の 9:30-16:30 JST (0:30-7:30 UTC) に7分毎
+    # UTC時間で設定（JST = UTC + 9時間）
+    - cron: '*/7 0-8 * * 0,6'  # 毎週土日、UTC 0-8時 (JST 9-17時)
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check if within race hours (JST 9:30-16:30)
+        id: time_check
+        run: |
+          # 現在のJST時刻を取得
+          JST_HOUR=$(TZ='Asia/Tokyo' date +%H)
+          JST_MIN=$(TZ='Asia/Tokyo' date +%M)
+          JST_TIME=$((JST_HOUR * 60 + JST_MIN))
+          
+          # 9:30 = 570分, 16:30 = 990分
+          if [ $JST_TIME -ge 570 ] && [ $JST_TIME -le 990 ]; then
+            echo "within_hours=true" >> $GITHUB_OUTPUT
+            echo "Current JST: ${JST_HOUR}:${JST_MIN} - Within race hours"
+          else
+            echo "within_hours=false" >> $GITHUB_OUTPUT
+            echo "Current JST: ${JST_HOUR}:${JST_MIN} - Outside race hours, skipping"
+          fi
+      
+      - name: Checkout repository
+        if: steps.time_check.outputs.within_hours == 'true'
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        if: steps.time_check.outputs.within_hours == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install Chrome
+        if: steps.time_check.outputs.within_hours == 'true'
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+      
+      - name: Install dependencies
+        if: steps.time_check.outputs.within_hours == 'true'
+        run: |
+          pip install selenium chromedriver-autoinstaller
+      
+      - name: Run scraper
+        if: steps.time_check.outputs.within_hours == 'true'
+        run: |
+          python scrape_for_github.py
+      
+      - name: Commit and push changes
+        if: steps.time_check.outputs.within_hours == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/today/
+          git diff --staged --quiet || git commit -m "Auto-update race data $(TZ='Asia/Tokyo' date +'%Y-%m-%d %H:%M')"
+          git push
