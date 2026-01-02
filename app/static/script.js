@@ -34,16 +34,21 @@ async function loadTodayRaces() {
         const dateRangeEl = document.getElementById('date-range-info');
         if (data.date_range) {
             const formatDate = (d) => `${d.slice(4, 6)}/${d.slice(6, 8)}`;
-            dateRangeEl.innerHTML = `対象期間: ${formatDate(data.date_from)} 〜 ${formatDate(data.date_to)}（${data.date_range.length}日間）`;
+            dateRangeEl.innerHTML = `対象期間: ${formatDate(data.date_from)} 〜 ${formatDate(data.date_to)}（${data.date_range.length}日間）/ 全${data.total_races || 0}レース`;
         }
 
         const container = document.getElementById('race-list');
 
-        if (!data.races || data.races.length === 0) {
+        // 対象レースと対象外レースを取得
+        const targetRaces = data.target_races || data.races || [];
+        const otherRaces = data.other_races || [];
+
+        if (targetRaces.length === 0 && otherRaces.length === 0) {
             container.innerHTML = `
                 <div class="no-races">
                     <p>レースがありません</p>
                     <p class="hint">「レースを取得」ボタンをクリックしてください</p>
+                    <p class="hint">※1月5日以降のJRA開催日にレースが表示されます</p>
                 </div>
             `;
             return;
@@ -51,53 +56,85 @@ async function loadTodayRaces() {
 
         container.innerHTML = '';
 
-        // 日付でグループ化
-        const racesByDate = {};
-        data.races.forEach(race => {
-            const date = race.date || 'unknown';
-            if (!racesByDate[date]) racesByDate[date] = [];
-            racesByDate[date].push(race);
-        });
+        // 対象レースを表示
+        if (targetRaces.length > 0) {
+            const targetHeader = document.createElement('div');
+            targetHeader.className = 'section-header target';
+            targetHeader.innerHTML = `<h2>🎯 対象レース（${targetRaces.length}件）</h2><span>GIII / 1勝 / 2勝 / 未勝利</span>`;
+            container.appendChild(targetHeader);
 
-        // 日付ごとに表示
-        Object.keys(racesByDate).sort().forEach(date => {
-            const races = racesByDate[date];
-            const formatDate = (d) => `${d.slice(0, 4)}年${d.slice(4, 6)}月${d.slice(6, 8)}日`;
+            renderRacesByDate(container, targetRaces, true);
+        }
 
-            const dateHeader = document.createElement('div');
-            dateHeader.className = 'date-header';
-            dateHeader.innerHTML = `<h3>${formatDate(date)}</h3><span>${races.length}レース</span>`;
-            container.appendChild(dateHeader);
+        // 対象外レースを表示
+        if (otherRaces.length > 0) {
+            const otherHeader = document.createElement('div');
+            otherHeader.className = 'section-header other';
+            otherHeader.innerHTML = `<h2>📋 その他のレース（${otherRaces.length}件）</h2><span>GI / GII / OP など</span>`;
+            container.appendChild(otherHeader);
 
-            const raceGrid = document.createElement('div');
-            raceGrid.className = 'race-grid';
-
-            races.forEach(race => {
-                const div = document.createElement('div');
-                div.className = 'race-item';
-                div.onclick = () => loadRaceDetail(race.race_id);
-
-                const distanceLabel = getDistanceLabel(race.distance);
-                const classLabel = race.class === 'GIII' ? '<span class="badge-giii">GIII</span>' : `<span class="badge-class">${race.class}</span>`;
-
-                div.innerHTML = `
-                    <div class="race-item-header">
-                        ${classLabel}
-                        ${distanceLabel}
-                    </div>
-                    <div class="race-item-name">${race.name || race.race_id}</div>
-                    <div class="race-item-meta">${race.course} / ${race.distance}m / ${race.horse_count}頭</div>
-                `;
-
-                raceGrid.appendChild(div);
-            });
-
-            container.appendChild(raceGrid);
-        });
+            renderRacesByDate(container, otherRaces, false);
+        }
 
     } catch (err) {
         console.error('Error loading races:', err);
     }
+}
+
+// 日付ごとにレースを描画
+function renderRacesByDate(container, races, isTarget) {
+    // 日付でグループ化
+    const racesByDate = {};
+    races.forEach(race => {
+        const date = race.date || 'unknown';
+        if (!racesByDate[date]) racesByDate[date] = [];
+        racesByDate[date].push(race);
+    });
+
+    // 日付ごとに表示
+    Object.keys(racesByDate).sort().forEach(date => {
+        const dateRaces = racesByDate[date];
+        const formatDate = (d) => `${d.slice(0, 4)}年${d.slice(4, 6)}月${d.slice(6, 8)}日`;
+
+        const dateHeader = document.createElement('div');
+        dateHeader.className = 'date-header';
+        dateHeader.innerHTML = `<h3>${formatDate(date)}</h3><span>${dateRaces.length}レース</span>`;
+        container.appendChild(dateHeader);
+
+        const raceGrid = document.createElement('div');
+        raceGrid.className = 'race-grid';
+
+        dateRaces.forEach(race => {
+            const div = document.createElement('div');
+            div.className = `race-item ${isTarget ? 'target' : 'other'}`;
+            div.onclick = () => loadRaceDetail(race.race_id);
+
+            const distanceLabel = race.distance ? getDistanceLabel(race.distance) : '';
+            const classLabel = getClassLabel(race.class);
+            const horseInfo = race.horse_count > 0 ? `${race.horse_count}頭` : '枠順未定';
+
+            div.innerHTML = `
+                <div class="race-item-header">
+                    ${classLabel}
+                    ${distanceLabel}
+                </div>
+                <div class="race-item-name">${race.name || 'レース' + race.race_id.slice(-2)}</div>
+                <div class="race-item-meta">${race.course || ''} ${race.distance ? '/ ' + race.distance + 'm' : ''} / ${horseInfo}</div>
+            `;
+
+            raceGrid.appendChild(div);
+        });
+
+        container.appendChild(raceGrid);
+    });
+}
+
+// クラスラベル
+function getClassLabel(raceClass) {
+    if (raceClass === 'GIII') return '<span class="badge-giii">GIII</span>';
+    if (raceClass === 'GII') return '<span class="badge-gii">GII</span>';
+    if (raceClass === 'GI') return '<span class="badge-gi">GI</span>';
+    return `<span class="badge-class">${raceClass || '未分類'}</span>`;
 }
 
 // 距離ラベル

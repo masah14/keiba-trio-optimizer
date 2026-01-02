@@ -184,20 +184,21 @@ def calculate_trio_bets(horses, race_class, distance):
 
 @app.get("/api/today-races")
 async def get_today_races():
-    """今日から2日後までの対象レース一覧を取得"""
+    ""今日から4日後までのレース一覧を取得"""
     from datetime import timedelta
     
-    # 今日から2日後までの日付リスト
+    # 今日から4日後までの日付リスト（5日間）
     today = get_jst_now()
-    date_range = [(today + timedelta(days=i)).strftime('%Y%m%d') for i in range(3)]
+    date_range = [(today + timedelta(days=i)).strftime('%Y%m%d') for i in range(5)]
     
     # キャッシュディレクトリを確認
     cache_dir = os.path.join(os.path.dirname(__file__), '..', 'data', 'today')
     os.makedirs(cache_dir, exist_ok=True)
     
-    races = []
+    target_races = []
+    other_races = []
     
-    # 3日間のレースファイルを読み込み
+    # 5日間のレースファイルを読み込み
     for f in os.listdir(cache_dir):
         if not f.endswith('.json'):
             continue
@@ -216,28 +217,36 @@ async def get_today_races():
         # 日付を抽出
         race_date = race_id[:8] if len(race_id) >= 8 else ''
         
-        # 対象クラスのみ
+        race_data = {
+            'race_id': race_id,
+            'date': race_date,
+            'name': race.get('race_info', {}).get('name', '') or f'レース{race_id[-2:]}',
+            'course': race.get('race_info', {}).get('course', ''),
+            'distance': race.get('race_info', {}).get('distance', 0),
+            'class': race_class or '未分類',
+            'horse_count': len(race.get('horses', [])),
+            'is_target': race_class in TARGET_CLASSES
+        }
+        
         if race_class in TARGET_CLASSES:
-            races.append({
-                'race_id': race_id,
-                'date': race_date,
-                'name': race.get('race_info', {}).get('name', ''),
-                'course': race.get('race_info', {}).get('course', ''),
-                'distance': race.get('race_info', {}).get('distance', 0),
-                'class': race_class,
-                'horse_count': len(race.get('horses', []))
-            })
+            target_races.append(race_data)
+        else:
+            other_races.append(race_data)
     
     # 日付順にソート
-    races.sort(key=lambda x: (x.get('date', ''), x.get('race_id', '')))
+    target_races.sort(key=lambda x: (x.get('date', ''), x.get('race_id', '')))
+    other_races.sort(key=lambda x: (x.get('date', ''), x.get('race_id', '')))
     
     return {
         'date_range': date_range,
         'date_from': date_range[0],
         'date_to': date_range[-1],
         'target_classes': TARGET_CLASSES,
-        'races': races,
-        'message': 'レースをスクレイピングするには「レースを取得」ボタンを押してください' if not races else None
+        'target_races': target_races,
+        'other_races': other_races,
+        'races': target_races,  # 後方互換
+        'total_races': len(target_races) + len(other_races),
+        'message': '「レースを取得」ボタンを押してください' if len(target_races) + len(other_races) == 0 else None
     }
 
 
@@ -325,9 +334,9 @@ async def scrape_today():
     except:
         pass
     
-    # 今日から2日後までの日付リスト
+    # 今日から4日後までの日付リスト（5日間）
     today = get_jst_now()
-    date_range = [(today + timedelta(days=i)).strftime('%Y%m%d') for i in range(3)]
+    date_range = [(today + timedelta(days=i)).strftime('%Y%m%d') for i in range(5)]
     
     cache_dir = os.path.join(os.path.dirname(__file__), '..', 'data', 'today')
     os.makedirs(cache_dir, exist_ok=True)
