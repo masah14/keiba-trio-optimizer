@@ -1,0 +1,43 @@
+name: Race Data Auto-Update
+
+on:
+  schedule:
+    - cron: '*/7 0-8 * * 0,6'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Time check
+        id: time_check
+        run: |
+          JST_HOUR=$(TZ='Asia/Tokyo' date +%H)
+          JST_MIN=$(TZ='Asia/Tokyo' date +%M)
+          JST_TIME=$((JST_HOUR * 60 + JST_MIN))
+          if [ $JST_TIME -ge 570 ] && [ $JST_TIME -le 990 ]; then
+            echo "within_hours=true" >> $GITHUB_OUTPUT
+          else
+            echo "within_hours=false" >> $GITHUB_OUTPUT
+          fi
+      - uses: actions/checkout@v4
+        if: steps.time_check.outputs.within_hours == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.time_check.outputs.within_hours == 'true'
+        with:
+          python-version: '3.11'
+      - uses: browser-actions/setup-chrome@v1
+        if: steps.time_check.outputs.within_hours == 'true'
+      - name: Run
+        if: steps.time_check.outputs.within_hours == 'true'
+        run: |
+          pip install selenium chromedriver-autoinstaller
+          python scrape_for_github.py
+      - name: Commit
+        if: steps.time_check.outputs.within_hours == 'true'
+        run: |
+          git config user.email "bot@github.com"
+          git config user.name "bot"
+          git add data/today/
+          git diff --staged --quiet || git commit -m "Update"
+          git push
