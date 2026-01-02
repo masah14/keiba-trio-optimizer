@@ -313,9 +313,17 @@ async def scrape_today():
     from selenium import webdriver
     from selenium.webdriver.common.by import By
     from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
     from datetime import timedelta
     import time
     import re
+    
+    # ChromeDriverの自動インストール（HF Spaces対応）
+    try:
+        import chromedriver_autoinstaller
+        chromedriver_autoinstaller.install()
+    except:
+        pass
     
     # 今日から2日後までの日付リスト
     today = get_jst_now()
@@ -328,6 +336,7 @@ async def scrape_today():
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-gpu')
     
     driver = webdriver.Chrome(options=options)
     scraped = []
