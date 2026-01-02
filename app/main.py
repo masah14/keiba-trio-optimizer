@@ -184,7 +184,7 @@ def calculate_trio_bets(horses, race_class, distance):
 
 @app.get("/api/today-races")
 async def get_today_races():
-    ""今日から4日後までのレース一覧を取得"""
+    """今日から4日後までのレース一覧を取得"""
     from datetime import timedelta
     
     # 今日から4日後までの日付リスト（5日間）
