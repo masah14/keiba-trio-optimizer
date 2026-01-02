@@ -198,31 +198,41 @@ async def get_today_races():
     target_races = []
     other_races = []
     
-    # 5日間のレースファイルを読み込み
+    # 競馬場コード→名前の変換
+    TRACK_NAMES = {
+        '01': '札幌', '02': '函館', '03': '福島', '04': '新潟', '05': '東京',
+        '06': '中山', '07': '中京', '08': '京都', '09': '阪神', '10': '小倉'
+    }
+    
+    # キャッシュ内の全レースファイルを読み込み
     for f in os.listdir(cache_dir):
         if not f.endswith('.json'):
-            continue
-        
-        # 日付が範囲内かチェック
-        is_in_range = any(f.startswith(f'race_{d}') for d in date_range)
-        if not is_in_range:
             continue
         
         with open(os.path.join(cache_dir, f), 'r', encoding='utf-8') as fp:
             race = json.load(fp)
         
-        race_class = race.get('race_info', {}).get('class', '')
+        race_info = race.get('race_info', {})
+        race_class = race_info.get('class', '')
         race_id = race.get('race_id', '')
+        race_name = race_info.get('name', '') or f'レース{race_id[-2:]}'
         
-        # 日付を抽出
-        race_date = race_id[:8] if len(race_id) >= 8 else ''
+        # kaisai_dateがあればそれを使用、なければrace_idから推測
+        kaisai_date = race_info.get('kaisai_date', '')
+        
+        # track_codeとrace_numを取得
+        track_code = race_info.get('track_code', race_id[4:6] if len(race_id) >= 6 else '')
+        track_name = race_info.get('track_name', TRACK_NAMES.get(track_code, ''))
+        race_num = race_info.get('race_num', int(race_id[-2:]) if len(race_id) >= 2 else 0)
         
         race_data = {
             'race_id': race_id,
-            'date': race_date,
-            'name': race.get('race_info', {}).get('name', '') or f'レース{race_id[-2:]}',
-            'course': race.get('race_info', {}).get('course', ''),
-            'distance': race.get('race_info', {}).get('distance', 0),
+            'date': kaisai_date,
+            'track_name': track_name,
+            'race_num': race_num,
+            'name': race_name,
+            'course': race_info.get('course', ''),
+            'distance': race_info.get('distance', 0),
             'class': race_class or '未分類',
             'horse_count': len(race.get('horses', [])),
             'is_target': race_class in TARGET_CLASSES
@@ -233,9 +243,9 @@ async def get_today_races():
         else:
             other_races.append(race_data)
     
-    # 日付順にソート
-    target_races.sort(key=lambda x: (x.get('date', ''), x.get('race_id', '')))
-    other_races.sort(key=lambda x: (x.get('date', ''), x.get('race_id', '')))
+    # 日付とレース番号でソート
+    target_races.sort(key=lambda x: (x.get('date', ''), x.get('track_name', ''), x.get('race_num', 0)))
+    other_races.sort(key=lambda x: (x.get('date', ''), x.get('track_name', ''), x.get('race_num', 0)))
     
     return {
         'date_range': date_range,
@@ -318,16 +328,32 @@ async def get_race_ev(race_id: str):
 
 @app.post("/api/scrape-today")
 async def scrape_today():
-    """今日から2日後までのレースをスクレイピング"""
-    from selenium import webdriver
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.chrome.options import Options
-    from selenium.webdriver.chrome.service import Service
+    """今日から2日後までのレースをスクレイピング（ローカル環境のみ）"""
+    
+    # Render環境ではスクレイピングを無効化
+    if os.environ.get('RENDER') == 'true':
+        return {
+            'status': 'disabled',
+            'message': 'スクレイピングはローカル環境でのみ実行可能です',
+            'scraped_count': 0
+        }
+    
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.chrome.options import Options
+    except ImportError:
+        return {
+            'status': 'error',
+            'message': 'Seleniumがインストールされていません',
+            'scraped_count': 0
+        }
+    
     from datetime import timedelta
     import time
     import re
     
-    # ChromeDriverの自動インストール（HF Spaces対応）
+    # ChromeDriverの自動インストール
     try:
         import chromedriver_autoinstaller
         chromedriver_autoinstaller.install()
@@ -351,24 +377,38 @@ async def scrape_today():
     scraped = []
     
     try:
-        race_ids = set()
+        race_data_list = []  # (race_id, date)のペア
         
-        # 3日間のレースIDを取得
+        # 5日間のレースIDを取得
         for target_date in date_range:
             url = f"https://race.netkeiba.com/top/race_list.html?kaisai_date={target_date}"
             driver.get(url)
             time.sleep(1.5)
             
-            race_links = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/race/"]')
+            race_links = driver.find_elements(By.CSS_SELECTOR, 'a[href*="race_id="]')
             
             for link in race_links:
                 href = link.get_attribute('href')
-                match = re.search(r'/race/(\d+)', href)
+                match = re.search(r'race_id=(\d+)', href)
                 if match:
-                    race_ids.add(match.group(1))
+                    race_data_list.append((match.group(1), target_date))
+        
+        # 競馬場コード→名前の変換
+        TRACK_NAMES = {
+            '01': '札幌', '02': '函館', '03': '福島', '04': '新潟', '05': '東京',
+            '06': '中山', '07': '中京', '08': '京都', '09': '阪神', '10': '小倉'
+        }
+        
+        # 重複を除去
+        seen_race_ids = set()
+        unique_races = []
+        for race_id, kaisai_date in race_data_list:
+            if race_id not in seen_race_ids:
+                seen_race_ids.add(race_id)
+                unique_races.append((race_id, kaisai_date))
         
         # 各レースをスクレイピング（最大100レース）
-        for race_id in list(race_ids)[:100]:
+        for race_id, kaisai_date in unique_races[:100]:
             filepath = os.path.join(cache_dir, f'race_{race_id}.json')
             if os.path.exists(filepath):
                 continue
@@ -378,8 +418,19 @@ async def scrape_today():
                 driver.get(race_url)
                 time.sleep(1)
                 
+                # race_idからtrack_codeとrace_numを抽出
+                track_code = race_id[4:6] if len(race_id) >= 6 else ''
+                race_num = int(race_id[-2:]) if len(race_id) >= 2 else 0
+                track_name = TRACK_NAMES.get(track_code, f'競馬場{track_code}')
+                
                 # レース情報
-                race_info = {'race_id': race_id}
+                race_info = {
+                    'race_id': race_id,
+                    'kaisai_date': kaisai_date,
+                    'track_code': track_code,
+                    'track_name': track_name,
+                    'race_num': race_num
+                }
                 
                 try:
                     title = driver.find_element(By.CSS_SELECTOR, '.RaceName').text.strip()

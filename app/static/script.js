@@ -112,9 +112,11 @@ function renderRacesByDate(container, races, isTarget) {
             const distanceLabel = race.distance ? getDistanceLabel(race.distance) : '';
             const classLabel = getClassLabel(race.class);
             const horseInfo = race.horse_count > 0 ? `${race.horse_count}頭` : '枠順未定';
+            const trackInfo = race.track_name ? `${race.track_name}${race.race_num}R` : '';
 
             div.innerHTML = `
                 <div class="race-item-header">
+                    ${trackInfo ? `<span class="badge-track">${trackInfo}</span>` : ''}
                     ${classLabel}
                     ${distanceLabel}
                 </div>

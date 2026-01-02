@@ -233,6 +233,15 @@ header {
     font-weight: 700;
 }
 
+.badge-track {
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
 .badge-dist {
     padding: 0.25rem 0.5rem;
     border-radius: 0.5rem;
