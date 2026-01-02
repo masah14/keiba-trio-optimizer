@@ -1,0 +1,139 @@
+{
+  "race_id": "202404040106",
+  "race_info": {
+    "course": "新潟",
+    "distance": 1600
+  },
+  "horses": [
+    {
+      "num": 2,
+      "name": "ネーブルオレンジ",
+      "horse_id": "2022105431",
+      "jockey": "小林勝太",
+      "jockey_id": "01205",
+      "odds": 4.2,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 11,
+      "name": "モンテシート",
+      "horse_id": "2022105108",
+      "jockey": "斎藤新",
+      "jockey_id": "01178",
+      "odds": 4.5,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 5,
+      "name": "ノワナ",
+      "horse_id": "2022106682",
+      "jockey": "Ｍ．デム",
+      "jockey_id": "05212",
+      "odds": 5.6,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 3,
+      "name": "マルーンベレー",
+      "horse_id": "2022105850",
+      "jockey": "亀田温心",
+      "jockey_id": "01176",
+      "odds": 8.1,
+      "popularity": 5,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "ディフューズ",
+      "horse_id": "2022101087",
+      "jockey": "木幡育也",
+      "jockey_id": "01167",
+      "odds": 138.8,
+      "popularity": 12,
+      "finish": 5
+    },
+    {
+      "num": 8,
+      "name": "ペップトーク",
+      "horse_id": "2022104157",
+      "jockey": "川端海翼",
+      "jockey_id": "01195",
+      "odds": 85.5,
+      "popularity": 10,
+      "finish": 6
+    },
+    {
+      "num": 10,
+      "name": "ヒオウギ",
+      "horse_id": "2022106798",
+      "jockey": "丹内祐次",
+      "jockey_id": "01091",
+      "odds": 3.1,
+      "popularity": 1,
+      "finish": 7
+    },
+    {
+      "num": 1,
+      "name": "シーフライト",
+      "horse_id": "2022100262",
+      "jockey": "小林脩斗",
+      "jockey_id": "01183",
+      "odds": 26.7,
+      "popularity": 7,
+      "finish": 8
+    },
+    {
+      "num": 12,
+      "name": "ケイツーペニー",
+      "horse_id": "2022106136",
+      "jockey": "秋山稔樹",
+      "jockey_id": "01181",
+      "odds": 50.1,
+      "popularity": 8,
+      "finish": 9
+    },
+    {
+      "num": 7,
+      "name": "モンツァフレイバー",
+      "horse_id": "2022103181",
+      "jockey": "長浜鴻緒",
+      "jockey_id": "01214",
+      "odds": 14.7,
+      "popularity": 6,
+      "finish": 10
+    },
+    {
+      "num": 9,
+      "name": "ゴールデンマーチ",
+      "horse_id": "2022103013",
+      "jockey": "石田拓郎",
+      "jockey_id": "01203",
+      "odds": 86.3,
+      "popularity": 11,
+      "finish": 11
+    },
+    {
+      "num": 6,
+      "name": "アイファーリーオー",
+      "horse_id": "2022101112",
+      "jockey": "藤田菜七",
+      "jockey_id": "01164",
+      "odds": 61.3,
+      "popularity": 9,
+      "finish": 12
+    }
+  ],
+  "payouts": {
+    "win": {
+      "2": 420
+    },
+    "place": {
+      "2": 160,
+      "11": 170,
+      "5": 180
+    }
+  }
+}

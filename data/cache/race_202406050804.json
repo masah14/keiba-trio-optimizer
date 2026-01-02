@@ -1,0 +1,161 @@
+{
+  "race_id": "202406050804",
+  "title": "",
+  "horses": [
+    {
+      "num": 18,
+      "name": "ロジャリーマイン",
+      "jockey": "川田将雅",
+      "odds": 2.4,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 6,
+      "name": "カーミングライツ",
+      "jockey": "横山和生",
+      "odds": 175.3,
+      "popularity": 11,
+      "finish": 2
+    },
+    {
+      "num": 15,
+      "name": "ウアーシュプルング",
+      "jockey": "横山武史",
+      "odds": 6.8,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 12,
+      "name": "イフルジャンス",
+      "jockey": "Ｃ．デム",
+      "odds": 24.2,
+      "popularity": 7,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "ヘヴンウィンド",
+      "jockey": "ムーア",
+      "odds": 2.7,
+      "popularity": 2,
+      "finish": 5
+    },
+    {
+      "num": 16,
+      "name": "マカナ",
+      "jockey": "坂井瑠星",
+      "odds": 8.7,
+      "popularity": 4,
+      "finish": 6
+    },
+    {
+      "num": 8,
+      "name": "コア",
+      "jockey": "戸崎圭太",
+      "odds": 12.2,
+      "popularity": 5,
+      "finish": 7
+    },
+    {
+      "num": 2,
+      "name": "マイネルラファール",
+      "jockey": "丸山元気",
+      "odds": 239.2,
+      "popularity": 12,
+      "finish": 8
+    },
+    {
+      "num": 9,
+      "name": "ジュラ",
+      "jockey": "幸英明",
+      "odds": 98.0,
+      "popularity": 8,
+      "finish": 9
+    },
+    {
+      "num": 1,
+      "name": "マジックスクロール",
+      "jockey": "嶋田純次",
+      "odds": 173.5,
+      "popularity": 10,
+      "finish": 10
+    },
+    {
+      "num": 14,
+      "name": "ノーブルノワール",
+      "jockey": "石川裕紀",
+      "odds": 107.2,
+      "popularity": 9,
+      "finish": 11
+    },
+    {
+      "num": 13,
+      "name": "ルナティックアイ",
+      "jockey": "江田照男",
+      "odds": 302.3,
+      "popularity": 15,
+      "finish": 12
+    },
+    {
+      "num": 17,
+      "name": "アエル",
+      "jockey": "丸田恭介",
+      "odds": 362.4,
+      "popularity": 17,
+      "finish": 13
+    },
+    {
+      "num": 3,
+      "name": "ムチャスエルテ",
+      "jockey": "長浜鴻緒",
+      "odds": 375.5,
+      "popularity": 18,
+      "finish": 14
+    },
+    {
+      "num": 7,
+      "name": "マイネルボス",
+      "jockey": "マーカン",
+      "odds": 21.2,
+      "popularity": 6,
+      "finish": 15
+    },
+    {
+      "num": 11,
+      "name": "マイネルライゼン",
+      "jockey": "柴田大知",
+      "odds": 355.9,
+      "popularity": 16,
+      "finish": 16
+    },
+    {
+      "num": 5,
+      "name": "チャールズテソーロ",
+      "jockey": "木幡巧也",
+      "odds": 282.3,
+      "popularity": 14,
+      "finish": 17
+    },
+    {
+      "num": 10,
+      "name": "ナンヨービッグ",
+      "jockey": "鮫島克駿",
+      "odds": 265.0,
+      "popularity": 13,
+      "finish": 18
+    }
+  ],
+  "payouts": {
+    "win": {
+      "18": 240
+    },
+    "place": {
+      "18": 140,
+      "6": 2730,
+      "15": 210
+    },
+    "trifecta": {}
+  }
+}

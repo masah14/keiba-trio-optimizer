@@ -1,0 +1,137 @@
+{
+  "race_id": "202406050704",
+  "title": "",
+  "horses": [
+    {
+      "num": 8,
+      "name": "ピカピカサンダー",
+      "jockey": "三浦皇成",
+      "odds": 7.2,
+      "popularity": 3,
+      "finish": 1
+    },
+    {
+      "num": 6,
+      "name": "サムシャイン",
+      "jockey": "マーカン",
+      "odds": 1.6,
+      "popularity": 1,
+      "finish": 2
+    },
+    {
+      "num": 12,
+      "name": "カージオイド",
+      "jockey": "菅原明良",
+      "odds": 9.7,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 3,
+      "name": "エマージェンス",
+      "jockey": "横山和生",
+      "odds": 4.4,
+      "popularity": 2,
+      "finish": 4
+    },
+    {
+      "num": 7,
+      "name": "キタノブレイク",
+      "jockey": "丹内祐次",
+      "odds": 41.7,
+      "popularity": 7,
+      "finish": 5
+    },
+    {
+      "num": 11,
+      "name": "トーアナカヨシ",
+      "jockey": "菊沢一樹",
+      "odds": 59.3,
+      "popularity": 9,
+      "finish": 6
+    },
+    {
+      "num": 5,
+      "name": "ネオディヤマンテ",
+      "jockey": "田辺裕信",
+      "odds": 177.3,
+      "popularity": 12,
+      "finish": 7
+    },
+    {
+      "num": 13,
+      "name": "リワードインペリオ",
+      "jockey": "黛弘人",
+      "odds": 48.3,
+      "popularity": 8,
+      "finish": 8
+    },
+    {
+      "num": 9,
+      "name": "コスモシェルベット",
+      "jockey": "戸崎圭太",
+      "odds": 25.3,
+      "popularity": 5,
+      "finish": 9
+    },
+    {
+      "num": 1,
+      "name": "ダブルメッセージ",
+      "jockey": "石神深道",
+      "odds": 324.2,
+      "popularity": 14,
+      "finish": 10
+    },
+    {
+      "num": 15,
+      "name": "ジャスパー",
+      "jockey": "原田和真",
+      "odds": 98.0,
+      "popularity": 10,
+      "finish": 11
+    },
+    {
+      "num": 2,
+      "name": "ジーティーラピッド",
+      "jockey": "丸田恭介",
+      "odds": 171.0,
+      "popularity": 11,
+      "finish": 12
+    },
+    {
+      "num": 10,
+      "name": "キャバリエクエスト",
+      "jockey": "石田拓郎",
+      "odds": 409.9,
+      "popularity": 15,
+      "finish": 13
+    },
+    {
+      "num": 4,
+      "name": "ゴールデンサンダー",
+      "jockey": "小林美駒",
+      "odds": 184.3,
+      "popularity": 13,
+      "finish": 14
+    },
+    {
+      "num": 16,
+      "name": "アクデニズ",
+      "jockey": "木幡巧也",
+      "odds": 26.6,
+      "popularity": 6,
+      "finish": 15
+    }
+  ],
+  "payouts": {
+    "win": {
+      "8": 720
+    },
+    "place": {
+      "8": 150,
+      "6": 110,
+      "12": 160
+    },
+    "trifecta": {}
+  }
+}

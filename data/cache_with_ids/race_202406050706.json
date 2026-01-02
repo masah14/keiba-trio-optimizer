@@ -1,0 +1,159 @@
+{
+  "race_id": "202406050706",
+  "race_info": {
+    "course": "中山",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 4,
+      "name": "メリークリスマス",
+      "horse_id": "2022100394",
+      "jockey": "菊沢一樹",
+      "jockey_id": "01161",
+      "odds": 18.0,
+      "popularity": 5,
+      "finish": 1
+    },
+    {
+      "num": 12,
+      "name": "エコロカディス",
+      "horse_id": "2022110126",
+      "jockey": "佐々木大",
+      "jockey_id": "01197",
+      "odds": 21.3,
+      "popularity": 8,
+      "finish": 2
+    },
+    {
+      "num": 2,
+      "name": "ゴールドダイアー",
+      "horse_id": "2022103538",
+      "jockey": "藤懸貴志",
+      "jockey_id": "01138",
+      "odds": 9.8,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 14,
+      "name": "ナルサー",
+      "horse_id": "2022102063",
+      "jockey": "原優介",
+      "jockey_id": "01184",
+      "odds": 161.3,
+      "popularity": 13,
+      "finish": 4
+    },
+    {
+      "num": 1,
+      "name": "ココデイック",
+      "horse_id": "2022100912",
+      "jockey": "戸崎圭太",
+      "jockey_id": "05386",
+      "odds": 1.5,
+      "popularity": 1,
+      "finish": 5
+    },
+    {
+      "num": 11,
+      "name": "トラストモアリズム",
+      "horse_id": "2022101620",
+      "jockey": "荻野極",
+      "jockey_id": "01160",
+      "odds": 103.2,
+      "popularity": 12,
+      "finish": 6
+    },
+    {
+      "num": 15,
+      "name": "マイネルジーニアス",
+      "horse_id": "2022100927",
+      "jockey": "野中悠太",
+      "jockey_id": "01158",
+      "odds": 11.7,
+      "popularity": 4,
+      "finish": 7
+    },
+    {
+      "num": 9,
+      "name": "レヴァントリ",
+      "horse_id": "2022105283",
+      "jockey": "丹内祐次",
+      "jockey_id": "01091",
+      "odds": 9.2,
+      "popularity": 2,
+      "finish": 8
+    },
+    {
+      "num": 6,
+      "name": "プロピエダッド",
+      "horse_id": "2022109090",
+      "jockey": "石川裕紀",
+      "jockey_id": "01150",
+      "odds": 82.6,
+      "popularity": 11,
+      "finish": 9
+    },
+    {
+      "num": 8,
+      "name": "グレートセンス",
+      "horse_id": "2022103849",
+      "jockey": "横山琉人",
+      "jockey_id": "01192",
+      "odds": 25.6,
+      "popularity": 9,
+      "finish": 10
+    },
+    {
+      "num": 7,
+      "name": "アルデコンティ",
+      "horse_id": "2022105311",
+      "jockey": "横山武史",
+      "jockey_id": "01170",
+      "odds": 21.1,
+      "popularity": 7,
+      "finish": 11
+    },
+    {
+      "num": 10,
+      "name": "ユガフ",
+      "horse_id": "2022103303",
+      "jockey": "柴田大知",
+      "jockey_id": "01009",
+      "odds": 210.6,
+      "popularity": 14,
+      "finish": 12
+    },
+    {
+      "num": 13,
+      "name": "アイビースピネル",
+      "horse_id": "2022101851",
+      "jockey": "木幡巧也",
+      "jockey_id": "01162",
+      "odds": 20.0,
+      "popularity": 6,
+      "finish": 13
+    },
+    {
+      "num": 3,
+      "name": "ビップクララ",
+      "horse_id": "2022103301",
+      "jockey": "長浜鴻緒",
+      "jockey_id": "01214",
+      "odds": 38.9,
+      "popularity": 10,
+      "finish": 14
+    }
+  ],
+  "payouts": {
+    "win": {
+      "4": 1800
+    },
+    "place": {
+      "4": 560,
+      "12": 790,
+      "2": 360
+    }
+  }
+}

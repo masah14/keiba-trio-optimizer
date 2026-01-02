@@ -1,0 +1,139 @@
+{
+  "race_id": "202404040107",
+  "race_info": {
+    "course": "新潟",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 1,
+      "name": "ヒルノデプラーツ",
+      "horse_id": "2019106573",
+      "jockey": "秋山稔樹",
+      "jockey_id": "01181",
+      "odds": 6.3,
+      "popularity": 3,
+      "finish": 1
+    },
+    {
+      "num": 11,
+      "name": "ムーンスカイ",
+      "horse_id": "2020102273",
+      "jockey": "松本大輝",
+      "jockey_id": "01191",
+      "odds": 7.2,
+      "popularity": 5,
+      "finish": 2
+    },
+    {
+      "num": 9,
+      "name": "キタサンシデン",
+      "horse_id": "2021107047",
+      "jockey": "長浜鴻緒",
+      "jockey_id": "01214",
+      "odds": 3.8,
+      "popularity": 1,
+      "finish": 3
+    },
+    {
+      "num": 8,
+      "name": "レッドクレメンス",
+      "horse_id": "2021104970",
+      "jockey": "西塚洸二",
+      "jockey_id": "01200",
+      "odds": 19.6,
+      "popularity": 7,
+      "finish": 4
+    },
+    {
+      "num": 2,
+      "name": "カーマンライン",
+      "horse_id": "2021105329",
+      "jockey": "横山琉人",
+      "jockey_id": "01192",
+      "odds": 19.7,
+      "popularity": 8,
+      "finish": 5
+    },
+    {
+      "num": 10,
+      "name": "カレンマウラー",
+      "horse_id": "2021101577",
+      "jockey": "斎藤新",
+      "jockey_id": "01178",
+      "odds": 19.9,
+      "popularity": 9,
+      "finish": 6
+    },
+    {
+      "num": 12,
+      "name": "タマモナポリ",
+      "horse_id": "2021106177",
+      "jockey": "高杉吏麒",
+      "jockey_id": "01213",
+      "odds": 4.1,
+      "popularity": 2,
+      "finish": 7
+    },
+    {
+      "num": 7,
+      "name": "ハイグッドワールド",
+      "horse_id": "2021104474",
+      "jockey": "柴田裕一",
+      "jockey_id": "01212",
+      "odds": 10.3,
+      "popularity": 6,
+      "finish": 8
+    },
+    {
+      "num": 5,
+      "name": "シーリュウシー",
+      "horse_id": "2021106180",
+      "jockey": "小沢大仁",
+      "jockey_id": "01185",
+      "odds": 7.2,
+      "popularity": 4,
+      "finish": 9
+    },
+    {
+      "num": 6,
+      "name": "フィッツジェラルド",
+      "horse_id": "2021105305",
+      "jockey": "石田拓郎",
+      "jockey_id": "01203",
+      "odds": 21.3,
+      "popularity": 10,
+      "finish": 10
+    },
+    {
+      "num": 3,
+      "name": "ダオラダオラ",
+      "horse_id": "2020104336",
+      "jockey": "川端海翼",
+      "jockey_id": "01195",
+      "odds": 79.3,
+      "popularity": 11,
+      "finish": 11
+    },
+    {
+      "num": 4,
+      "name": "フリースタイル",
+      "horse_id": "2020104559",
+      "jockey": "橋木太希",
+      "jockey_id": "01215",
+      "odds": 223.7,
+      "popularity": 12,
+      "finish": 12
+    }
+  ],
+  "payouts": {
+    "win": {
+      "1": 630
+    },
+    "place": {
+      "1": 190,
+      "11": 210,
+      "9": 160
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "race_id": "202406050709",
+  "title": "",
+  "horses": [
+    {
+      "num": 11,
+      "name": "キャントウェイト",
+      "jockey": "丹内祐次",
+      "odds": 5.0,
+      "popularity": 3,
+      "finish": 1
+    },
+    {
+      "num": 8,
+      "name": "レッドテリオス",
+      "jockey": "マーカン",
+      "odds": 4.2,
+      "popularity": 2,
+      "finish": 2
+    },
+    {
+      "num": 14,
+      "name": "クロスライセンス",
+      "jockey": "荻野極",
+      "odds": 236.2,
+      "popularity": 15,
+      "finish": 3
+    },
+    {
+      "num": 7,
+      "name": "アンゴラブラック",
+      "jockey": "戸崎圭太",
+      "odds": 3.2,
+      "popularity": 1,
+      "finish": 4
+    },
+    {
+      "num": 2,
+      "name": "イゾレエオリア",
+      "jockey": "佐々木大",
+      "odds": 8.5,
+      "popularity": 5,
+      "finish": 5
+    },
+    {
+      "num": 13,
+      "name": "トラストボス",
+      "jockey": "三浦皇成",
+      "odds": 11.9,
+      "popularity": 6,
+      "finish": 6
+    },
+    {
+      "num": 5,
+      "name": "ヴァイザーバルコ",
+      "jockey": "武藤雅",
+      "odds": 78.0,
+      "popularity": 10,
+      "finish": 7
+    },
+    {
+      "num": 18,
+      "name": "ニシノコイゴコロ",
+      "jockey": "野中悠太",
+      "odds": 22.0,
+      "popularity": 7,
+      "finish": 8
+    },
+    {
+      "num": 6,
+      "name": "フォティーゾ",
+      "jockey": "北村宏司",
+      "odds": 7.0,
+      "popularity": 4,
+      "finish": 9
+    },
+    {
+      "num": 4,
+      "name": "ペリプルス",
+      "jockey": "丸山元気",
+      "odds": 87.3,
+      "popularity": 11,
+      "finish": 10
+    },
+    {
+      "num": 1,
+      "name": "ゼアズノープレイス",
+      "jockey": "的場勇人",
+      "odds": 188.8,
+      "popularity": 14,
+      "finish": 11
+    },
+    {
+      "num": 16,
+      "name": "マイネルシーマー",
+      "jockey": "ドイル",
+      "odds": 124.2,
+      "popularity": 12,
+      "finish": 12
+    },
+    {
+      "num": 3,
+      "name": "マイネルレグルス",
+      "jockey": "津村明秀",
+      "odds": 36.3,
+      "popularity": 9,
+      "finish": 13
+    },
+    {
+      "num": 9,
+      "name": "ロードヴェスパー",
+      "jockey": "藤懸貴志",
+      "odds": 150.4,
+      "popularity": 13,
+      "finish": 14
+    },
+    {
+      "num": 10,
+      "name": "ルージュサリナス",
+      "jockey": "杉原誠人",
+      "odds": 29.2,
+      "popularity": 8,
+      "finish": 15
+    },
+    {
+      "num": 15,
+      "name": "ヒロピアーナ",
+      "jockey": "小林凌大",
+      "odds": 605.6,
+      "popularity": 18,
+      "finish": 16
+    },
+    {
+      "num": 12,
+      "name": "ナンヨーアゼリア",
+      "jockey": "嶋田純次",
+      "odds": 380.8,
+      "popularity": 17,
+      "finish": 17
+    },
+    {
+      "num": 17,
+      "name": "ランベントライト",
+      "jockey": "石橋脩",
+      "odds": 358.6,
+      "popularity": 16,
+      "finish": 18
+    }
+  ],
+  "payouts": {
+    "win": {
+      "11": 500
+    },
+    "place": {
+      "11": 180,
+      "8": 180,
+      "14": 2870
+    },
+    "trifecta": {}
+  }
+}

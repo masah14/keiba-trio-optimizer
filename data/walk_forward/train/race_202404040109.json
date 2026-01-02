@@ -1,0 +1,159 @@
+{
+  "race_id": "202404040109",
+  "race_info": {
+    "course": "新潟",
+    "distance": 2000
+  },
+  "horses": [
+    {
+      "num": 8,
+      "name": "マイネルオーシャン",
+      "horse_id": "2021106766",
+      "jockey": "丹内祐次",
+      "jockey_id": "01091",
+      "odds": 2.5,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 12,
+      "name": "クロシェットノエル",
+      "horse_id": "2021101068",
+      "jockey": "武藤雅",
+      "jockey_id": "01169",
+      "odds": 7.1,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 5,
+      "name": "アオイメルスイ",
+      "horse_id": "2021100574",
+      "jockey": "黛弘人",
+      "jockey_id": "01109",
+      "odds": 20.1,
+      "popularity": 7,
+      "finish": 3
+    },
+    {
+      "num": 1,
+      "name": "プリズマジコ",
+      "horse_id": "2021106077",
+      "jockey": "秋山稔樹",
+      "jockey_id": "01181",
+      "odds": 3.3,
+      "popularity": 2,
+      "finish": 4
+    },
+    {
+      "num": 9,
+      "name": "ケイツールピア",
+      "horse_id": "2021101801",
+      "jockey": "横山琉人",
+      "jockey_id": "01192",
+      "odds": 47.4,
+      "popularity": 11,
+      "finish": 5
+    },
+    {
+      "num": 3,
+      "name": "モカラルビー",
+      "horse_id": "2021103031",
+      "jockey": "杉原誠人",
+      "jockey_id": "01135",
+      "odds": 35.8,
+      "popularity": 9,
+      "finish": 6
+    },
+    {
+      "num": 11,
+      "name": "ルージュピルエット",
+      "horse_id": "2021105287",
+      "jockey": "Ｍ．デム",
+      "jockey_id": "05212",
+      "odds": 18.5,
+      "popularity": 5,
+      "finish": 7
+    },
+    {
+      "num": 10,
+      "name": "ブルーウィン",
+      "horse_id": "2020101768",
+      "jockey": "亀田温心",
+      "jockey_id": "01176",
+      "odds": 61.0,
+      "popularity": 12,
+      "finish": 8
+    },
+    {
+      "num": 4,
+      "name": "ジャグラー",
+      "horse_id": "2021102881",
+      "jockey": "西塚洸二",
+      "jockey_id": "01200",
+      "odds": 23.7,
+      "popularity": 8,
+      "finish": 9
+    },
+    {
+      "num": 6,
+      "name": "ラスク",
+      "horse_id": "2021100280",
+      "jockey": "小崎綾也",
+      "jockey_id": "01152",
+      "odds": 44.7,
+      "popularity": 10,
+      "finish": 10
+    },
+    {
+      "num": 13,
+      "name": "サークルオブジョイ",
+      "horse_id": "2021105796",
+      "jockey": "斎藤新",
+      "jockey_id": "01178",
+      "odds": 9.0,
+      "popularity": 4,
+      "finish": 11
+    },
+    {
+      "num": 7,
+      "name": "フリンジティアラ",
+      "horse_id": "2020101344",
+      "jockey": "石田拓郎",
+      "jockey_id": "01203",
+      "odds": 245.1,
+      "popularity": 14,
+      "finish": 12
+    },
+    {
+      "num": 2,
+      "name": "ゴールドブレス",
+      "horse_id": "2021100081",
+      "jockey": "荻野極",
+      "jockey_id": "01160",
+      "odds": 19.0,
+      "popularity": 6,
+      "finish": 13
+    },
+    {
+      "num": 14,
+      "name": "シュライフェ",
+      "horse_id": "2020103903",
+      "jockey": "菊沢一樹",
+      "jockey_id": "01161",
+      "odds": 130.6,
+      "popularity": 13,
+      "finish": 14
+    }
+  ],
+  "payouts": {
+    "win": {
+      "8": 250
+    },
+    "place": {
+      "8": 130,
+      "12": 180,
+      "5": 370
+    }
+  }
+}

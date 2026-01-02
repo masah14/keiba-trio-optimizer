@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050809",
+  "title": "",
+  "horses": [
+    {
+      "num": 16,
+      "name": "スティンガーグラス",
+      "jockey": "ルメール",
+      "odds": 2.5,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 5,
+      "name": "サンライズソレイユ",
+      "jockey": "坂井瑠星",
+      "odds": 6.6,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 3,
+      "name": "アバンデル",
+      "jockey": "松山弘平",
+      "odds": 6.9,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 15,
+      "name": "ハイラント",
+      "jockey": "北村宏司",
+      "odds": 82.5,
+      "popularity": 14,
+      "finish": 4
+    },
+    {
+      "num": 6,
+      "name": "スピーディブレイク",
+      "jockey": "マーカン",
+      "odds": 14.2,
+      "popularity": 6,
+      "finish": 5
+    },
+    {
+      "num": 12,
+      "name": "アイザックバローズ",
+      "jockey": "川田将雅",
+      "odds": 5.0,
+      "popularity": 2,
+      "finish": 6
+    },
+    {
+      "num": 8,
+      "name": "ウインマイルート",
+      "jockey": "ドイル",
+      "odds": 30.5,
+      "popularity": 8,
+      "finish": 7
+    },
+    {
+      "num": 10,
+      "name": "フロムナウオン",
+      "jockey": "横山武史",
+      "odds": 50.9,
+      "popularity": 10,
+      "finish": 8
+    },
+    {
+      "num": 13,
+      "name": "ノーブルクライ",
+      "jockey": "石橋脩",
+      "odds": 47.7,
+      "popularity": 9,
+      "finish": 9
+    },
+    {
+      "num": 4,
+      "name": "プレイリードリーム",
+      "jockey": "幸英明",
+      "odds": 54.9,
+      "popularity": 11,
+      "finish": 10
+    },
+    {
+      "num": 2,
+      "name": "グランアルティスタ",
+      "jockey": "菅原明良",
+      "odds": 10.9,
+      "popularity": 5,
+      "finish": 11
+    },
+    {
+      "num": 14,
+      "name": "オリエンタルナイト",
+      "jockey": "戸崎圭太",
+      "odds": 124.6,
+      "popularity": 16,
+      "finish": 12
+    },
+    {
+      "num": 7,
+      "name": "カナオールウェイズ",
+      "jockey": "Ｃ．デム",
+      "odds": 18.5,
+      "popularity": 7,
+      "finish": 13
+    },
+    {
+      "num": 9,
+      "name": "シュブリーム",
+      "jockey": "津村明秀",
+      "odds": 92.9,
+      "popularity": 15,
+      "finish": 14
+    },
+    {
+      "num": 11,
+      "name": "ホウオウサンデー",
+      "jockey": "横山和生",
+      "odds": 68.0,
+      "popularity": 12,
+      "finish": 15
+    },
+    {
+      "num": 1,
+      "name": "スズノマーベリック",
+      "jockey": "藤懸貴志",
+      "odds": 73.6,
+      "popularity": 13,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "16": 250
+    },
+    "place": {
+      "16": 140,
+      "5": 210,
+      "3": 210
+    },
+    "trifecta": {}
+  }
+}

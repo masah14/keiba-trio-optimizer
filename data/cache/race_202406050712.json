@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050712",
+  "title": "",
+  "horses": [
+    {
+      "num": 2,
+      "name": "ジューンブレア",
+      "jockey": "戸崎圭太",
+      "odds": 3.4,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 7,
+      "name": "ヒラボクミニー",
+      "jockey": "横山武史",
+      "odds": 15.1,
+      "popularity": 6,
+      "finish": 2
+    },
+    {
+      "num": 14,
+      "name": "トーホウフランゴ",
+      "jockey": "ドイル",
+      "odds": 42.4,
+      "popularity": 10,
+      "finish": 3
+    },
+    {
+      "num": 1,
+      "name": "ジャガード",
+      "jockey": "吉田豊",
+      "odds": 214.7,
+      "popularity": 16,
+      "finish": 4
+    },
+    {
+      "num": 9,
+      "name": "ゴールドスター",
+      "jockey": "田辺裕信",
+      "odds": 4.9,
+      "popularity": 3,
+      "finish": 5
+    },
+    {
+      "num": 11,
+      "name": "アンビバレント",
+      "jockey": "菅原明良",
+      "odds": 95.9,
+      "popularity": 13,
+      "finish": 6
+    },
+    {
+      "num": 8,
+      "name": "ディアドコス",
+      "jockey": "三浦皇成",
+      "odds": 3.5,
+      "popularity": 2,
+      "finish": 7
+    },
+    {
+      "num": 6,
+      "name": "メイショウミリオレ",
+      "jockey": "津村明秀",
+      "odds": 13.8,
+      "popularity": 5,
+      "finish": 8
+    },
+    {
+      "num": 3,
+      "name": "フミサウンド",
+      "jockey": "荻野極",
+      "odds": 27.0,
+      "popularity": 9,
+      "finish": 9
+    },
+    {
+      "num": 10,
+      "name": "ペイシャカレン",
+      "jockey": "江田照男",
+      "odds": 97.5,
+      "popularity": 14,
+      "finish": 10
+    },
+    {
+      "num": 13,
+      "name": "マルプリ",
+      "jockey": "原優介",
+      "odds": 20.3,
+      "popularity": 8,
+      "finish": 11
+    },
+    {
+      "num": 4,
+      "name": "インプロバイザー",
+      "jockey": "マーカン",
+      "odds": 9.1,
+      "popularity": 4,
+      "finish": 12
+    },
+    {
+      "num": 12,
+      "name": "アスクキングコング",
+      "jockey": "荻野琢真",
+      "odds": 124.3,
+      "popularity": 15,
+      "finish": 13
+    },
+    {
+      "num": 15,
+      "name": "スムースベルベット",
+      "jockey": "嶋田純次",
+      "odds": 68.7,
+      "popularity": 11,
+      "finish": 14
+    },
+    {
+      "num": 5,
+      "name": "ゴキゲンサン",
+      "jockey": "菊沢一樹",
+      "odds": 92.4,
+      "popularity": 12,
+      "finish": 15
+    },
+    {
+      "num": 16,
+      "name": "クオレス",
+      "jockey": "木幡巧也",
+      "odds": 15.8,
+      "popularity": 7,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "2": 340
+    },
+    "place": {
+      "2": 190,
+      "7": 350,
+      "14": 710
+    },
+    "trifecta": {}
+  }
+}

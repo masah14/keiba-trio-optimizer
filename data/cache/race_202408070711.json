@@ -1,0 +1,161 @@
+{
+  "race_id": "202408070711",
+  "title": "",
+  "horses": [
+    {
+      "num": 16,
+      "name": "ナムラクレア",
+      "jockey": "ルメール",
+      "odds": 3.7,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 11,
+      "name": "マッドクール",
+      "jockey": "坂井瑠星",
+      "odds": 11.5,
+      "popularity": 6,
+      "finish": 2
+    },
+    {
+      "num": 14,
+      "name": "オフトレイル",
+      "jockey": "菱田裕二",
+      "odds": 24.0,
+      "popularity": 9,
+      "finish": 3
+    },
+    {
+      "num": 3,
+      "name": "セリフォス",
+      "jockey": "ムーア",
+      "odds": 5.5,
+      "popularity": 3,
+      "finish": 4
+    },
+    {
+      "num": 15,
+      "name": "ママコチャ",
+      "jockey": "川田将雅",
+      "odds": 7.0,
+      "popularity": 4,
+      "finish": 5
+    },
+    {
+      "num": 1,
+      "name": "ソーダズリング",
+      "jockey": "鮫島克駿",
+      "odds": 34.0,
+      "popularity": 11,
+      "finish": 6
+    },
+    {
+      "num": 5,
+      "name": "トゥラヴェスーラ",
+      "jockey": "藤岡佑介",
+      "odds": 79.7,
+      "popularity": 12,
+      "finish": 7
+    },
+    {
+      "num": 12,
+      "name": "ウインマーベル",
+      "jockey": "松山弘平",
+      "odds": 5.3,
+      "popularity": 2,
+      "finish": 8
+    },
+    {
+      "num": 7,
+      "name": "アサカラキング",
+      "jockey": "斎藤新",
+      "odds": 23.2,
+      "popularity": 8,
+      "finish": 9
+    },
+    {
+      "num": 2,
+      "name": "ダノンスコーピオン",
+      "jockey": "団野大成",
+      "odds": 120.4,
+      "popularity": 14,
+      "finish": 10
+    },
+    {
+      "num": 13,
+      "name": "ダノンマッキンリー",
+      "jockey": "Ｃ．デム",
+      "odds": 8.1,
+      "popularity": 5,
+      "finish": 11
+    },
+    {
+      "num": 10,
+      "name": "シャンパンカラー",
+      "jockey": "西村淳也",
+      "odds": 166.1,
+      "popularity": 17,
+      "finish": 12
+    },
+    {
+      "num": 9,
+      "name": "エイシンスポッター",
+      "jockey": "角田大和",
+      "odds": 141.8,
+      "popularity": 16,
+      "finish": 13
+    },
+    {
+      "num": 8,
+      "name": "マテンロウオリオン",
+      "jockey": "横山典弘",
+      "odds": 168.5,
+      "popularity": 18,
+      "finish": 14
+    },
+    {
+      "num": 4,
+      "name": "モズメイメイ",
+      "jockey": "浜中俊",
+      "odds": 129.6,
+      "popularity": 15,
+      "finish": 15
+    },
+    {
+      "num": 17,
+      "name": "レッドモンレーヴ",
+      "jockey": "岩田望来",
+      "odds": 30.9,
+      "popularity": 10,
+      "finish": 16
+    },
+    {
+      "num": 6,
+      "name": "ウイングレイテスト",
+      "jockey": "松岡正海",
+      "odds": 16.1,
+      "popularity": 7,
+      "finish": 17
+    },
+    {
+      "num": 18,
+      "name": "エトヴプレ",
+      "jockey": "Ｍ．デム",
+      "odds": 79.8,
+      "popularity": 13,
+      "finish": 18
+    }
+  ],
+  "payouts": {
+    "win": {
+      "16": 370
+    },
+    "place": {
+      "16": 170,
+      "11": 400,
+      "14": 510
+    },
+    "trifecta": {}
+  }
+}

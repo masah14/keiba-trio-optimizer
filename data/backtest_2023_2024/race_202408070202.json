@@ -1,0 +1,119 @@
+{
+  "race_id": "202408070202",
+  "race_info": {
+    "course": "京都",
+    "distance": 1600
+  },
+  "horses": [
+    {
+      "num": 5,
+      "name": "ブーディガ",
+      "horse_id": "2022101429",
+      "jockey": "西村淳也",
+      "jockey_id": "01171",
+      "odds": 6.0,
+      "popularity": 3,
+      "finish": 1
+    },
+    {
+      "num": 10,
+      "name": "アメリータ",
+      "horse_id": "2022103199",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 27.3,
+      "popularity": 6,
+      "finish": 2
+    },
+    {
+      "num": 6,
+      "name": "キントラダンサー",
+      "horse_id": "2022104387",
+      "jockey": "西塚洸二",
+      "jockey_id": "01200",
+      "odds": 1.5,
+      "popularity": 1,
+      "finish": 3
+    },
+    {
+      "num": 8,
+      "name": "オリージネアリア",
+      "horse_id": "2022101068",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 12.5,
+      "popularity": 4,
+      "finish": 4
+    },
+    {
+      "num": 2,
+      "name": "エリカサンタモニカ",
+      "horse_id": "2022103054",
+      "jockey": "団野大成",
+      "jockey_id": "01180",
+      "odds": 4.1,
+      "popularity": 2,
+      "finish": 5
+    },
+    {
+      "num": 1,
+      "name": "グリフォン",
+      "horse_id": "2022103899",
+      "jockey": "小沢大仁",
+      "jockey_id": "01185",
+      "odds": 116.6,
+      "popularity": 8,
+      "finish": 6
+    },
+    {
+      "num": 7,
+      "name": "ジャニーヌ",
+      "horse_id": "2022104808",
+      "jockey": "北村友一",
+      "jockey_id": "01102",
+      "odds": 23.2,
+      "popularity": 5,
+      "finish": 7
+    },
+    {
+      "num": 9,
+      "name": "アニュレス",
+      "horse_id": "2022104464",
+      "jockey": "田中健",
+      "jockey_id": "01114",
+      "odds": 117.1,
+      "popularity": 9,
+      "finish": 8
+    },
+    {
+      "num": 3,
+      "name": "ジーティーパール",
+      "horse_id": "2022105562",
+      "jockey": "高杉吏麒",
+      "jockey_id": "01213",
+      "odds": 32.7,
+      "popularity": 7,
+      "finish": 9
+    },
+    {
+      "num": 4,
+      "name": "タウングー",
+      "horse_id": "2022102986",
+      "jockey": "酒井学",
+      "jockey_id": "01034",
+      "odds": 263.8,
+      "popularity": 10,
+      "finish": 10
+    }
+  ],
+  "payouts": {
+    "win": {
+      "5": 600
+    },
+    "place": {
+      "5": 160,
+      "10": 310,
+      "6": 110
+    }
+  }
+}

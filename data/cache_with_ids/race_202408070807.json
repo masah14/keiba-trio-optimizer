@@ -1,0 +1,179 @@
+{
+  "race_id": "202408070807",
+  "race_info": {
+    "course": "京都",
+    "distance": 1200
+  },
+  "horses": [
+    {
+      "num": 13,
+      "name": "ヤマカツパトリシア",
+      "horse_id": "2017104086",
+      "jockey": "柴田裕一",
+      "jockey_id": "01212",
+      "odds": 48.4,
+      "popularity": 10,
+      "finish": 1
+    },
+    {
+      "num": 11,
+      "name": "ゴッドカインド",
+      "horse_id": "2021106150",
+      "jockey": "今村聖奈",
+      "jockey_id": "01193",
+      "odds": 15.3,
+      "popularity": 7,
+      "finish": 2
+    },
+    {
+      "num": 5,
+      "name": "ワイノナオミ",
+      "horse_id": "2021105973",
+      "jockey": "川端海翼",
+      "jockey_id": "01195",
+      "odds": 13.6,
+      "popularity": 5,
+      "finish": 3
+    },
+    {
+      "num": 16,
+      "name": "トモジャアルマンド",
+      "horse_id": "2017103155",
+      "jockey": "小沢大仁",
+      "jockey_id": "01185",
+      "odds": 28.3,
+      "popularity": 8,
+      "finish": 4
+    },
+    {
+      "num": 14,
+      "name": "ゴイゴイスー",
+      "horse_id": "2018103388",
+      "jockey": "菱田裕二",
+      "jockey_id": "01144",
+      "odds": 35.9,
+      "popularity": 9,
+      "finish": 5
+    },
+    {
+      "num": 12,
+      "name": "ロードドミニオン",
+      "horse_id": "2017103656",
+      "jockey": "川須栄彦",
+      "jockey_id": "01128",
+      "odds": 85.1,
+      "popularity": 12,
+      "finish": 6
+    },
+    {
+      "num": 7,
+      "name": "イロハニホ",
+      "horse_id": "2021107019",
+      "jockey": "国分優作",
+      "jockey_id": "01125",
+      "odds": 315.0,
+      "popularity": 16,
+      "finish": 7
+    },
+    {
+      "num": 10,
+      "name": "セールヴォラン",
+      "horse_id": "2021101057",
+      "jockey": "酒井学",
+      "jockey_id": "01034",
+      "odds": 13.9,
+      "popularity": 6,
+      "finish": 8
+    },
+    {
+      "num": 4,
+      "name": "プロテア",
+      "horse_id": "2020104206",
+      "jockey": "秋山稔樹",
+      "jockey_id": "01181",
+      "odds": 67.8,
+      "popularity": 11,
+      "finish": 9
+    },
+    {
+      "num": 2,
+      "name": "ブルスケッタ",
+      "horse_id": "2021100410",
+      "jockey": "河原田菜",
+      "jockey_id": "01204",
+      "odds": 293.2,
+      "popularity": 15,
+      "finish": 10
+    },
+    {
+      "num": 8,
+      "name": "ニホンピロカラット",
+      "horse_id": "2021103842",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 4.2,
+      "popularity": 3,
+      "finish": 11
+    },
+    {
+      "num": 9,
+      "name": "オコタンペ",
+      "horse_id": "2021105849",
+      "jockey": "佐々木大",
+      "jockey_id": "01197",
+      "odds": 7.6,
+      "popularity": 4,
+      "finish": 12
+    },
+    {
+      "num": 15,
+      "name": "フェリーニ",
+      "horse_id": "2021105862",
+      "jockey": "西村淳也",
+      "jockey_id": "01171",
+      "odds": 3.8,
+      "popularity": 2,
+      "finish": 13
+    },
+    {
+      "num": 3,
+      "name": "ルージュルミナス",
+      "horse_id": "2019105232",
+      "jockey": "永島まな",
+      "jockey_id": "01187",
+      "odds": 130.3,
+      "popularity": 13,
+      "finish": 14
+    },
+    {
+      "num": 6,
+      "name": "フルオブプレイズ",
+      "horse_id": "2020105881",
+      "jockey": "丹内祐次",
+      "jockey_id": "01091",
+      "odds": 165.1,
+      "popularity": 14,
+      "finish": 15
+    },
+    {
+      "num": 1,
+      "name": "ヨシノヤッタルデー",
+      "horse_id": "2021102336",
+      "jockey": "岩田望来",
+      "jockey_id": "01174",
+      "odds": 3.5,
+      "popularity": 1,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "13": 4840
+    },
+    "place": {
+      "13": 800,
+      "11": 440,
+      "5": 360
+    }
+  }
+}

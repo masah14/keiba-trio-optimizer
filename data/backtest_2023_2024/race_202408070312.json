@@ -1,0 +1,119 @@
+{
+  "race_id": "202408070312",
+  "race_info": {
+    "course": "京都",
+    "distance": 2400
+  },
+  "horses": [
+    {
+      "num": 5,
+      "name": "ギャンブルルーム",
+      "horse_id": "2021105559",
+      "jockey": "デットー",
+      "jockey_id": "00875",
+      "odds": 2.4,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 6,
+      "name": "グランアルティスタ",
+      "horse_id": "2021103557",
+      "jockey": "武豊",
+      "jockey_id": "00666",
+      "odds": 3.1,
+      "popularity": 2,
+      "finish": 2
+    },
+    {
+      "num": 10,
+      "name": "プレイリードリーム",
+      "horse_id": "2016102767",
+      "jockey": "幸英明",
+      "jockey_id": "00732",
+      "odds": 36.3,
+      "popularity": 7,
+      "finish": 3
+    },
+    {
+      "num": 2,
+      "name": "マイノワール",
+      "horse_id": "2021104411",
+      "jockey": "北村友一",
+      "jockey_id": "01102",
+      "odds": 15.8,
+      "popularity": 6,
+      "finish": 4
+    },
+    {
+      "num": 7,
+      "name": "プリティユニバンス",
+      "horse_id": "2017104215",
+      "jockey": "秋山稔樹",
+      "jockey_id": "01181",
+      "odds": 96.4,
+      "popularity": 8,
+      "finish": 5
+    },
+    {
+      "num": 9,
+      "name": "シーグラス",
+      "horse_id": "2019100796",
+      "jockey": "菱田裕二",
+      "jockey_id": "01144",
+      "odds": 102.5,
+      "popularity": 9,
+      "finish": 6
+    },
+    {
+      "num": 8,
+      "name": "ダンツエスプリ",
+      "horse_id": "2019106399",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 12.0,
+      "popularity": 4,
+      "finish": 7
+    },
+    {
+      "num": 3,
+      "name": "リッチブラック",
+      "horse_id": "2019103816",
+      "jockey": "坂井瑠星",
+      "jockey_id": "01163",
+      "odds": 3.7,
+      "popularity": 3,
+      "finish": 8
+    },
+    {
+      "num": 4,
+      "name": "プリマヴィータ",
+      "horse_id": "2019100831",
+      "jockey": "荻野琢真",
+      "jockey_id": "01112",
+      "odds": 123.6,
+      "popularity": 10,
+      "finish": 9
+    },
+    {
+      "num": 1,
+      "name": "ショウナンハウル",
+      "horse_id": "2021105867",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 15.3,
+      "popularity": 5,
+      "finish": 10
+    }
+  ],
+  "payouts": {
+    "win": {
+      "5": 240
+    },
+    "place": {
+      "5": 130,
+      "6": 150,
+      "10": 330
+    }
+  }
+}

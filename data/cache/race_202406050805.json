@@ -1,0 +1,137 @@
+{
+  "race_id": "202406050805",
+  "title": "",
+  "horses": [
+    {
+      "num": 10,
+      "name": "シュヴァルボヌール",
+      "jockey": "ルメール",
+      "odds": 1.5,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 16,
+      "name": "ダノンメナージュ",
+      "jockey": "横山武史",
+      "odds": 13.7,
+      "popularity": 4,
+      "finish": 2
+    },
+    {
+      "num": 6,
+      "name": "キャラメリー",
+      "jockey": "丸田恭介",
+      "odds": 76.5,
+      "popularity": 11,
+      "finish": 3
+    },
+    {
+      "num": 12,
+      "name": "ラヴィーズドリーム",
+      "jockey": "松岡正海",
+      "odds": 98.3,
+      "popularity": 12,
+      "finish": 4
+    },
+    {
+      "num": 5,
+      "name": "アラスカフレイバー",
+      "jockey": "木幡育也",
+      "odds": 19.1,
+      "popularity": 6,
+      "finish": 5
+    },
+    {
+      "num": 15,
+      "name": "ネバーランドリーム",
+      "jockey": "小林美駒",
+      "odds": 5.6,
+      "popularity": 2,
+      "finish": 6
+    },
+    {
+      "num": 4,
+      "name": "マイベストダンサー",
+      "jockey": "長浜鴻緒",
+      "odds": 15.5,
+      "popularity": 5,
+      "finish": 7
+    },
+    {
+      "num": 14,
+      "name": "マリノライヤ",
+      "jockey": "武藤雅",
+      "odds": 168.2,
+      "popularity": 13,
+      "finish": 8
+    },
+    {
+      "num": 13,
+      "name": "フィアマドラータ",
+      "jockey": "戸崎圭太",
+      "odds": 32.2,
+      "popularity": 8,
+      "finish": 9
+    },
+    {
+      "num": 11,
+      "name": "アジアート",
+      "jockey": "小林脩斗",
+      "odds": 47.1,
+      "popularity": 9,
+      "finish": 10
+    },
+    {
+      "num": 1,
+      "name": "アイドルフェスタ",
+      "jockey": "津村明秀",
+      "odds": 29.4,
+      "popularity": 7,
+      "finish": 11
+    },
+    {
+      "num": 3,
+      "name": "ジーティーウララ",
+      "jockey": "佐藤翔馬",
+      "odds": 227.5,
+      "popularity": 15,
+      "finish": 12
+    },
+    {
+      "num": 7,
+      "name": "タルトポワール",
+      "jockey": "内田博幸",
+      "odds": 59.1,
+      "popularity": 10,
+      "finish": 13
+    },
+    {
+      "num": 8,
+      "name": "グレーデール",
+      "jockey": "横山和生",
+      "odds": 12.9,
+      "popularity": 3,
+      "finish": 14
+    },
+    {
+      "num": 9,
+      "name": "アラワレワタル",
+      "jockey": "丸山元気",
+      "odds": 195.8,
+      "popularity": 14,
+      "finish": 15
+    }
+  ],
+  "payouts": {
+    "win": {
+      "10": 150
+    },
+    "place": {
+      "10": 110,
+      "16": 240,
+      "6": 790
+    },
+    "trifecta": {}
+  }
+}

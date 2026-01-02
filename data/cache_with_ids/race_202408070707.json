@@ -1,0 +1,169 @@
+{
+  "race_id": "202408070707",
+  "race_info": {
+    "course": "京都",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 10,
+      "name": "コーラルハート",
+      "horse_id": "2021101426",
+      "jockey": "鮫島克駿",
+      "jockey_id": "01157",
+      "odds": 5.2,
+      "popularity": 3,
+      "finish": 1
+    },
+    {
+      "num": 13,
+      "name": "ブルーペクトライト",
+      "horse_id": "2020103556",
+      "jockey": "Ｍ．デム",
+      "jockey_id": "05212",
+      "odds": 30.8,
+      "popularity": 8,
+      "finish": 2
+    },
+    {
+      "num": 12,
+      "name": "ロスティチェーレ",
+      "horse_id": "2020102919",
+      "jockey": "北村友一",
+      "jockey_id": "01102",
+      "odds": 14.2,
+      "popularity": 5,
+      "finish": 3
+    },
+    {
+      "num": 7,
+      "name": "ウェイトゥゴー",
+      "horse_id": "2021104413",
+      "jockey": "横山典弘",
+      "jockey_id": "00660",
+      "odds": 6.2,
+      "popularity": 4,
+      "finish": 4
+    },
+    {
+      "num": 1,
+      "name": "リノアラ",
+      "horse_id": "2019101620",
+      "jockey": "小沢大仁",
+      "jockey_id": "01185",
+      "odds": 119.6,
+      "popularity": 13,
+      "finish": 5
+    },
+    {
+      "num": 14,
+      "name": "プルーヴンウィナー",
+      "horse_id": "2021104780",
+      "jockey": "古川奈穂",
+      "jockey_id": "01190",
+      "odds": 48.5,
+      "popularity": 10,
+      "finish": 6
+    },
+    {
+      "num": 6,
+      "name": "タマモナポリ",
+      "horse_id": "2021106177",
+      "jockey": "岩田望来",
+      "jockey_id": "01174",
+      "odds": 3.6,
+      "popularity": 2,
+      "finish": 7
+    },
+    {
+      "num": 2,
+      "name": "ヒヒーン",
+      "horse_id": "2021105394",
+      "jockey": "酒井学",
+      "jockey_id": "01034",
+      "odds": 3.0,
+      "popularity": 1,
+      "finish": 8
+    },
+    {
+      "num": 4,
+      "name": "タマモネモフィラ",
+      "horse_id": "2020103991",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 71.7,
+      "popularity": 11,
+      "finish": 9
+    },
+    {
+      "num": 3,
+      "name": "ヤエベニシダレ",
+      "horse_id": "2020101077",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 84.5,
+      "popularity": 12,
+      "finish": 10
+    },
+    {
+      "num": 15,
+      "name": "セレスティアリティ",
+      "horse_id": "2020103209",
+      "jockey": "西村淳也",
+      "jockey_id": "01171",
+      "odds": 40.7,
+      "popularity": 9,
+      "finish": 11
+    },
+    {
+      "num": 5,
+      "name": "ディーノサンライズ",
+      "horse_id": "2021101289",
+      "jockey": "小崎綾也",
+      "jockey_id": "01152",
+      "odds": 495.3,
+      "popularity": 15,
+      "finish": 12
+    },
+    {
+      "num": 9,
+      "name": "ルージュランブル",
+      "horse_id": "2021105052",
+      "jockey": "斎藤新",
+      "jockey_id": "01178",
+      "odds": 20.3,
+      "popularity": 7,
+      "finish": 13
+    },
+    {
+      "num": 8,
+      "name": "タガノエリザベス",
+      "horse_id": "2020106035",
+      "jockey": "菱田裕二",
+      "jockey_id": "01144",
+      "odds": 15.9,
+      "popularity": 6,
+      "finish": 14
+    },
+    {
+      "num": 11,
+      "name": "ウィズダムハート",
+      "horse_id": "2020103365",
+      "jockey": "高杉吏麒",
+      "jockey_id": "01213",
+      "odds": 140.0,
+      "popularity": 14,
+      "finish": 15
+    }
+  ],
+  "payouts": {
+    "win": {
+      "10": 520
+    },
+    "place": {
+      "10": 210,
+      "13": 490,
+      "12": 450
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050812",
+  "title": "",
+  "horses": [
+    {
+      "num": 8,
+      "name": "ケイアイアニラ",
+      "jockey": "ムーア",
+      "odds": 4.3,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 13,
+      "name": "エンヤラヴフェイス",
+      "jockey": "大野拓弥",
+      "odds": 46.6,
+      "popularity": 9,
+      "finish": 2
+    },
+    {
+      "num": 2,
+      "name": "ミユキアイラブユー",
+      "jockey": "菅原明良",
+      "odds": 12.4,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 14,
+      "name": "ビルカール",
+      "jockey": "ドイル",
+      "odds": 140.6,
+      "popularity": 15,
+      "finish": 4
+    },
+    {
+      "num": 5,
+      "name": "サザンステート",
+      "jockey": "マーカン",
+      "odds": 20.8,
+      "popularity": 6,
+      "finish": 5
+    },
+    {
+      "num": 10,
+      "name": "エコロアレス",
+      "jockey": "松山弘平",
+      "odds": 8.3,
+      "popularity": 3,
+      "finish": 6
+    },
+    {
+      "num": 11,
+      "name": "ダルダヌス",
+      "jockey": "戸崎圭太",
+      "odds": 21.0,
+      "popularity": 7,
+      "finish": 7
+    },
+    {
+      "num": 6,
+      "name": "メイショウヒューマ",
+      "jockey": "内田博幸",
+      "odds": 65.2,
+      "popularity": 11,
+      "finish": 8
+    },
+    {
+      "num": 7,
+      "name": "ホウオウフウジン",
+      "jockey": "鮫島克駿",
+      "odds": 76.8,
+      "popularity": 13,
+      "finish": 9
+    },
+    {
+      "num": 16,
+      "name": "ロードオブザチェコ",
+      "jockey": "丸田恭介",
+      "odds": 31.3,
+      "popularity": 8,
+      "finish": 10
+    },
+    {
+      "num": 12,
+      "name": "ヨーカイディスコ",
+      "jockey": "三浦皇成",
+      "odds": 17.5,
+      "popularity": 5,
+      "finish": 11
+    },
+    {
+      "num": 15,
+      "name": "アメリカンマーチ",
+      "jockey": "坂井瑠星",
+      "odds": 1.8,
+      "popularity": 1,
+      "finish": 12
+    },
+    {
+      "num": 1,
+      "name": "スマートラプター",
+      "jockey": "幸英明",
+      "odds": 63.6,
+      "popularity": 10,
+      "finish": 13
+    },
+    {
+      "num": 3,
+      "name": "ダテボレアス",
+      "jockey": "石橋脩",
+      "odds": 65.5,
+      "popularity": 12,
+      "finish": 14
+    },
+    {
+      "num": 4,
+      "name": "カフジエニアゴン",
+      "jockey": "池添謙一",
+      "odds": 116.7,
+      "popularity": 14,
+      "finish": 15
+    },
+    {
+      "num": 9,
+      "name": "スタードラマー",
+      "jockey": "藤懸貴志",
+      "odds": 226.7,
+      "popularity": 16,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "8": 430
+    },
+    "place": {
+      "8": 190,
+      "13": 700,
+      "2": 390
+    },
+    "trifecta": {}
+  }
+}

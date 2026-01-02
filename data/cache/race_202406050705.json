@@ -1,0 +1,137 @@
+{
+  "race_id": "202406050705",
+  "title": "",
+  "horses": [
+    {
+      "num": 5,
+      "name": "ジョスラン",
+      "jockey": "横山武史",
+      "odds": 3.1,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 9,
+      "name": "ウインスティーガ",
+      "jockey": "戸崎圭太",
+      "odds": 5.8,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 14,
+      "name": "メルヘンライズ",
+      "jockey": "菅原明良",
+      "odds": 28.9,
+      "popularity": 6,
+      "finish": 3
+    },
+    {
+      "num": 1,
+      "name": "タイセイプランセス",
+      "jockey": "石橋脩",
+      "odds": 21.8,
+      "popularity": 5,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "ガンビーチ",
+      "jockey": "岩部純二",
+      "odds": 45.9,
+      "popularity": 7,
+      "finish": 5
+    },
+    {
+      "num": 6,
+      "name": "シャドウメテオ",
+      "jockey": "田辺裕信",
+      "odds": 5.8,
+      "popularity": 4,
+      "finish": 6
+    },
+    {
+      "num": 10,
+      "name": "ワスカル",
+      "jockey": "マーカン",
+      "odds": 2.4,
+      "popularity": 1,
+      "finish": 7
+    },
+    {
+      "num": 15,
+      "name": "ハクサンテュポン",
+      "jockey": "石田拓郎",
+      "odds": 157.5,
+      "popularity": 12,
+      "finish": 8
+    },
+    {
+      "num": 3,
+      "name": "ウィノウザウェイ",
+      "jockey": "木幡巧也",
+      "odds": 178.6,
+      "popularity": 13,
+      "finish": 9
+    },
+    {
+      "num": 16,
+      "name": "タヤスアメリカン",
+      "jockey": "丹内祐次",
+      "odds": 84.3,
+      "popularity": 8,
+      "finish": 10
+    },
+    {
+      "num": 12,
+      "name": "ミスターロスカボス",
+      "jockey": "原田和真",
+      "odds": 84.9,
+      "popularity": 9,
+      "finish": 11
+    },
+    {
+      "num": 8,
+      "name": "サクラカゼ",
+      "jockey": "石川裕紀",
+      "odds": 97.8,
+      "popularity": 11,
+      "finish": 12
+    },
+    {
+      "num": 13,
+      "name": "ラッキーダンス",
+      "jockey": "原優介",
+      "odds": 218.1,
+      "popularity": 14,
+      "finish": 13
+    },
+    {
+      "num": 11,
+      "name": "フルーツワゴン",
+      "jockey": "長浜鴻緒",
+      "odds": 262.1,
+      "popularity": 16,
+      "finish": 14
+    },
+    {
+      "num": 7,
+      "name": "コスモインディ",
+      "jockey": "柴田大知",
+      "odds": 246.6,
+      "popularity": 15,
+      "finish": 15
+    }
+  ],
+  "payouts": {
+    "win": {
+      "5": 310
+    },
+    "place": {
+      "5": 160,
+      "9": 190,
+      "14": 420
+    },
+    "trifecta": {}
+  }
+}

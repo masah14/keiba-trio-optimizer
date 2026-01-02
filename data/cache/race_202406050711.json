@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050711",
+  "title": "",
+  "horses": [
+    {
+      "num": 13,
+      "name": "ヴェルミセル",
+      "jockey": "津村明秀",
+      "odds": 35.8,
+      "popularity": 10,
+      "finish": 1
+    },
+    {
+      "num": 16,
+      "name": "フルール",
+      "jockey": "荻野極",
+      "odds": 12.9,
+      "popularity": 6,
+      "finish": 2
+    },
+    {
+      "num": 1,
+      "name": "アレグロブリランテ",
+      "jockey": "マーカン",
+      "odds": 7.6,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 14,
+      "name": "エンドウノハナ",
+      "jockey": "田辺裕信",
+      "odds": 8.5,
+      "popularity": 5,
+      "finish": 4
+    },
+    {
+      "num": 15,
+      "name": "アームブランシュ",
+      "jockey": "吉田豊",
+      "odds": 36.1,
+      "popularity": 11,
+      "finish": 5
+    },
+    {
+      "num": 5,
+      "name": "ファンタジア",
+      "jockey": "佐々木大",
+      "odds": 35.2,
+      "popularity": 9,
+      "finish": 6
+    },
+    {
+      "num": 9,
+      "name": "アドマイヤサジー",
+      "jockey": "丹内祐次",
+      "odds": 4.1,
+      "popularity": 2,
+      "finish": 6
+    },
+    {
+      "num": 7,
+      "name": "イヤサカ",
+      "jockey": "長浜鴻緒",
+      "odds": 153.5,
+      "popularity": 15,
+      "finish": 8
+    },
+    {
+      "num": 2,
+      "name": "サトノクローク",
+      "jockey": "戸崎圭太",
+      "odds": 3.7,
+      "popularity": 1,
+      "finish": 9
+    },
+    {
+      "num": 6,
+      "name": "キングサーガ",
+      "jockey": "ドイル",
+      "odds": 27.5,
+      "popularity": 8,
+      "finish": 10
+    },
+    {
+      "num": 4,
+      "name": "バロッサヴァレー",
+      "jockey": "北村宏司",
+      "odds": 5.3,
+      "popularity": 3,
+      "finish": 11
+    },
+    {
+      "num": 8,
+      "name": "アスティ",
+      "jockey": "丸田恭介",
+      "odds": 229.0,
+      "popularity": 16,
+      "finish": 12
+    },
+    {
+      "num": 10,
+      "name": "ダイバリオン",
+      "jockey": "石川裕紀",
+      "odds": 98.2,
+      "popularity": 13,
+      "finish": 13
+    },
+    {
+      "num": 3,
+      "name": "ヴェールランス",
+      "jockey": "石橋脩",
+      "odds": 106.0,
+      "popularity": 14,
+      "finish": 14
+    },
+    {
+      "num": 12,
+      "name": "シリアルノヴェル",
+      "jockey": "横山武史",
+      "odds": 14.2,
+      "popularity": 7,
+      "finish": 15
+    },
+    {
+      "num": 11,
+      "name": "ラスマドレス",
+      "jockey": "横山和生",
+      "odds": 71.3,
+      "popularity": 12,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "13": 3580
+    },
+    "place": {
+      "13": 780,
+      "16": 340,
+      "1": 290
+    },
+    "trifecta": {}
+  }
+}

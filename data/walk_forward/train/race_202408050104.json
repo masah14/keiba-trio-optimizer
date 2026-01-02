@@ -1,0 +1,179 @@
+{
+  "race_id": "202408050104",
+  "race_info": {
+    "course": "京都",
+    "distance": 1400
+  },
+  "horses": [
+    {
+      "num": 10,
+      "name": "ドラゴンウェルズ",
+      "horse_id": "2022110137",
+      "jockey": "北村友一",
+      "jockey_id": "01102",
+      "odds": 3.9,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 11,
+      "name": "マジカルシャイン",
+      "horse_id": "2022110012",
+      "jockey": "岩田望来",
+      "jockey_id": "01174",
+      "odds": 4.6,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 8,
+      "name": "テーオーマルコーニ",
+      "horse_id": "2022102228",
+      "jockey": "西村淳也",
+      "jockey_id": "01171",
+      "odds": 17.7,
+      "popularity": 6,
+      "finish": 3
+    },
+    {
+      "num": 16,
+      "name": "ジャスパーノベル",
+      "horse_id": "2022110113",
+      "jockey": "川田将雅",
+      "jockey_id": "01088",
+      "odds": 2.5,
+      "popularity": 1,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "アスコットアイ",
+      "horse_id": "2022103485",
+      "jockey": "鮫島克駿",
+      "jockey_id": "01157",
+      "odds": 14.8,
+      "popularity": 5,
+      "finish": 5
+    },
+    {
+      "num": 15,
+      "name": "カンタカナリート",
+      "horse_id": "2022105630",
+      "jockey": "川須栄彦",
+      "jockey_id": "01128",
+      "odds": 46.2,
+      "popularity": 9,
+      "finish": 6
+    },
+    {
+      "num": 14,
+      "name": "タマモジャスミン",
+      "horse_id": "2022103619",
+      "jockey": "太宰啓介",
+      "jockey_id": "01037",
+      "odds": 144.8,
+      "popularity": 14,
+      "finish": 7
+    },
+    {
+      "num": 13,
+      "name": "ヒフミバンダム",
+      "horse_id": "2022103446",
+      "jockey": "国分恭介",
+      "jockey_id": "01124",
+      "odds": 104.5,
+      "popularity": 11,
+      "finish": 8
+    },
+    {
+      "num": 3,
+      "name": "ゴームズ",
+      "horse_id": "2022103701",
+      "jockey": "角田大和",
+      "jockey_id": "01186",
+      "odds": 32.2,
+      "popularity": 8,
+      "finish": 9
+    },
+    {
+      "num": 6,
+      "name": "ワンダーキュイラス",
+      "horse_id": "2022100164",
+      "jockey": "永島まな",
+      "jockey_id": "01187",
+      "odds": 111.7,
+      "popularity": 12,
+      "finish": 10
+    },
+    {
+      "num": 5,
+      "name": "ジーナアクトレス",
+      "horse_id": "2022104842",
+      "jockey": "和田竜二",
+      "jockey_id": "01018",
+      "odds": 22.2,
+      "popularity": 7,
+      "finish": 11
+    },
+    {
+      "num": 2,
+      "name": "ヨーグルトナン",
+      "horse_id": "2022100188",
+      "jockey": "古川吉洋",
+      "jockey_id": "01015",
+      "odds": 270.5,
+      "popularity": 16,
+      "finish": 12
+    },
+    {
+      "num": 9,
+      "name": "ジューンアレグロ",
+      "horse_id": "2022100377",
+      "jockey": "池添謙一",
+      "jockey_id": "01032",
+      "odds": 8.5,
+      "popularity": 4,
+      "finish": 13
+    },
+    {
+      "num": 12,
+      "name": "ポジティビティ",
+      "horse_id": "2022101910",
+      "jockey": "酒井学",
+      "jockey_id": "01034",
+      "odds": 157.1,
+      "popularity": 15,
+      "finish": 14
+    },
+    {
+      "num": 1,
+      "name": "アルムウーリエ",
+      "horse_id": "2022106563",
+      "jockey": "富田暁",
+      "jockey_id": "01168",
+      "odds": 127.8,
+      "popularity": 13,
+      "finish": 15
+    },
+    {
+      "num": 7,
+      "name": "メイショウヤマハギ",
+      "horse_id": "2022102840",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 66.7,
+      "popularity": 10,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "10": 390
+    },
+    "place": {
+      "10": 170,
+      "11": 180,
+      "8": 440
+    }
+  }
+}

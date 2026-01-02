@@ -1,0 +1,129 @@
+{
+  "race_id": "202408070401",
+  "race_info": {
+    "course": "京都",
+    "distance": 1400
+  },
+  "horses": [
+    {
+      "num": 6,
+      "name": "ベルジュロネット",
+      "horse_id": "2022106658",
+      "jockey": "鮫島克駿",
+      "jockey_id": "01157",
+      "odds": 1.8,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 11,
+      "name": "イマージョン",
+      "horse_id": "2022104600",
+      "jockey": "北村友一",
+      "jockey_id": "01102",
+      "odds": 4.4,
+      "popularity": 2,
+      "finish": 2
+    },
+    {
+      "num": 2,
+      "name": "メイショウサトノヒ",
+      "horse_id": "2022103634",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 19.6,
+      "popularity": 6,
+      "finish": 3
+    },
+    {
+      "num": 7,
+      "name": "ニシノジェダイ",
+      "horse_id": "2022106998",
+      "jockey": "藤岡佑介",
+      "jockey_id": "01093",
+      "odds": 8.8,
+      "popularity": 4,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "セルズパワー",
+      "horse_id": "2022102052",
+      "jockey": "団野大成",
+      "jockey_id": "01180",
+      "odds": 37.5,
+      "popularity": 8,
+      "finish": 5
+    },
+    {
+      "num": 5,
+      "name": "キャットデイ",
+      "horse_id": "2022110124",
+      "jockey": "岩田望来",
+      "jockey_id": "01174",
+      "odds": 14.5,
+      "popularity": 5,
+      "finish": 6
+    },
+    {
+      "num": 8,
+      "name": "コパノマロン",
+      "horse_id": "2022104326",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 22.6,
+      "popularity": 7,
+      "finish": 7
+    },
+    {
+      "num": 10,
+      "name": "クールロジック",
+      "horse_id": "2022102862",
+      "jockey": "松本大輝",
+      "jockey_id": "01191",
+      "odds": 70.0,
+      "popularity": 9,
+      "finish": 8
+    },
+    {
+      "num": 1,
+      "name": "アメリカンクール",
+      "horse_id": "2022110103",
+      "jockey": "坂井瑠星",
+      "jockey_id": "01163",
+      "odds": 6.7,
+      "popularity": 3,
+      "finish": 9
+    },
+    {
+      "num": 3,
+      "name": "キタノボンボヤージ",
+      "horse_id": "2022100556",
+      "jockey": "高倉稜",
+      "jockey_id": "01130",
+      "odds": 212.8,
+      "popularity": 10,
+      "finish": 10
+    },
+    {
+      "num": 9,
+      "name": "ルーティーン",
+      "horse_id": "2022100248",
+      "jockey": "永島まな",
+      "jockey_id": "01187",
+      "odds": 248.1,
+      "popularity": 11,
+      "finish": 11
+    }
+  ],
+  "payouts": {
+    "win": {
+      "6": 180
+    },
+    "place": {
+      "6": 110,
+      "11": 140,
+      "2": 240
+    }
+  }
+}

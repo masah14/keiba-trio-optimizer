@@ -1,0 +1,139 @@
+{
+  "race_id": "202406050302",
+  "race_info": {
+    "course": "中山",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 7,
+      "name": "ルグランヴァン",
+      "horse_id": "2022105775",
+      "jockey": "菅原明良",
+      "jockey_id": "01179",
+      "odds": 2.4,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 3,
+      "name": "オストラヴァ",
+      "horse_id": "2022105456",
+      "jockey": "津村明秀",
+      "jockey_id": "01092",
+      "odds": 2.6,
+      "popularity": 2,
+      "finish": 2
+    },
+    {
+      "num": 8,
+      "name": "フィーチャリング",
+      "horse_id": "2022105824",
+      "jockey": "石川裕紀",
+      "jockey_id": "01150",
+      "odds": 8.1,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 9,
+      "name": "スマートクオーレ",
+      "horse_id": "2022102058",
+      "jockey": "木幡初也",
+      "jockey_id": "01153",
+      "odds": 447.2,
+      "popularity": 11,
+      "finish": 4
+    },
+    {
+      "num": 6,
+      "name": "ロードスカイブルー",
+      "horse_id": "2022100557",
+      "jockey": "横山和生",
+      "jockey_id": "01140",
+      "odds": 55.4,
+      "popularity": 8,
+      "finish": 5
+    },
+    {
+      "num": 1,
+      "name": "ノイシュタット",
+      "horse_id": "2022105371",
+      "jockey": "木幡巧也",
+      "jockey_id": "01162",
+      "odds": 47.4,
+      "popularity": 7,
+      "finish": 6
+    },
+    {
+      "num": 2,
+      "name": "グリーンエリクサー",
+      "horse_id": "2022103399",
+      "jockey": "野中悠太",
+      "jockey_id": "01158",
+      "odds": 78.3,
+      "popularity": 9,
+      "finish": 7
+    },
+    {
+      "num": 12,
+      "name": "アリアルブラック",
+      "horse_id": "2022105278",
+      "jockey": "マーカン",
+      "jockey_id": "05626",
+      "odds": 5.5,
+      "popularity": 3,
+      "finish": 8
+    },
+    {
+      "num": 10,
+      "name": "クラインシュミット",
+      "horse_id": "2022101462",
+      "jockey": "北村宏司",
+      "jockey_id": "01043",
+      "odds": 29.2,
+      "popularity": 6,
+      "finish": 9
+    },
+    {
+      "num": 4,
+      "name": "アイアンオバーカム",
+      "horse_id": "2022100587",
+      "jockey": "柴田大知",
+      "jockey_id": "01009",
+      "odds": 525.3,
+      "popularity": 12,
+      "finish": 10
+    },
+    {
+      "num": 5,
+      "name": "ボンボニエーレ",
+      "horse_id": "2022104477",
+      "jockey": "小林凌大",
+      "jockey_id": "01177",
+      "odds": 278.8,
+      "popularity": 10,
+      "finish": 11
+    },
+    {
+      "num": 11,
+      "name": "セミコンダクター",
+      "horse_id": "2022100473",
+      "jockey": "原優介",
+      "jockey_id": "01184",
+      "odds": 16.3,
+      "popularity": 5,
+      "finish": 12
+    }
+  ],
+  "payouts": {
+    "win": {
+      "7": 240
+    },
+    "place": {
+      "7": 110,
+      "3": 110,
+      "8": 150
+    }
+  }
+}

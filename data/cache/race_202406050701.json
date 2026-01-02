@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050701",
+  "title": "",
+  "horses": [
+    {
+      "num": 3,
+      "name": "トリリオンボーイ",
+      "jockey": "横山武史",
+      "odds": 2.6,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 11,
+      "name": "チャロ",
+      "jockey": "菅原明良",
+      "odds": 3.1,
+      "popularity": 2,
+      "finish": 2
+    },
+    {
+      "num": 12,
+      "name": "エルオレンス",
+      "jockey": "石神深道",
+      "odds": 3.8,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 15,
+      "name": "レイオーバー",
+      "jockey": "内田博幸",
+      "odds": 5.9,
+      "popularity": 4,
+      "finish": 4
+    },
+    {
+      "num": 2,
+      "name": "ハクサンリンド",
+      "jockey": "小林脩斗",
+      "odds": 205.9,
+      "popularity": 10,
+      "finish": 5
+    },
+    {
+      "num": 5,
+      "name": "アルマリカシバ",
+      "jockey": "吉田豊",
+      "odds": 102.2,
+      "popularity": 7,
+      "finish": 6
+    },
+    {
+      "num": 13,
+      "name": "トキメキジニア",
+      "jockey": "丸田恭介",
+      "odds": 303.8,
+      "popularity": 13,
+      "finish": 7
+    },
+    {
+      "num": 8,
+      "name": "シャルパンティエ",
+      "jockey": "石橋脩",
+      "odds": 109.9,
+      "popularity": 8,
+      "finish": 8
+    },
+    {
+      "num": 6,
+      "name": "ナックトライアンフ",
+      "jockey": "佐藤翔馬",
+      "odds": 419.7,
+      "popularity": 15,
+      "finish": 9
+    },
+    {
+      "num": 14,
+      "name": "レトロブーム",
+      "jockey": "武藤雅",
+      "odds": 112.8,
+      "popularity": 9,
+      "finish": 10
+    },
+    {
+      "num": 10,
+      "name": "ダイヤモンドピラー",
+      "jockey": "佐々木大",
+      "odds": 33.2,
+      "popularity": 6,
+      "finish": 11
+    },
+    {
+      "num": 9,
+      "name": "タブロー",
+      "jockey": "戸崎圭太",
+      "odds": 22.9,
+      "popularity": 5,
+      "finish": 12
+    },
+    {
+      "num": 7,
+      "name": "キッズウルマ",
+      "jockey": "木幡巧也",
+      "odds": 273.2,
+      "popularity": 12,
+      "finish": 13
+    },
+    {
+      "num": 4,
+      "name": "サヨノスピークロウ",
+      "jockey": "菊沢一樹",
+      "odds": 327.6,
+      "popularity": 14,
+      "finish": 14
+    },
+    {
+      "num": 1,
+      "name": "ウタカタ",
+      "jockey": "原田和真",
+      "odds": 610.7,
+      "popularity": 16,
+      "finish": 15
+    },
+    {
+      "num": 16,
+      "name": "ブラックビート",
+      "jockey": "江田照男",
+      "odds": 266.9,
+      "popularity": 11,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "3": 260
+    },
+    "place": {
+      "3": 110,
+      "11": 120,
+      "12": 140
+    },
+    "trifecta": {}
+  }
+}

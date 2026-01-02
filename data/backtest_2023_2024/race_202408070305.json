@@ -1,0 +1,119 @@
+{
+  "race_id": "202408070305",
+  "race_info": {
+    "course": "京都",
+    "distance": 1200
+  },
+  "horses": [
+    {
+      "num": 8,
+      "name": "ガンマジーティーピ",
+      "horse_id": "2022106123",
+      "jockey": "武豊",
+      "jockey_id": "00666",
+      "odds": 2.0,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 9,
+      "name": "ユキノエミリオ",
+      "horse_id": "2022104316",
+      "jockey": "三浦皇成",
+      "jockey_id": "01122",
+      "odds": 3.9,
+      "popularity": 2,
+      "finish": 2
+    },
+    {
+      "num": 3,
+      "name": "アジアンテーラー",
+      "horse_id": "2022103080",
+      "jockey": "坂井瑠星",
+      "jockey_id": "01163",
+      "odds": 5.6,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 7,
+      "name": "カネトシブレーブ",
+      "horse_id": "2022100169",
+      "jockey": "川又賢治",
+      "jockey_id": "01166",
+      "odds": 5.7,
+      "popularity": 4,
+      "finish": 4
+    },
+    {
+      "num": 10,
+      "name": "レジポッセ",
+      "horse_id": "2022103830",
+      "jockey": "菱田裕二",
+      "jockey_id": "01144",
+      "odds": 24.2,
+      "popularity": 5,
+      "finish": 5
+    },
+    {
+      "num": 4,
+      "name": "レイリースピリット",
+      "horse_id": "2022103944",
+      "jockey": "幸英明",
+      "jockey_id": "00732",
+      "odds": 30.5,
+      "popularity": 7,
+      "finish": 6
+    },
+    {
+      "num": 6,
+      "name": "クインズパフェ",
+      "horse_id": "2022106591",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 27.3,
+      "popularity": 6,
+      "finish": 7
+    },
+    {
+      "num": 2,
+      "name": "ラベンサラ",
+      "horse_id": "2022101006",
+      "jockey": "鷲頭虎太",
+      "jockey_id": "01202",
+      "odds": 138.6,
+      "popularity": 10,
+      "finish": 8
+    },
+    {
+      "num": 5,
+      "name": "メイショウハント",
+      "horse_id": "2022100885",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 65.4,
+      "popularity": 9,
+      "finish": 9
+    },
+    {
+      "num": 1,
+      "name": "ハイフォーエバー",
+      "horse_id": "2022105471",
+      "jockey": "藤岡佑介",
+      "jockey_id": "01093",
+      "odds": 48.9,
+      "popularity": 8,
+      "finish": 10
+    }
+  ],
+  "payouts": {
+    "win": {
+      "8": 200
+    },
+    "place": {
+      "8": 110,
+      "9": 120,
+      "3": 150
+    }
+  }
+}

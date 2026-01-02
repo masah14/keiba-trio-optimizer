@@ -1,0 +1,129 @@
+{
+  "race_id": "202406050706",
+  "title": "",
+  "horses": [
+    {
+      "num": 4,
+      "name": "メリークリスマス",
+      "jockey": "菊沢一樹",
+      "odds": 18.0,
+      "popularity": 5,
+      "finish": 1
+    },
+    {
+      "num": 12,
+      "name": "エコロカディス",
+      "jockey": "佐々木大",
+      "odds": 21.3,
+      "popularity": 8,
+      "finish": 2
+    },
+    {
+      "num": 2,
+      "name": "ゴールドダイアー",
+      "jockey": "藤懸貴志",
+      "odds": 9.8,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 14,
+      "name": "ナルサー",
+      "jockey": "原優介",
+      "odds": 161.3,
+      "popularity": 13,
+      "finish": 4
+    },
+    {
+      "num": 1,
+      "name": "ココデイック",
+      "jockey": "戸崎圭太",
+      "odds": 1.5,
+      "popularity": 1,
+      "finish": 5
+    },
+    {
+      "num": 11,
+      "name": "トラストモアリズム",
+      "jockey": "荻野極",
+      "odds": 103.2,
+      "popularity": 12,
+      "finish": 6
+    },
+    {
+      "num": 15,
+      "name": "マイネルジーニアス",
+      "jockey": "野中悠太",
+      "odds": 11.7,
+      "popularity": 4,
+      "finish": 7
+    },
+    {
+      "num": 9,
+      "name": "レヴァントリ",
+      "jockey": "丹内祐次",
+      "odds": 9.2,
+      "popularity": 2,
+      "finish": 8
+    },
+    {
+      "num": 6,
+      "name": "プロピエダッド",
+      "jockey": "石川裕紀",
+      "odds": 82.6,
+      "popularity": 11,
+      "finish": 9
+    },
+    {
+      "num": 8,
+      "name": "グレートセンス",
+      "jockey": "横山琉人",
+      "odds": 25.6,
+      "popularity": 9,
+      "finish": 10
+    },
+    {
+      "num": 7,
+      "name": "アルデコンティ",
+      "jockey": "横山武史",
+      "odds": 21.1,
+      "popularity": 7,
+      "finish": 11
+    },
+    {
+      "num": 10,
+      "name": "ユガフ",
+      "jockey": "柴田大知",
+      "odds": 210.6,
+      "popularity": 14,
+      "finish": 12
+    },
+    {
+      "num": 13,
+      "name": "アイビースピネル",
+      "jockey": "木幡巧也",
+      "odds": 20.0,
+      "popularity": 6,
+      "finish": 13
+    },
+    {
+      "num": 3,
+      "name": "ビップクララ",
+      "jockey": "長浜鴻緒",
+      "odds": 38.9,
+      "popularity": 10,
+      "finish": 14
+    }
+  ],
+  "payouts": {
+    "win": {
+      "4": 1800
+    },
+    "place": {
+      "4": 560,
+      "12": 790,
+      "2": 360
+    },
+    "trifecta": {}
+  }
+}

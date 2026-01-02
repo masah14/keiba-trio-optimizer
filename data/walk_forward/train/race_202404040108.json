@@ -1,0 +1,169 @@
+{
+  "race_id": "202404040108",
+  "race_info": {
+    "course": "新潟",
+    "distance": 1200
+  },
+  "horses": [
+    {
+      "num": 9,
+      "name": "ワークソング",
+      "horse_id": "2021102462",
+      "jockey": "柴田裕一",
+      "jockey_id": "01212",
+      "odds": 7.1,
+      "popularity": 3,
+      "finish": 1
+    },
+    {
+      "num": 10,
+      "name": "ライトニングゼウス",
+      "horse_id": "2021104058",
+      "jockey": "菊沢一樹",
+      "jockey_id": "01161",
+      "odds": 2.7,
+      "popularity": 1,
+      "finish": 2
+    },
+    {
+      "num": 4,
+      "name": "スターザサンライズ",
+      "horse_id": "2019101624",
+      "jockey": "西塚洸二",
+      "jockey_id": "01200",
+      "odds": 16.7,
+      "popularity": 8,
+      "finish": 3
+    },
+    {
+      "num": 12,
+      "name": "パイアイヤー",
+      "horse_id": "2020105327",
+      "jockey": "斎藤新",
+      "jockey_id": "01178",
+      "odds": 51.7,
+      "popularity": 11,
+      "finish": 4
+    },
+    {
+      "num": 1,
+      "name": "マケズギライ",
+      "horse_id": "2021102516",
+      "jockey": "小林脩斗",
+      "jockey_id": "01183",
+      "odds": 63.1,
+      "popularity": 12,
+      "finish": 5
+    },
+    {
+      "num": 11,
+      "name": "カゲツ",
+      "horse_id": "2020102086",
+      "jockey": "荻野極",
+      "jockey_id": "01160",
+      "odds": 115.0,
+      "popularity": 14,
+      "finish": 6
+    },
+    {
+      "num": 8,
+      "name": "テイエムヒショウ",
+      "horse_id": "2020101216",
+      "jockey": "田中健",
+      "jockey_id": "01114",
+      "odds": 8.1,
+      "popularity": 5,
+      "finish": 7
+    },
+    {
+      "num": 3,
+      "name": "ダイチラファール",
+      "horse_id": "2019102469",
+      "jockey": "小林勝太",
+      "jockey_id": "01205",
+      "odds": 42.1,
+      "popularity": 9,
+      "finish": 8
+    },
+    {
+      "num": 13,
+      "name": "コウユーユメノヨウ",
+      "horse_id": "2021101194",
+      "jockey": "丹内祐次",
+      "jockey_id": "01091",
+      "odds": 7.0,
+      "popularity": 2,
+      "finish": 9
+    },
+    {
+      "num": 7,
+      "name": "レイワホマレ",
+      "horse_id": "2019105429",
+      "jockey": "亀田温心",
+      "jockey_id": "01176",
+      "odds": 8.4,
+      "popularity": 6,
+      "finish": 10
+    },
+    {
+      "num": 5,
+      "name": "キャッチザロマンス",
+      "horse_id": "2020102835",
+      "jockey": "小林凌大",
+      "jockey_id": "01177",
+      "odds": 334.1,
+      "popularity": 15,
+      "finish": 11
+    },
+    {
+      "num": 2,
+      "name": "ベルウッドワン",
+      "horse_id": "2021100641",
+      "jockey": "長浜鴻緒",
+      "jockey_id": "01214",
+      "odds": 7.5,
+      "popularity": 4,
+      "finish": 12
+    },
+    {
+      "num": 6,
+      "name": "メイプルリーフラグ",
+      "horse_id": "2020103527",
+      "jockey": "秋山稔樹",
+      "jockey_id": "01181",
+      "odds": 95.0,
+      "popularity": 13,
+      "finish": 13
+    },
+    {
+      "num": 14,
+      "name": "イルザ",
+      "horse_id": "2019102736",
+      "jockey": "Ｍ．デム",
+      "jockey_id": "05212",
+      "odds": 43.5,
+      "popularity": 10,
+      "finish": 14
+    },
+    {
+      "num": 15,
+      "name": "ハルクバローズ",
+      "horse_id": "2020104663",
+      "jockey": "小沢大仁",
+      "jockey_id": "01185",
+      "odds": 16.0,
+      "popularity": 7,
+      "finish": 15
+    }
+  ],
+  "payouts": {
+    "win": {
+      "9": 710
+    },
+    "place": {
+      "9": 210,
+      "10": 140,
+      "4": 320
+    }
+  }
+}

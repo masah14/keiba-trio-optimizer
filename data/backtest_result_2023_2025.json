@@ -1,0 +1,19 @@
+{
+  "period": "2023-2025",
+  "total_races": 0,
+  "results": {
+    "win": {
+      "bets": 0,
+      "hits": 0,
+      "investment": 0,
+      "payout": 0
+    },
+    "place": {
+      "bets": 0,
+      "hits": 0,
+      "investment": 0,
+      "payout": 0
+    }
+  },
+  "timestamp": "2026-01-02T08:36:51.817085"
+}

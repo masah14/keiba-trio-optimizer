@@ -1,0 +1,8917 @@
+{
+  "target_dates": [
+    "20241221",
+    "20241222"
+  ],
+  "total_races": 48,
+  "config": {
+    "fav_factor": 0.95,
+    "mid_factor": 1.0,
+    "long_factor": 1.2,
+    "extreme_factor": 2.0,
+    "ev_threshold": 1.0
+  },
+  "stats": {
+    "win_bets": 489,
+    "win_hits": 10,
+    "win_investment": 48900,
+    "win_payout": 4540,
+    "place_bets": 400,
+    "place_hits": 28,
+    "place_investment": 40000,
+    "place_payout": 1430
+  },
+  "bet_records": [
+    {
+      "race_id": "202406050701",
+      "horse": "ハクサンリンド",
+      "type": "win",
+      "odds": 205.9,
+      "ev": 12.566864252274485,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ハクサンリンド",
+      "type": "place",
+      "odds": 205.9,
+      "ev": 7.422304198999619,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "アルマリカシバ",
+      "type": "win",
+      "odds": 102.2,
+      "ev": 8.425696308952412,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "アルマリカシバ",
+      "type": "place",
+      "odds": 102.2,
+      "ev": 4.502481465096445,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "トキメキジニア",
+      "type": "win",
+      "odds": 303.8,
+      "ev": 12.729391890188761,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "トキメキジニア",
+      "type": "place",
+      "odds": 303.8,
+      "ev": 7.5182970851427395,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "シャルパンティエ",
+      "type": "win",
+      "odds": 109.9,
+      "ev": 8.368383444665017,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "シャルパンティエ",
+      "type": "place",
+      "odds": 109.9,
+      "ev": 4.9425764720052765,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ナックトライアンフ",
+      "type": "win",
+      "odds": 419.7,
+      "ev": 12.202284032473399,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ナックトライアンフ",
+      "type": "place",
+      "odds": 419.7,
+      "ev": 7.7835319272139705,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "レトロブーム",
+      "type": "win",
+      "odds": 112.8,
+      "ev": 7.914043712937148,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "レトロブーム",
+      "type": "place",
+      "odds": 112.8,
+      "ev": 4.674232067953504,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ダイヤモンドピラー",
+      "type": "win",
+      "odds": 33.2,
+      "ev": 1.9698832108612685,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ダイヤモンドピラー",
+      "type": "place",
+      "odds": 33.2,
+      "ev": 1.1634622714149367,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "タブロー",
+      "type": "win",
+      "odds": 22.9,
+      "ev": 1.5133956059249913,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "キッズウルマ",
+      "type": "win",
+      "odds": 273.2,
+      "ev": 13.153957216546129,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "キッズウルマ",
+      "type": "place",
+      "odds": 273.2,
+      "ev": 7.769055981022558,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "サヨノスピークロウ",
+      "type": "win",
+      "odds": 327.6,
+      "ev": 11.7247149692372,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "サヨノスピークロウ",
+      "type": "place",
+      "odds": 327.6,
+      "ev": 7.47890256100218,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ウタカタ",
+      "type": "win",
+      "odds": 610.7,
+      "ev": 13.471507190767932,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ウタカタ",
+      "type": "place",
+      "odds": 610.7,
+      "ev": 8.593137649311094,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ブラックビート",
+      "type": "win",
+      "odds": 266.9,
+      "ev": 14.429339037498604,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050701",
+      "horse": "ブラックビート",
+      "type": "place",
+      "odds": 266.9,
+      "ev": 8.522328369022613,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "コンアフェット",
+      "type": "win",
+      "odds": 45.4,
+      "ev": 2.589805207306279,
+      "finish": 1,
+      "hit": true,
+      "payout": 4540
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "コンアフェット",
+      "type": "place",
+      "odds": 45.4,
+      "ev": 1.5296037005652714,
+      "finish": 1,
+      "hit": true,
+      "payout": 1010
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "ノメンターノ",
+      "type": "win",
+      "odds": 443.1,
+      "ev": 13.617419652517682,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "ノメンターノ",
+      "type": "place",
+      "odds": 443.1,
+      "ev": 8.686211560849717,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "ミートザターゲット",
+      "type": "win",
+      "odds": 69.5,
+      "ev": 5.4489972834293825,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "ミートザターゲット",
+      "type": "place",
+      "odds": 69.5,
+      "ev": 3.2183140205254794,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "スノークルーズ",
+      "type": "win",
+      "odds": 46.5,
+      "ev": 2.4723134655414434,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "スノークルーズ",
+      "type": "place",
+      "odds": 46.5,
+      "ev": 1.4602101405854153,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "ニシノキヨハ",
+      "type": "win",
+      "odds": 227.5,
+      "ev": 11.843622071647848,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "ニシノキヨハ",
+      "type": "place",
+      "odds": 227.5,
+      "ev": 6.99513928606701,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "カシマスウィープ",
+      "type": "win",
+      "odds": 121.2,
+      "ev": 7.487535539070046,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "カシマスウィープ",
+      "type": "place",
+      "odds": 121.2,
+      "ev": 4.422325677763246,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "セラード",
+      "type": "win",
+      "odds": 352.2,
+      "ev": 13.307191556193288,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "セラード",
+      "type": "place",
+      "odds": 352.2,
+      "ev": 8.488324813906795,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "エスキモーギャル",
+      "type": "win",
+      "odds": 330.9,
+      "ev": 14.63276826285408,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "エスキモーギャル",
+      "type": "place",
+      "odds": 330.9,
+      "ev": 8.642478755248192,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "スピアッジャローザ",
+      "type": "win",
+      "odds": 87.2,
+      "ev": 6.132180756871544,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "スピアッジャローザ",
+      "type": "place",
+      "odds": 87.2,
+      "ev": 3.621819259527256,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "エファセデリエール",
+      "type": "win",
+      "odds": 595.5,
+      "ev": 14.021666883639915,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050702",
+      "horse": "エファセデリエール",
+      "type": "place",
+      "odds": 595.5,
+      "ev": 8.944070763401813,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "アグネスヒーロー",
+      "type": "win",
+      "odds": 309.3,
+      "ev": 12.286632178461753,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "アグネスヒーロー",
+      "type": "place",
+      "odds": 309.3,
+      "ev": 7.837335500836293,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "テンミラージュ",
+      "type": "win",
+      "odds": 169.5,
+      "ev": 11.591527754354884,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "テンミラージュ",
+      "type": "place",
+      "odds": 169.5,
+      "ev": 6.846246079915854,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "ムコウジマドリーム",
+      "type": "win",
+      "odds": 49.7,
+      "ev": 2.5259719292172136,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "ムコウジマドリーム",
+      "type": "place",
+      "odds": 49.7,
+      "ev": 1.4919021706939173,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "マロンカラノテガミ",
+      "type": "win",
+      "odds": 179.7,
+      "ev": 11.076612133733333,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "マロンカラノテガミ",
+      "type": "place",
+      "odds": 179.7,
+      "ev": 6.54212404148625,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "リリアンファスト",
+      "type": "win",
+      "odds": 45.7,
+      "ev": 2.5250849609672965,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "リリアンファスト",
+      "type": "place",
+      "odds": 45.7,
+      "ev": 1.4913783050713099,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "シャンハイナイト",
+      "type": "win",
+      "odds": 180.1,
+      "ev": 9.943239071055903,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "シャンハイナイト",
+      "type": "place",
+      "odds": 180.1,
+      "ev": 5.872725576342393,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "シュエットアムール",
+      "type": "win",
+      "odds": 200.1,
+      "ev": 9.649196249033857,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "シュエットアムール",
+      "type": "place",
+      "odds": 200.1,
+      "ev": 5.6990565345856234,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "ケイツーペニー",
+      "type": "win",
+      "odds": 364.1,
+      "ev": 11.87912184373478,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "ケイツーペニー",
+      "type": "place",
+      "odds": 364.1,
+      "ev": 7.577394846072324,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "スパイラル",
+      "type": "win",
+      "odds": 735.8,
+      "ev": 17.471774091290712,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050703",
+      "horse": "スパイラル",
+      "type": "place",
+      "odds": 735.8,
+      "ev": 11.144807898482064,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "キタノブレイク",
+      "type": "win",
+      "odds": 41.7,
+      "ev": 2.4563090601432287,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "キタノブレイク",
+      "type": "place",
+      "odds": 41.7,
+      "ev": 1.5474747078902342,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "トーアナカヨシ",
+      "type": "win",
+      "odds": 59.3,
+      "ev": 4.7633099309493785,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "トーアナカヨシ",
+      "type": "place",
+      "odds": 59.3,
+      "ev": 2.7150866606411452,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ネオディヤマンテ",
+      "type": "win",
+      "odds": 177.3,
+      "ev": 9.073624154582236,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ネオディヤマンテ",
+      "type": "place",
+      "odds": 177.3,
+      "ev": 5.7163832173868085,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "リワードインペリオ",
+      "type": "win",
+      "odds": 48.3,
+      "ev": 2.5930580634181033,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "リワードインペリオ",
+      "type": "place",
+      "odds": 48.3,
+      "ev": 1.6336265799534053,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "コスモシェルベット",
+      "type": "win",
+      "odds": 25.3,
+      "ev": 1.8125516052931052,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "コスモシェルベット",
+      "type": "place",
+      "odds": 25.3,
+      "ev": 1.1419075113346564,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ダブルメッセージ",
+      "type": "win",
+      "odds": 324.2,
+      "ev": 11.137646308483037,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ダブルメッセージ",
+      "type": "place",
+      "odds": 324.2,
+      "ev": 7.57805454829186,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ジャスパー",
+      "type": "win",
+      "odds": 98.0,
+      "ev": 6.756363286850382,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ジャスパー",
+      "type": "place",
+      "odds": 98.0,
+      "ev": 4.2565088707157415,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ジーティーラピッド",
+      "type": "win",
+      "odds": 171.0,
+      "ev": 9.970668659193274,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ジーティーラピッド",
+      "type": "place",
+      "odds": 171.0,
+      "ev": 6.281521255291764,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "キャバリエクエスト",
+      "type": "win",
+      "odds": 409.9,
+      "ev": 10.851710048301447,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "キャバリエクエスト",
+      "type": "place",
+      "odds": 409.9,
+      "ev": 7.383503516864305,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ゴールデンサンダー",
+      "type": "win",
+      "odds": 184.3,
+      "ev": 8.115621225198474,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "ゴールデンサンダー",
+      "type": "place",
+      "odds": 184.3,
+      "ev": 5.521868681625041,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "アクデニズ",
+      "type": "win",
+      "odds": 26.6,
+      "ev": 1.7816240191429267,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050704",
+      "horse": "アクデニズ",
+      "type": "place",
+      "odds": 26.6,
+      "ev": 1.122423132060044,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "メルヘンライズ",
+      "type": "win",
+      "odds": 28.9,
+      "ev": 1.9238225606137342,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "メルヘンライズ",
+      "type": "place",
+      "odds": 28.9,
+      "ev": 1.2120082131866525,
+      "finish": 3,
+      "hit": true,
+      "payout": 420
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "タイセイプランセス",
+      "type": "win",
+      "odds": 21.8,
+      "ev": 1.6065598970225243,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "タイセイプランセス",
+      "type": "place",
+      "odds": 21.8,
+      "ev": 1.0121327351241904,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ガンビーチ",
+      "type": "win",
+      "odds": 45.9,
+      "ev": 2.687420096153408,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ガンビーチ",
+      "type": "place",
+      "odds": 45.9,
+      "ev": 1.6930746605766471,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ハクサンテュポン",
+      "type": "win",
+      "odds": 157.5,
+      "ev": 8.218184312462743,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ハクサンテュポン",
+      "type": "place",
+      "odds": 157.5,
+      "ev": 5.17745611685153,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ウィノウザウェイ",
+      "type": "win",
+      "odds": 178.6,
+      "ev": 7.943523936327879,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ウィノウザウェイ",
+      "type": "place",
+      "odds": 178.6,
+      "ev": 5.4047736862774896,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "タヤスアメリカン",
+      "type": "win",
+      "odds": 84.3,
+      "ev": 7.123694971547011,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "タヤスアメリカン",
+      "type": "place",
+      "odds": 84.3,
+      "ev": 4.060506133781796,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ミスターロスカボス",
+      "type": "win",
+      "odds": 84.9,
+      "ev": 6.577904700094171,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ミスターロスカボス",
+      "type": "place",
+      "odds": 84.9,
+      "ev": 4.144079961059329,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "サクラカゼ",
+      "type": "win",
+      "odds": 97.8,
+      "ev": 6.103368116070993,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "サクラカゼ",
+      "type": "place",
+      "odds": 97.8,
+      "ev": 3.8451219131247263,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ラッキーダンス",
+      "type": "win",
+      "odds": 218.1,
+      "ev": 7.945262999782055,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "ラッキーダンス",
+      "type": "place",
+      "odds": 218.1,
+      "ev": 5.405956945051711,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "フルーツワゴン",
+      "type": "win",
+      "odds": 262.1,
+      "ev": 5.658384856793066,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "フルーツワゴン",
+      "type": "place",
+      "odds": 262.1,
+      "ev": 3.849965056562002,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "コスモインディ",
+      "type": "win",
+      "odds": 246.6,
+      "ev": 7.11384852877117,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050705",
+      "horse": "コスモインディ",
+      "type": "place",
+      "odds": 246.6,
+      "ev": 4.840262538975904,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "メリークリスマス",
+      "type": "win",
+      "odds": 18.0,
+      "ev": 1.2469761955957146,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "エコロカディス",
+      "type": "win",
+      "odds": 21.3,
+      "ev": 1.4040274153589032,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "ナルサー",
+      "type": "win",
+      "odds": 161.3,
+      "ev": 7.006353537124538,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "ナルサー",
+      "type": "place",
+      "odds": 161.3,
+      "ev": 5.107631728563788,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "トラストモアリズム",
+      "type": "win",
+      "odds": 103.2,
+      "ev": 5.6817213443510015,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "トラストモアリズム",
+      "type": "place",
+      "odds": 103.2,
+      "ev": 4.1419748600318815,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "プロピエダッド",
+      "type": "win",
+      "odds": 82.6,
+      "ev": 5.395926842617022,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "プロピエダッド",
+      "type": "place",
+      "odds": 82.6,
+      "ev": 3.6422506187664903,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "グレートセンス",
+      "type": "win",
+      "odds": 25.6,
+      "ev": 1.5029058594768707,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "グレートセンス",
+      "type": "place",
+      "odds": 25.6,
+      "ev": 1.0144614551468878,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "アルデコンティ",
+      "type": "win",
+      "odds": 21.1,
+      "ev": 1.4983938810365098,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "アルデコンティ",
+      "type": "place",
+      "odds": 21.1,
+      "ev": 1.0114158696996443,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "ユガフ",
+      "type": "win",
+      "odds": 210.6,
+      "ev": 7.052428095444047,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "ユガフ",
+      "type": "place",
+      "odds": 210.6,
+      "ev": 5.141220081578711,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "アイビースピネル",
+      "type": "win",
+      "odds": 20.0,
+      "ev": 1.533897885200366,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "アイビースピネル",
+      "type": "place",
+      "odds": 20.0,
+      "ev": 1.0353810725102472,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "ビップクララ",
+      "type": "win",
+      "odds": 38.9,
+      "ev": 1.9262557509332057,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050706",
+      "horse": "ビップクララ",
+      "type": "place",
+      "odds": 38.9,
+      "ev": 1.3002226318799142,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "アンズアメ",
+      "type": "win",
+      "odds": 15.9,
+      "ev": 1.0291732074765965,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "シルフズミスチーフ",
+      "type": "win",
+      "odds": 19.3,
+      "ev": 1.0922773243516353,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ザクシス",
+      "type": "win",
+      "odds": 132.9,
+      "ev": 6.432932892447721,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ザクシス",
+      "type": "place",
+      "odds": 132.9,
+      "ev": 3.7994509896019357,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ヒデノブルースカイ",
+      "type": "win",
+      "odds": 44.5,
+      "ev": 2.3595089866458197,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ヒデノブルースカイ",
+      "type": "place",
+      "odds": 44.5,
+      "ev": 1.3935849952376875,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "オカメノコイ",
+      "type": "win",
+      "odds": 83.0,
+      "ev": 5.820328649528974,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "オカメノコイ",
+      "type": "place",
+      "odds": 83.0,
+      "ev": 3.4376316086280503,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "チョングク",
+      "type": "win",
+      "odds": 217.5,
+      "ev": 7.2708592358998025,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "チョングク",
+      "type": "place",
+      "odds": 217.5,
+      "ev": 4.637899335099587,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ブルーオブウインド",
+      "type": "win",
+      "odds": 382.0,
+      "ev": 9.50465161518661,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ブルーオブウインド",
+      "type": "place",
+      "odds": 382.0,
+      "ev": 6.06277964903716,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "コックリサン",
+      "type": "win",
+      "odds": 216.1,
+      "ev": 8.557129341098886,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "コックリサン",
+      "type": "place",
+      "odds": 216.1,
+      "ev": 5.458378878453454,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ニシノリンダ",
+      "type": "win",
+      "odds": 129.0,
+      "ev": 7.059832410407291,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ニシノリンダ",
+      "type": "place",
+      "odds": 129.0,
+      "ev": 4.169713517396807,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ブラックトルネード",
+      "type": "win",
+      "odds": 92.8,
+      "ev": 5.857999938527795,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "ブラックトルネード",
+      "type": "place",
+      "odds": 92.8,
+      "ev": 3.45988121369298,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "アルマグラース",
+      "type": "win",
+      "odds": 79.7,
+      "ev": 6.104118976963418,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "アルマグラース",
+      "type": "place",
+      "odds": 79.7,
+      "ev": 3.6052452707690197,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "アイビーヒメチャン",
+      "type": "win",
+      "odds": 29.6,
+      "ev": 1.7727062524176938,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050707",
+      "horse": "アイビーヒメチャン",
+      "type": "place",
+      "odds": 29.6,
+      "ev": 1.0470046303342004,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "エスペラード",
+      "type": "win",
+      "odds": 179.7,
+      "ev": 9.919151449538365,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "エスペラード",
+      "type": "place",
+      "odds": 179.7,
+      "ev": 5.858498824883598,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ベベ",
+      "type": "win",
+      "odds": 203.0,
+      "ev": 8.467305110734218,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ベベ",
+      "type": "place",
+      "odds": 203.0,
+      "ev": 5.401082247509589,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ユニヴェールアン",
+      "type": "win",
+      "odds": 209.5,
+      "ev": 7.36018109644307,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ユニヴェールアン",
+      "type": "place",
+      "odds": 209.5,
+      "ev": 4.694875516893624,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ネオゴールド",
+      "type": "win",
+      "odds": 36.9,
+      "ev": 1.8135128400886997,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ネオゴールド",
+      "type": "place",
+      "odds": 36.9,
+      "ev": 1.0711060211773886,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ファンユー",
+      "type": "win",
+      "odds": 19.6,
+      "ev": 1.0306286771435946,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ロザシアニン",
+      "type": "win",
+      "odds": 277.2,
+      "ev": 7.584855011017355,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ロザシアニン",
+      "type": "place",
+      "odds": 277.2,
+      "ev": 4.838189390152696,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "プラティクレール",
+      "type": "win",
+      "odds": 23.1,
+      "ev": 1.325433761097553,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "シャインズオンユー",
+      "type": "win",
+      "odds": 77.9,
+      "ev": 5.251787285921477,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "シャインズオンユー",
+      "type": "place",
+      "odds": 77.9,
+      "ev": 3.101836865747373,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ジナ",
+      "type": "win",
+      "odds": 179.7,
+      "ev": 9.919151449538365,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050708",
+      "horse": "ジナ",
+      "type": "place",
+      "odds": 179.7,
+      "ev": 5.858498824883598,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "クロスライセンス",
+      "type": "win",
+      "odds": 236.2,
+      "ev": 9.03679296525958,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "クロスライセンス",
+      "type": "place",
+      "odds": 236.2,
+      "ev": 4.744316306761281,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ヴァイザーバルコ",
+      "type": "win",
+      "odds": 78.0,
+      "ev": 5.3796070512331,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ヴァイザーバルコ",
+      "type": "place",
+      "odds": 78.0,
+      "ev": 2.8242937018973775,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ニシノコイゴコロ",
+      "type": "win",
+      "odds": 22.0,
+      "ev": 1.2892957243414562,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ペリプルス",
+      "type": "win",
+      "odds": 87.3,
+      "ev": 5.522510052260859,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ペリプルス",
+      "type": "place",
+      "odds": 87.3,
+      "ev": 2.899317777436951,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ゼアズノープレイス",
+      "type": "win",
+      "odds": 188.8,
+      "ev": 8.33573728839816,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ゼアズノープレイス",
+      "type": "place",
+      "odds": 188.8,
+      "ev": 4.376262076409034,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "マイネルシーマー",
+      "type": "win",
+      "odds": 124.2,
+      "ev": 6.970723607608096,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "マイネルシーマー",
+      "type": "place",
+      "odds": 124.2,
+      "ev": 3.6596298939942504,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "マイネルレグルス",
+      "type": "win",
+      "odds": 36.3,
+      "ev": 1.7645107108686575,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ロードヴェスパー",
+      "type": "win",
+      "odds": 150.4,
+      "ev": 7.546229957335351,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ロードヴェスパー",
+      "type": "place",
+      "odds": 150.4,
+      "ev": 3.9617707276010594,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ルージュサリナス",
+      "type": "win",
+      "odds": 29.2,
+      "ev": 1.552852007027279,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ヒロピアーナ",
+      "type": "win",
+      "odds": 605.6,
+      "ev": 12.304653617461028,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ヒロピアーナ",
+      "type": "place",
+      "odds": 605.6,
+      "ev": 6.976738601100403,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ナンヨーアゼリア",
+      "type": "win",
+      "odds": 380.8,
+      "ev": 10.149771702417675,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ナンヨーアゼリア",
+      "type": "place",
+      "odds": 380.8,
+      "ev": 5.7549205552708225,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ランベントライト",
+      "type": "win",
+      "odds": 358.6,
+      "ev": 11.389764411380941,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050709",
+      "horse": "ランベントライト",
+      "type": "place",
+      "odds": 358.6,
+      "ev": 6.457996421252995,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "ニシノデイジー",
+      "type": "win",
+      "odds": 6.0,
+      "ev": 1.1001575776943433,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "エコロデュエル",
+      "type": "win",
+      "odds": 5.9,
+      "ev": 1.225421288386236,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "ネビーイーム",
+      "type": "win",
+      "odds": 17.2,
+      "ev": 1.9803431951850712,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "ネビーイーム",
+      "type": "place",
+      "odds": 17.2,
+      "ev": 1.3545547455065887,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "ヴェイルネビュラ",
+      "type": "win",
+      "odds": 35.5,
+      "ev": 3.176316566099318,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "ヴェイルネビュラ",
+      "type": "place",
+      "odds": 35.5,
+      "ev": 2.1726005312119336,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "テイエムタツマキ",
+      "type": "win",
+      "odds": 55.1,
+      "ev": 4.847087482477778,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050710",
+      "horse": "テイエムタツマキ",
+      "type": "place",
+      "odds": 55.1,
+      "ev": 3.3154078380148,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ヴェルミセル",
+      "type": "win",
+      "odds": 35.8,
+      "ev": 1.784028812767151,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ヴェルミセル",
+      "type": "place",
+      "odds": 35.8,
+      "ev": 1.0536920175405986,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "アームブランシュ",
+      "type": "win",
+      "odds": 36.1,
+      "ev": 1.6563066507971846,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ファンタジア",
+      "type": "win",
+      "odds": 35.2,
+      "ev": 1.895769860327699,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ファンタジア",
+      "type": "place",
+      "odds": 35.2,
+      "ev": 1.1196890737560472,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "イヤサカ",
+      "type": "win",
+      "odds": 153.5,
+      "ev": 5.709169382284073,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "イヤサカ",
+      "type": "place",
+      "odds": 153.5,
+      "ev": 3.6417364197244533,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "キングサーガ",
+      "type": "win",
+      "odds": 27.5,
+      "ev": 1.6492600571147644,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "アスティ",
+      "type": "win",
+      "odds": 229.0,
+      "ev": 6.530975991050991,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "アスティ",
+      "type": "place",
+      "odds": 229.0,
+      "ev": 4.165946310291652,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ダイバリオン",
+      "type": "win",
+      "odds": 98.2,
+      "ev": 5.2225765980675485,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ダイバリオン",
+      "type": "place",
+      "odds": 98.2,
+      "ev": 3.084584303233646,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ヴェールランス",
+      "type": "win",
+      "odds": 106.0,
+      "ev": 4.890594573199236,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ヴェールランス",
+      "type": "place",
+      "odds": 106.0,
+      "ev": 3.1195880133794627,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ラスマドレス",
+      "type": "win",
+      "odds": 71.3,
+      "ev": 4.444583322626746,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050711",
+      "horse": "ラスマドレス",
+      "type": "place",
+      "odds": 71.3,
+      "ev": 2.6250820249264226,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "トーホウフランゴ",
+      "type": "win",
+      "odds": 42.4,
+      "ev": 2.019137178582881,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "トーホウフランゴ",
+      "type": "place",
+      "odds": 42.4,
+      "ev": 1.1925528961005143,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "ジャガード",
+      "type": "win",
+      "odds": 214.7,
+      "ev": 6.080751490156127,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "ジャガード",
+      "type": "place",
+      "odds": 214.7,
+      "ev": 3.8787593567833403,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "アンビバレント",
+      "type": "win",
+      "odds": 95.9,
+      "ev": 5.024740070845776,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "アンビバレント",
+      "type": "place",
+      "odds": 95.9,
+      "ev": 2.967737104343287,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "フミサウンド",
+      "type": "win",
+      "odds": 27.0,
+      "ev": 1.4916737075931252,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "ペイシャカレン",
+      "type": "win",
+      "odds": 97.5,
+      "ev": 4.476788839826685,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "ペイシャカレン",
+      "type": "place",
+      "odds": 97.5,
+      "ev": 2.855631681204447,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "マルプリ",
+      "type": "win",
+      "odds": 20.3,
+      "ev": 1.260475913755854,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "アスクキングコング",
+      "type": "win",
+      "odds": 124.3,
+      "ev": 4.703878591350232,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "アスクキングコング",
+      "type": "place",
+      "odds": 124.3,
+      "ev": 3.00048655645753,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "スムースベルベット",
+      "type": "win",
+      "odds": 68.7,
+      "ev": 4.664382559099496,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "スムースベルベット",
+      "type": "place",
+      "odds": 68.7,
+      "ev": 2.7549009489681406,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "ゴキゲンサン",
+      "type": "win",
+      "odds": 92.4,
+      "ev": 5.454931045724184,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050712",
+      "horse": "ゴキゲンサン",
+      "type": "place",
+      "odds": 92.4,
+      "ev": 3.2218186488808467,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "クリノラピダス",
+      "type": "win",
+      "odds": 148.9,
+      "ev": 7.061234359619462,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "クリノラピダス",
+      "type": "place",
+      "odds": 148.9,
+      "ev": 4.170541543650245,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "サンディエゴ",
+      "type": "win",
+      "odds": 41.1,
+      "ev": 2.338856979738782,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "サンディエゴ",
+      "type": "place",
+      "odds": 41.1,
+      "ev": 1.3813874036582183,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "ブラックレーション",
+      "type": "win",
+      "odds": 18.2,
+      "ev": 1.089540338802075,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "アスターシッキム",
+      "type": "win",
+      "odds": 58.8,
+      "ev": 4.633348138520848,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "アスターシッキム",
+      "type": "place",
+      "odds": 58.8,
+      "ev": 2.7365712443138763,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "ロングロングロング",
+      "type": "win",
+      "odds": 286.9,
+      "ev": 9.171346157146722,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "ロングロングロング",
+      "type": "place",
+      "odds": 286.9,
+      "ev": 5.850172429989966,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "レアルシチー",
+      "type": "win",
+      "odds": 59.5,
+      "ev": 4.318851383589253,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "レアルシチー",
+      "type": "place",
+      "odds": 59.5,
+      "ev": 2.550821598432403,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "フロンティエール",
+      "type": "win",
+      "odds": 27.1,
+      "ev": 1.7336022232096295,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "フロンティエール",
+      "type": "place",
+      "odds": 27.1,
+      "ev": 1.0239088130831877,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "メイショウスゴウデ",
+      "type": "win",
+      "odds": 127.6,
+      "ev": 7.7264828443043125,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "メイショウスゴウデ",
+      "type": "place",
+      "odds": 127.6,
+      "ev": 4.563453929917235,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "サンライズジュピタ",
+      "type": "win",
+      "odds": 133.4,
+      "ev": 7.227275001557817,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "サンライズジュピタ",
+      "type": "place",
+      "odds": 133.4,
+      "ev": 4.268609297795086,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "ケングロリア",
+      "type": "win",
+      "odds": 285.0,
+      "ev": 10.856877080321764,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "ケングロリア",
+      "type": "place",
+      "odds": 285.0,
+      "ev": 6.925330467610246,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "ウインエンデバー",
+      "type": "win",
+      "odds": 44.9,
+      "ev": 2.3630898335086665,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "ウインエンデバー",
+      "type": "place",
+      "odds": 44.9,
+      "ev": 1.3956999329160564,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "アルムウーリエ",
+      "type": "win",
+      "odds": 479.3,
+      "ev": 11.461839928817358,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070701",
+      "horse": "アルムウーリエ",
+      "type": "place",
+      "odds": 479.3,
+      "ev": 7.3112211445943736,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "ヴェントインコーダ",
+      "type": "win",
+      "odds": 27.0,
+      "ev": 1.5757852549974363,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "ローレルゼロ",
+      "type": "win",
+      "odds": 485.6,
+      "ev": 14.074339976561827,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "ローレルゼロ",
+      "type": "place",
+      "odds": 485.6,
+      "ev": 8.977669612549377,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "アイファーモービル",
+      "type": "win",
+      "odds": 56.0,
+      "ev": 4.623862407467826,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "アイファーモービル",
+      "type": "place",
+      "odds": 56.0,
+      "ev": 2.470876473990619,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "テイエムバゴオウ",
+      "type": "win",
+      "odds": 22.4,
+      "ev": 1.4265809865757104,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "サファリ",
+      "type": "win",
+      "odds": 20.6,
+      "ev": 1.4028213950657724,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "リアルクィーン",
+      "type": "win",
+      "odds": 154.9,
+      "ev": 8.897756540759934,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "リアルクィーン",
+      "type": "place",
+      "odds": 154.9,
+      "ev": 5.255237456886338,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "ワンダーブリング",
+      "type": "win",
+      "odds": 100.0,
+      "ev": 7.193881254361056,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "ワンダーブリング",
+      "type": "place",
+      "odds": 100.0,
+      "ev": 4.248886115856999,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "セカンドフラッシュ",
+      "type": "win",
+      "odds": 602.8,
+      "ev": 13.505253671627452,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "セカンドフラッシュ",
+      "type": "place",
+      "odds": 602.8,
+      "ev": 8.614663685789363,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "イーサンペガサス",
+      "type": "win",
+      "odds": 149.9,
+      "ev": 9.52201684325026,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "イーサンペガサス",
+      "type": "place",
+      "odds": 149.9,
+      "ev": 5.623941198044686,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "サマーエンジェル",
+      "type": "win",
+      "odds": 159.0,
+      "ev": 8.172699940546416,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "サマーエンジェル",
+      "type": "place",
+      "odds": 159.0,
+      "ev": 4.827000902385227,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "ゴームズ",
+      "type": "win",
+      "odds": 321.2,
+      "ev": 11.679723111945304,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "ゴームズ",
+      "type": "place",
+      "odds": 321.2,
+      "ev": 7.450203380032112,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "モンスター",
+      "type": "win",
+      "odds": 194.2,
+      "ev": 8.635755040281161,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070702",
+      "horse": "モンスター",
+      "type": "place",
+      "odds": 194.2,
+      "ev": 5.100492820666061,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "ロードシュヴァリエ",
+      "type": "win",
+      "odds": 38.9,
+      "ev": 2.358776952383812,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "ロードシュヴァリエ",
+      "type": "place",
+      "odds": 38.9,
+      "ev": 1.4860294800018017,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "ルセルマンダムール",
+      "type": "win",
+      "odds": 118.9,
+      "ev": 6.870756926597851,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "ルセルマンダムール",
+      "type": "place",
+      "odds": 118.9,
+      "ev": 4.328576863756647,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "モズフェスティバル",
+      "type": "win",
+      "odds": 53.3,
+      "ev": 4.843100037213182,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "モズフェスティバル",
+      "type": "place",
+      "odds": 53.3,
+      "ev": 2.7605670212115134,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "サンズ",
+      "type": "win",
+      "odds": 73.3,
+      "ev": 5.955537446135259,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "サンズ",
+      "type": "place",
+      "odds": 73.3,
+      "ev": 3.3946563442970974,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "イダイ",
+      "type": "win",
+      "odds": 94.2,
+      "ev": 6.84176597872811,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "イダイ",
+      "type": "place",
+      "odds": 94.2,
+      "ev": 4.31031256659871,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "ノボリディアマン",
+      "type": "win",
+      "odds": 22.0,
+      "ev": 1.5344501497164909,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "ダイヤノエース",
+      "type": "win",
+      "odds": 96.5,
+      "ev": 6.354350707485638,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "ダイヤノエース",
+      "type": "place",
+      "odds": 96.5,
+      "ev": 4.003240945715953,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "イージーゴーイング",
+      "type": "win",
+      "odds": 323.4,
+      "ev": 6.325985175047453,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "イージーゴーイング",
+      "type": "place",
+      "odds": 323.4,
+      "ev": 4.304200313102287,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "クナウティア",
+      "type": "win",
+      "odds": 193.2,
+      "ev": 6.78836847626088,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "クナウティア",
+      "type": "place",
+      "odds": 193.2,
+      "ev": 4.618805911247904,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "オドラニャソンソン",
+      "type": "win",
+      "odds": 147.6,
+      "ev": 7.355101981864763,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "オドラニャソンソン",
+      "type": "place",
+      "odds": 147.6,
+      "ev": 4.633714248574801,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "シナモンショコラ",
+      "type": "win",
+      "odds": 241.9,
+      "ev": 6.635367475437,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070703",
+      "horse": "シナモンショコラ",
+      "type": "place",
+      "odds": 241.9,
+      "ev": 4.514704030287335,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ロットブラータ",
+      "type": "win",
+      "odds": 12.8,
+      "ev": 1.0754412525648056,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ディープサミット",
+      "type": "win",
+      "odds": 15.2,
+      "ev": 1.1694925305756907,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "アロンディ",
+      "type": "win",
+      "odds": 28.8,
+      "ev": 1.9356946841125051,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "アロンディ",
+      "type": "place",
+      "odds": 28.8,
+      "ev": 1.306593911775941,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ウインベラーノ",
+      "type": "win",
+      "odds": 21.0,
+      "ev": 1.7206961897912747,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ウインベラーノ",
+      "type": "place",
+      "odds": 21.0,
+      "ev": 1.0508537444796713,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "シャルクハフト",
+      "type": "win",
+      "odds": 45.6,
+      "ev": 1.8783350049203704,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "シャルクハフト",
+      "type": "place",
+      "odds": 45.6,
+      "ev": 1.36930621858695,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "プレミアシップ",
+      "type": "win",
+      "odds": 27.1,
+      "ev": 1.9859558228086507,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "プレミアシップ",
+      "type": "place",
+      "odds": 27.1,
+      "ev": 1.340520180395839,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ホウオウチェスター",
+      "type": "win",
+      "odds": 11.0,
+      "ev": 1.0014735002638107,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "アジュマン",
+      "type": "win",
+      "odds": 37.0,
+      "ev": 1.7935400291016503,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "アジュマン",
+      "type": "place",
+      "odds": 37.0,
+      "ev": 1.210639519643614,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ヴォラヴィア",
+      "type": "win",
+      "odds": 512.5,
+      "ev": 11.554050009892402,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ヴォラヴィア",
+      "type": "place",
+      "odds": 512.5,
+      "ev": 8.422902457211562,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ルージュレアリーズ",
+      "type": "win",
+      "odds": 36.4,
+      "ev": 1.9654358556238305,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ルージュレアリーズ",
+      "type": "place",
+      "odds": 36.4,
+      "ev": 1.3266692025460856,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "スカイテーラー",
+      "type": "win",
+      "odds": 451.9,
+      "ev": 14.473671328906429,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "スカイテーラー",
+      "type": "place",
+      "odds": 451.9,
+      "ev": 10.551306398772788,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ワンウェイトゥヘル",
+      "type": "win",
+      "odds": 36.2,
+      "ev": 2.1506618180705743,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070704",
+      "horse": "ワンウェイトゥヘル",
+      "type": "place",
+      "odds": 36.2,
+      "ev": 1.4516967271976378,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "テーオーノーベル",
+      "type": "win",
+      "odds": 26.9,
+      "ev": 1.4453885304416179,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ステアハート",
+      "type": "win",
+      "odds": 61.5,
+      "ev": 3.959051627002776,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ステアハート",
+      "type": "place",
+      "odds": 61.5,
+      "ev": 2.2007669338338958,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "フリアフロリダ",
+      "type": "win",
+      "odds": 51.5,
+      "ev": 3.944368409713419,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "フリアフロリダ",
+      "type": "place",
+      "odds": 51.5,
+      "ev": 2.192604792458342,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ヒットザノート",
+      "type": "win",
+      "odds": 51.9,
+      "ev": 3.6962331486042843,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ヒットザノート",
+      "type": "place",
+      "odds": 51.9,
+      "ev": 2.054670779665323,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "パワーアイガー",
+      "type": "win",
+      "odds": 233.1,
+      "ev": 8.15546797256744,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "パワーアイガー",
+      "type": "place",
+      "odds": 233.1,
+      "ev": 4.89615918400137,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ダディーズグーグー",
+      "type": "win",
+      "odds": 22.1,
+      "ev": 1.297545199624643,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ナオミガイチバン",
+      "type": "win",
+      "odds": 148.8,
+      "ev": 7.103363347556506,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ナオミガイチバン",
+      "type": "place",
+      "odds": 148.8,
+      "ev": 3.948634331435823,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "サウンドペルル",
+      "type": "win",
+      "odds": 279.8,
+      "ev": 6.6140541017477625,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "サウンドペルル",
+      "type": "place",
+      "odds": 279.8,
+      "ev": 3.9707668330845682,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "サトゥーア",
+      "type": "win",
+      "odds": 110.4,
+      "ev": 6.04576771873011,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "サトゥーア",
+      "type": "place",
+      "odds": 110.4,
+      "ev": 3.360735584823502,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ユアマイクラッシュ",
+      "type": "win",
+      "odds": 266.5,
+      "ev": 7.763319048382569,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "ユアマイクラッシュ",
+      "type": "place",
+      "odds": 266.5,
+      "ev": 4.660731423987794,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "クインズガナッシュ",
+      "type": "win",
+      "odds": 227.2,
+      "ev": 9.177770910547212,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070705",
+      "horse": "クインズガナッシュ",
+      "type": "place",
+      "odds": 227.2,
+      "ev": 5.101760888510068,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "トウタツ",
+      "type": "win",
+      "odds": 26.0,
+      "ev": 1.669588195587279,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ベラジオルークン",
+      "type": "win",
+      "odds": 97.7,
+      "ev": 5.483544810061365,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ベラジオルークン",
+      "type": "place",
+      "odds": 97.7,
+      "ev": 3.2387186534424948,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ダンツトラバース",
+      "type": "win",
+      "odds": 135.3,
+      "ev": 4.8319792736474945,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ダンツトラバース",
+      "type": "place",
+      "odds": 135.3,
+      "ev": 3.082198779177896,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "クリノスワロー",
+      "type": "win",
+      "odds": 29.5,
+      "ev": 1.7525725293183552,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "クリノスワロー",
+      "type": "place",
+      "odds": 29.5,
+      "ev": 1.0351131501286537,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ハギノヴェルドン",
+      "type": "win",
+      "odds": 56.1,
+      "ev": 3.7535546845938965,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ハギノヴェルドン",
+      "type": "place",
+      "odds": 56.1,
+      "ev": 2.2169432355882708,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "マダムイグレイン",
+      "type": "win",
+      "odds": 108.1,
+      "ev": 4.674810398857331,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "マダムイグレイン",
+      "type": "place",
+      "odds": 108.1,
+      "ev": 2.981944683171121,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "タマモマサユメ",
+      "type": "win",
+      "odds": 45.5,
+      "ev": 2.2190504292341005,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "タマモマサユメ",
+      "type": "place",
+      "odds": 45.5,
+      "ev": 1.3106266597663907,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "リドルトリガー",
+      "type": "win",
+      "odds": 106.5,
+      "ev": 5.264593570592996,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "リドルトリガー",
+      "type": "place",
+      "odds": 106.5,
+      "ev": 3.1094005776314884,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ジュテームダコール",
+      "type": "win",
+      "odds": 32.2,
+      "ev": 1.7713114612634941,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "ジュテームダコール",
+      "type": "place",
+      "odds": 32.2,
+      "ev": 1.0461808318087513,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "キタノブリッジ",
+      "type": "win",
+      "odds": 55.9,
+      "ev": 4.082312604556193,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "キタノブリッジ",
+      "type": "place",
+      "odds": 55.9,
+      "ev": 2.4111158820660017,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "マリノドゥードゥー",
+      "type": "win",
+      "odds": 172.7,
+      "ev": 4.8757877973162635,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070706",
+      "horse": "マリノドゥードゥー",
+      "type": "place",
+      "odds": 172.7,
+      "ev": 3.110143141213112,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ブルーペクトライト",
+      "type": "win",
+      "odds": 30.8,
+      "ev": 1.8425954513182712,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ブルーペクトライト",
+      "type": "place",
+      "odds": 30.8,
+      "ev": 1.160835134330511,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "リノアラ",
+      "type": "win",
+      "odds": 119.6,
+      "ev": 5.836630055804928,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "リノアラ",
+      "type": "place",
+      "odds": 119.6,
+      "ev": 3.971243089969674,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "プルーヴンウィナー",
+      "type": "win",
+      "odds": 48.5,
+      "ev": 2.2975703260476235,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "プルーヴンウィナー",
+      "type": "place",
+      "odds": 48.5,
+      "ev": 1.4474693054100027,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "タマモネモフィラ",
+      "type": "win",
+      "odds": 71.7,
+      "ev": 4.841598059550862,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "タマモネモフィラ",
+      "type": "place",
+      "odds": 71.7,
+      "ev": 3.0502067775170434,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ヤエベニシダレ",
+      "type": "win",
+      "odds": 84.5,
+      "ev": 4.967969760895684,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ヤエベニシダレ",
+      "type": "place",
+      "odds": 84.5,
+      "ev": 3.129820949364281,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "セレスティアリティ",
+      "type": "win",
+      "odds": 40.7,
+      "ev": 2.158983685067271,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "セレスティアリティ",
+      "type": "place",
+      "odds": 40.7,
+      "ev": 1.3601597215923809,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ディーノサンライズ",
+      "type": "win",
+      "odds": 495.3,
+      "ev": 13.332844409917405,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ディーノサンライズ",
+      "type": "place",
+      "odds": 495.3,
+      "ev": 9.071667336507803,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ルージュランブル",
+      "type": "win",
+      "odds": 20.3,
+      "ev": 1.3947962644844052,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "タガノエリザベス",
+      "type": "win",
+      "odds": 15.9,
+      "ev": 1.011414255440371,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ウィズダムハート",
+      "type": "win",
+      "odds": 140.0,
+      "ev": 5.666575568561447,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070707",
+      "horse": "ウィズダムハート",
+      "type": "place",
+      "odds": 140.0,
+      "ev": 3.8555380168492093,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ハイクライテリア",
+      "type": "win",
+      "odds": 385.3,
+      "ev": 14.93759855036997,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ハイクライテリア",
+      "type": "place",
+      "odds": 385.3,
+      "ev": 9.528320675317245,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ピストンボーイ",
+      "type": "win",
+      "odds": 21.0,
+      "ev": 1.3069585388581313,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "アメリカンチーフ",
+      "type": "win",
+      "odds": 30.2,
+      "ev": 1.5348140379607627,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "イナウィンク",
+      "type": "win",
+      "odds": 248.8,
+      "ev": 11.710790198904151,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "イナウィンク",
+      "type": "place",
+      "odds": 248.8,
+      "ev": 6.9166854612277655,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "メイショウマジック",
+      "type": "win",
+      "odds": 22.6,
+      "ev": 1.301017007323464,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "バレル",
+      "type": "win",
+      "odds": 69.2,
+      "ev": 4.734336701354607,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "バレル",
+      "type": "place",
+      "odds": 69.2,
+      "ev": 2.796217614237565,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "パトジュニア",
+      "type": "win",
+      "odds": 421.6,
+      "ev": 13.496454494493657,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "パトジュニア",
+      "type": "place",
+      "odds": 421.6,
+      "ev": 8.609050910675144,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ベルダイナフェロー",
+      "type": "win",
+      "odds": 21.0,
+      "ev": 1.3877164940242268,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ツッチーフェイス",
+      "type": "win",
+      "odds": 213.0,
+      "ev": 11.554212002131715,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ツッチーフェイス",
+      "type": "place",
+      "odds": 213.0,
+      "ev": 6.824206463759045,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ウィービースティ",
+      "type": "win",
+      "odds": 621.2,
+      "ev": 15.061802423604314,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070708",
+      "horse": "ウィービースティ",
+      "type": "place",
+      "odds": 621.2,
+      "ev": 9.607547220956603,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "ライラ",
+      "type": "win",
+      "odds": 23.5,
+      "ev": 1.7085896804654346,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "ライラ",
+      "type": "place",
+      "odds": 23.5,
+      "ev": 1.3455143733665298,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "ポッドドンナー",
+      "type": "win",
+      "odds": 50.1,
+      "ev": 4.297408556809556,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "ポッドドンナー",
+      "type": "place",
+      "odds": 50.1,
+      "ev": 3.061903596726808,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "セルヴァンス",
+      "type": "win",
+      "odds": 71.4,
+      "ev": 5.024586601081906,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "セルヴァンス",
+      "type": "place",
+      "odds": 71.4,
+      "ev": 4.273410904220162,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "レモンバーム",
+      "type": "win",
+      "odds": 13.9,
+      "ev": 1.0916249291977167,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "ヒラボクカレラ",
+      "type": "win",
+      "odds": 14.1,
+      "ev": 1.0274935065802036,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "サニーサルサ",
+      "type": "win",
+      "odds": 129.8,
+      "ev": 6.962045182151533,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "サニーサルサ",
+      "type": "place",
+      "odds": 129.8,
+      "ev": 5.92121942741988,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "メイプルギン",
+      "type": "win",
+      "odds": 430.7,
+      "ev": 15.156806655939308,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "メイプルギン",
+      "type": "place",
+      "odds": 430.7,
+      "ev": 12.890864060876382,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "フクシマコウヨウ",
+      "type": "win",
+      "odds": 47.9,
+      "ev": 2.796245106904077,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070709",
+      "horse": "フクシマコウヨウ",
+      "type": "place",
+      "odds": 47.9,
+      "ev": 2.202043021686961,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "マーブルロック",
+      "type": "win",
+      "odds": 46.4,
+      "ev": 2.040364507516047,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "マーブルロック",
+      "type": "place",
+      "odds": 46.4,
+      "ev": 1.2050902872516653,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "ロードトラスト",
+      "type": "win",
+      "odds": 28.7,
+      "ev": 1.8212169999658805,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "ロードトラスト",
+      "type": "place",
+      "odds": 28.7,
+      "ev": 1.0756562906048484,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "キュールエフウジン",
+      "type": "win",
+      "odds": 41.7,
+      "ev": 2.0281645918504285,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "キュールエフウジン",
+      "type": "place",
+      "odds": 41.7,
+      "ev": 1.1978847120616594,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "リバートゥルー",
+      "type": "win",
+      "odds": 38.9,
+      "ev": 2.0638931970214642,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "リバートゥルー",
+      "type": "place",
+      "odds": 38.9,
+      "ev": 1.2189869194908025,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "レッドプロフェシー",
+      "type": "win",
+      "odds": 24.1,
+      "ev": 1.6652305050320393,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "サンライズパスカル",
+      "type": "win",
+      "odds": 69.1,
+      "ev": 4.328271081140449,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "サンライズパスカル",
+      "type": "place",
+      "odds": 69.1,
+      "ev": 2.556385107298578,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "バリアントバイオ",
+      "type": "win",
+      "odds": 99.1,
+      "ev": 5.264544782860053,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "バリアントバイオ",
+      "type": "place",
+      "odds": 99.1,
+      "ev": 3.1093717623767194,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "ラップスター",
+      "type": "win",
+      "odds": 101.4,
+      "ev": 4.712717758154863,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "ラップスター",
+      "type": "place",
+      "odds": 101.4,
+      "ev": 3.006124839983034,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "レディーシス",
+      "type": "win",
+      "odds": 406.4,
+      "ev": 10.566302797367173,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "レディーシス",
+      "type": "place",
+      "odds": 406.4,
+      "ev": 6.739980396870587,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "ニホンピロハーバー",
+      "type": "win",
+      "odds": 209.7,
+      "ev": 7.433291976895622,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "ニホンピロハーバー",
+      "type": "place",
+      "odds": 209.7,
+      "ev": 4.741511119762295,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "カネトシブルーム",
+      "type": "win",
+      "odds": 34.6,
+      "ev": 2.003202532448061,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070710",
+      "horse": "カネトシブルーム",
+      "type": "place",
+      "odds": 34.6,
+      "ev": 1.1831414957271362,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "オフトレイル",
+      "type": "win",
+      "odds": 24.0,
+      "ev": 1.2777766529515966,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "ソーダズリング",
+      "type": "win",
+      "odds": 34.0,
+      "ev": 1.5062252378434147,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "トゥラヴェスーラ",
+      "type": "win",
+      "odds": 79.7,
+      "ev": 4.823348539253057,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "トゥラヴェスーラ",
+      "type": "place",
+      "odds": 79.7,
+      "ev": 2.5322579831078547,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "アサカラキング",
+      "type": "win",
+      "odds": 23.2,
+      "ev": 1.3125536485330325,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "ダノンスコーピオン",
+      "type": "win",
+      "odds": 120.4,
+      "ev": 5.742282036655561,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "ダノンスコーピオン",
+      "type": "place",
+      "odds": 120.4,
+      "ev": 3.0146980692441696,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "シャンパンカラー",
+      "type": "win",
+      "odds": 166.1,
+      "ev": 5.1213960478315474,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "シャンパンカラー",
+      "type": "place",
+      "odds": 166.1,
+      "ev": 2.903831559120488,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "エイシンスポッター",
+      "type": "win",
+      "odds": 141.8,
+      "ev": 5.203826334225147,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "エイシンスポッター",
+      "type": "place",
+      "odds": 141.8,
+      "ev": 2.9505695315056593,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "マテンロウオリオン",
+      "type": "win",
+      "odds": 168.5,
+      "ev": 4.336091082486705,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "マテンロウオリオン",
+      "type": "place",
+      "odds": 168.5,
+      "ev": 2.458563643769962,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "モズメイメイ",
+      "type": "win",
+      "odds": 129.6,
+      "ev": 5.473391817402145,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "モズメイメイ",
+      "type": "place",
+      "odds": 129.6,
+      "ev": 2.8735307041361264,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "レッドモンレーヴ",
+      "type": "win",
+      "odds": 30.9,
+      "ev": 1.4848286548083691,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "エトヴプレ",
+      "type": "win",
+      "odds": 79.8,
+      "ev": 4.427499902332984,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070711",
+      "horse": "エトヴプレ",
+      "type": "place",
+      "odds": 79.8,
+      "ev": 2.324437448724817,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ヴィゴラスダンサー",
+      "type": "win",
+      "odds": 19.8,
+      "ev": 1.3674571127567619,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ムガ",
+      "type": "win",
+      "odds": 21.3,
+      "ev": 1.6262681335376674,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ムガ",
+      "type": "place",
+      "odds": 21.3,
+      "ev": 1.1821718355331507,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ピクシレーション",
+      "type": "win",
+      "odds": 31.7,
+      "ev": 1.9215468505529993,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ピクシレーション",
+      "type": "place",
+      "odds": 31.7,
+      "ev": 1.3968167490558345,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "エメリヨン",
+      "type": "win",
+      "odds": 13.1,
+      "ev": 1.037101535360253,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ヴァンルーラー",
+      "type": "win",
+      "odds": 108.6,
+      "ev": 7.341440564537718,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ヴァンルーラー",
+      "type": "place",
+      "odds": 108.6,
+      "ev": 5.33666256422165,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "チュウワモーニング",
+      "type": "win",
+      "odds": 207.6,
+      "ev": 7.331956463202312,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "チュウワモーニング",
+      "type": "place",
+      "odds": 207.6,
+      "ev": 5.756149820264831,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "コスモディナー",
+      "type": "win",
+      "odds": 120.1,
+      "ev": 6.912778919080492,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "コスモディナー",
+      "type": "place",
+      "odds": 120.1,
+      "ev": 5.4270632037027315,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ベレザニーニャ",
+      "type": "win",
+      "odds": 21.5,
+      "ev": 1.5199441244941336,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ベレザニーニャ",
+      "type": "place",
+      "odds": 21.5,
+      "ev": 1.104882459728428,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "マンクスホップ",
+      "type": "win",
+      "odds": 181.9,
+      "ev": 8.25152687261327,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "マンクスホップ",
+      "type": "place",
+      "odds": 181.9,
+      "ev": 6.478083327837773,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ベルシャンブル",
+      "type": "win",
+      "odds": 51.7,
+      "ev": 4.37040676134514,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070712",
+      "horse": "ベルシャンブル",
+      "type": "place",
+      "odds": 51.7,
+      "ev": 2.87438290842315,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "マミーブルー",
+      "type": "win",
+      "odds": 424.2,
+      "ev": 9.341921959916967,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "マミーブルー",
+      "type": "place",
+      "odds": 424.2,
+      "ev": 5.9589784701820365,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "トレヴィーテ",
+      "type": "win",
+      "odds": 44.4,
+      "ev": 2.558233937299976,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "トレヴィーテ",
+      "type": "place",
+      "odds": 44.4,
+      "ev": 1.5109569192177987,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ミラクルミッキー",
+      "type": "win",
+      "odds": 90.4,
+      "ev": 6.643139720192216,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ミラクルミッキー",
+      "type": "place",
+      "odds": 90.4,
+      "ev": 3.9236043972385284,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "タイセイアダマス",
+      "type": "win",
+      "odds": 138.8,
+      "ev": 6.773215938122511,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "タイセイアダマス",
+      "type": "place",
+      "odds": 138.8,
+      "ev": 4.000430663453608,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "バブルギャラクシー",
+      "type": "win",
+      "odds": 95.8,
+      "ev": 5.945347369683668,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "バブルギャラクシー",
+      "type": "place",
+      "odds": 95.8,
+      "ev": 3.511470790219417,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "セイウングレイ",
+      "type": "win",
+      "odds": 71.8,
+      "ev": 5.7930375126306055,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "セイウングレイ",
+      "type": "place",
+      "odds": 71.8,
+      "ev": 3.095654420811979,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "フジルバーブ",
+      "type": "win",
+      "odds": 213.4,
+      "ev": 8.78672511672069,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "フジルバーブ",
+      "type": "place",
+      "odds": 213.4,
+      "ev": 5.189659522063159,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ラブリーウィザード",
+      "type": "win",
+      "odds": 57.2,
+      "ev": 5.0386650183933686,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ラブリーウィザード",
+      "type": "place",
+      "odds": 57.2,
+      "ev": 2.692536619203956,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ハクサンミラクル",
+      "type": "win",
+      "odds": 95.1,
+      "ev": 6.431291455690819,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ハクサンミラクル",
+      "type": "place",
+      "odds": 95.1,
+      "ev": 3.798481516017391,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ハイタッチマドンナ",
+      "type": "win",
+      "odds": 33.1,
+      "ev": 2.0826284242000055,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "ハイタッチマドンナ",
+      "type": "place",
+      "odds": 33.1,
+      "ev": 1.2300524130431285,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "アルデココ",
+      "type": "win",
+      "odds": 106.9,
+      "ev": 5.96904996332734,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "アルデココ",
+      "type": "place",
+      "odds": 106.9,
+      "ev": 3.5254701345902104,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "クリスタルテン",
+      "type": "win",
+      "odds": 251.4,
+      "ev": 8.789602927769764,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "クリスタルテン",
+      "type": "place",
+      "odds": 251.4,
+      "ev": 5.6066679675511395,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "アイカチャン",
+      "type": "win",
+      "odds": 265.3,
+      "ev": 7.754144751881654,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050801",
+      "horse": "アイカチャン",
+      "type": "place",
+      "odds": 265.3,
+      "ev": 4.946175083606511,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "シュガーハイ",
+      "type": "win",
+      "odds": 131.3,
+      "ev": 4.797064575701392,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "シュガーハイ",
+      "type": "place",
+      "odds": 131.3,
+      "ev": 3.0599275662255256,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "チンプンカンプン",
+      "type": "win",
+      "odds": 123.1,
+      "ev": 5.310597349894033,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "チンプンカンプン",
+      "type": "place",
+      "odds": 123.1,
+      "ev": 3.3874972845636573,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "シュヴァルノワール",
+      "type": "win",
+      "odds": 34.7,
+      "ev": 1.7923770284571523,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "シュヴァルノワール",
+      "type": "place",
+      "odds": 34.7,
+      "ev": 1.0586226824325058,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "ロジアヴァンセ",
+      "type": "win",
+      "odds": 70.9,
+      "ev": 4.671988121352473,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "ロジアヴァンセ",
+      "type": "place",
+      "odds": 70.9,
+      "ev": 2.7593929841738047,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "スムースオペレター",
+      "type": "win",
+      "odds": 111.6,
+      "ev": 5.578632426074722,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "スムースオペレター",
+      "type": "place",
+      "odds": 111.6,
+      "ev": 3.2948797766503835,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "リュウジンマル",
+      "type": "win",
+      "odds": 91.0,
+      "ev": 5.246748980717959,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "リュウジンマル",
+      "type": "place",
+      "odds": 91.0,
+      "ev": 3.0988611167365447,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "バトラーズワーフ",
+      "type": "win",
+      "odds": 59.3,
+      "ev": 4.372906244030241,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "バトラーズワーフ",
+      "type": "place",
+      "odds": 59.3,
+      "ev": 2.5827477503803618,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "ビリーヴアンドラン",
+      "type": "win",
+      "odds": 370.7,
+      "ev": 9.350336018744015,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "ビリーヴアンドラン",
+      "type": "place",
+      "odds": 370.7,
+      "ev": 5.96434558795634,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050802",
+      "horse": "アルデヤーノ",
+      "type": "win",
+      "odds": 25.8,
+      "ev": 1.496388684815297,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ペタルブランシュ",
+      "type": "win",
+      "odds": 38.4,
+      "ev": 2.1457867144799008,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ペタルブランシュ",
+      "type": "place",
+      "odds": 38.4,
+      "ev": 1.2673552782396917,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ナンナンプー",
+      "type": "win",
+      "odds": 52.4,
+      "ev": 3.3588692862483684,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ナンナンプー",
+      "type": "place",
+      "odds": 52.4,
+      "ev": 1.983832172190443,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "リケアエスプレッソ",
+      "type": "win",
+      "odds": 42.7,
+      "ev": 2.1895157590330894,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "リケアエスプレッソ",
+      "type": "place",
+      "odds": 42.7,
+      "ev": 1.2931827451789186,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "アンダーザライト",
+      "type": "win",
+      "odds": 22.0,
+      "ev": 1.4269177556888981,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "シンガソング",
+      "type": "win",
+      "odds": 49.2,
+      "ev": 2.2869777755206395,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "シンガソング",
+      "type": "place",
+      "odds": 49.2,
+      "ev": 1.3507462486668778,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ソレイケギンチャン",
+      "type": "win",
+      "odds": 52.3,
+      "ev": 3.6851838926801768,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ソレイケギンチャン",
+      "type": "place",
+      "odds": 52.3,
+      "ev": 2.17656173661423,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "カウニスミエリ",
+      "type": "win",
+      "odds": 194.6,
+      "ev": 9.300991759078904,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "カウニスミエリ",
+      "type": "place",
+      "odds": 194.6,
+      "ev": 5.493398257705979,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ブルーフラット",
+      "type": "win",
+      "odds": 247.6,
+      "ev": 8.39603648229025,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ブルーフラット",
+      "type": "place",
+      "odds": 247.6,
+      "ev": 5.3556217711408936,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ハッピーダンシング",
+      "type": "win",
+      "odds": 246.4,
+      "ev": 9.923507260891638,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ハッピーダンシング",
+      "type": "place",
+      "odds": 246.4,
+      "ev": 6.3299571940412545,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ニシノヘリオトロプ",
+      "type": "win",
+      "odds": 416.2,
+      "ev": 10.563050926398995,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050803",
+      "horse": "ニシノヘリオトロプ",
+      "type": "place",
+      "odds": 416.2,
+      "ev": 6.737906109676761,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "カーミングライツ",
+      "type": "win",
+      "odds": 175.3,
+      "ev": 9.967145112204541,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "カーミングライツ",
+      "type": "place",
+      "odds": 175.3,
+      "ev": 5.232751183907385,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "イフルジャンス",
+      "type": "win",
+      "odds": 24.2,
+      "ev": 1.3413343386141723,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "マイネルラファール",
+      "type": "win",
+      "odds": 239.2,
+      "ev": 12.153859098414456,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "マイネルラファール",
+      "type": "place",
+      "odds": 239.2,
+      "ev": 6.380776026667591,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ジュラ",
+      "type": "win",
+      "odds": 98.0,
+      "ev": 7.263782229166359,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ジュラ",
+      "type": "place",
+      "odds": 98.0,
+      "ev": 3.813485670312338,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "マジックスクロール",
+      "type": "win",
+      "odds": 173.5,
+      "ev": 10.689779231403802,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "マジックスクロール",
+      "type": "place",
+      "odds": 173.5,
+      "ev": 5.612134096486998,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ノーブルノワール",
+      "type": "win",
+      "odds": 107.2,
+      "ev": 7.382222936800302,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ノーブルノワール",
+      "type": "place",
+      "odds": 107.2,
+      "ev": 3.8756670418201593,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ルナティックアイ",
+      "type": "win",
+      "odds": 302.3,
+      "ev": 10.822550594918791,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ルナティックアイ",
+      "type": "place",
+      "odds": 302.3,
+      "ev": 5.681839062332365,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "アエル",
+      "type": "win",
+      "odds": 362.4,
+      "ev": 9.335075436953185,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "アエル",
+      "type": "place",
+      "odds": 362.4,
+      "ev": 5.292987772752456,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ムチャスエルテ",
+      "type": "win",
+      "odds": 375.5,
+      "ev": 7.861031358008995,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ムチャスエルテ",
+      "type": "place",
+      "odds": 375.5,
+      "ev": 4.4572047799911,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "マイネルボス",
+      "type": "win",
+      "odds": 21.2,
+      "ev": 1.2602856249618657,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "マイネルライゼン",
+      "type": "win",
+      "odds": 355.9,
+      "ev": 10.864344652550098,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "マイネルライゼン",
+      "type": "place",
+      "odds": 355.9,
+      "ev": 6.1600834179959065,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "チャールズテソーロ",
+      "type": "win",
+      "odds": 282.3,
+      "ev": 11.505952748564276,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "チャールズテソーロ",
+      "type": "place",
+      "odds": 282.3,
+      "ev": 6.040625192996246,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ナンヨービッグ",
+      "type": "win",
+      "odds": 265.0,
+      "ev": 12.111282901662866,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050804",
+      "horse": "ナンヨービッグ",
+      "type": "place",
+      "odds": 265.0,
+      "ev": 6.358423523373005,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "キャラメリー",
+      "type": "win",
+      "odds": 76.5,
+      "ev": 5.061185775702084,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "キャラメリー",
+      "type": "place",
+      "odds": 76.5,
+      "ev": 3.1885470386923136,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "ラヴィーズドリーム",
+      "type": "win",
+      "odds": 98.3,
+      "ev": 5.590900338904539,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "ラヴィーズドリーム",
+      "type": "place",
+      "odds": 98.3,
+      "ev": 3.5222672135098603,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "アラスカフレイバー",
+      "type": "win",
+      "odds": 19.1,
+      "ev": 1.161665424869089,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "マイベストダンサー",
+      "type": "win",
+      "odds": 15.5,
+      "ev": 1.0349891744827842,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "マリノライヤ",
+      "type": "win",
+      "odds": 168.2,
+      "ev": 7.739809316570385,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "マリノライヤ",
+      "type": "place",
+      "odds": 168.2,
+      "ev": 5.266166258994492,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "フィアマドラータ",
+      "type": "win",
+      "odds": 32.2,
+      "ev": 1.8912236585261903,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "フィアマドラータ",
+      "type": "place",
+      "odds": 32.2,
+      "ev": 1.1914709048715,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "アジアート",
+      "type": "win",
+      "odds": 47.1,
+      "ev": 2.417994551361375,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "アジアート",
+      "type": "place",
+      "odds": 47.1,
+      "ev": 1.5233365673576664,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "アイドルフェスタ",
+      "type": "win",
+      "odds": 29.4,
+      "ev": 1.8781393810672498,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "アイドルフェスタ",
+      "type": "place",
+      "odds": 29.4,
+      "ev": 1.1832278100723674,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "ジーティーウララ",
+      "type": "win",
+      "odds": 227.5,
+      "ev": 6.831007981897499,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "ジーティーウララ",
+      "type": "place",
+      "odds": 227.5,
+      "ev": 4.647817830883059,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "タルトポワール",
+      "type": "win",
+      "odds": 59.1,
+      "ev": 4.482389427692278,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "タルトポワール",
+      "type": "place",
+      "odds": 59.1,
+      "ev": 2.823905339446136,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "アラワレワタル",
+      "type": "win",
+      "odds": 195.8,
+      "ev": 7.437490433068015,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050805",
+      "horse": "アラワレワタル",
+      "type": "place",
+      "odds": 195.8,
+      "ev": 5.060468490659479,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ショウナンマリーナ",
+      "type": "win",
+      "odds": 23.7,
+      "ev": 1.536988983965801,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "フューチャーファン",
+      "type": "win",
+      "odds": 40.6,
+      "ev": 2.2827718282271645,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "フューチャーファン",
+      "type": "place",
+      "odds": 40.6,
+      "ev": 1.4381462517831136,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "リッキースタイル",
+      "type": "win",
+      "odds": 51.7,
+      "ev": 4.0220654182404605,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "リッキースタイル",
+      "type": "place",
+      "odds": 51.7,
+      "ev": 2.53390121349149,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ロイヤルキャピタル",
+      "type": "win",
+      "odds": 51.2,
+      "ev": 4.32567924090015,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ロイヤルキャピタル",
+      "type": "place",
+      "odds": 51.2,
+      "ev": 2.4656371673130852,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "バットスティンガー",
+      "type": "win",
+      "odds": 22.9,
+      "ev": 1.5837523357280314,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "シェーンルスカ",
+      "type": "win",
+      "odds": 213.8,
+      "ev": 7.3853885594265005,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "シェーンルスカ",
+      "type": "place",
+      "odds": 213.8,
+      "ev": 5.025018375833792,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "マサユメ",
+      "type": "win",
+      "odds": 128.6,
+      "ev": 6.501615672035148,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "マサユメ",
+      "type": "place",
+      "odds": 128.6,
+      "ev": 4.096017873382143,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ココリハクタク",
+      "type": "win",
+      "odds": 206.8,
+      "ev": 8.539929590298318,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ココリハクタク",
+      "type": "place",
+      "odds": 206.8,
+      "ev": 5.810568093238976,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ワカギミ",
+      "type": "win",
+      "odds": 118.1,
+      "ev": 6.8138207278164895,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ワカギミ",
+      "type": "place",
+      "odds": 118.1,
+      "ev": 4.292707058524388,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ウーレンハウト",
+      "type": "win",
+      "odds": 226.5,
+      "ev": 6.268674181290398,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ウーレンハウト",
+      "type": "place",
+      "odds": 226.5,
+      "ev": 4.265205912949987,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ポッドソル",
+      "type": "win",
+      "odds": 101.9,
+      "ev": 6.653898281116967,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050806",
+      "horse": "ポッドソル",
+      "type": "place",
+      "odds": 101.9,
+      "ev": 4.19195591710369,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ベルフィーヌ",
+      "type": "win",
+      "odds": 99.2,
+      "ev": 6.522238945783777,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ベルフィーヌ",
+      "type": "place",
+      "odds": 99.2,
+      "ev": 3.852197377353544,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ザロック",
+      "type": "win",
+      "odds": 51.6,
+      "ev": 4.279451585001209,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ザロック",
+      "type": "place",
+      "odds": 51.6,
+      "ev": 2.286831940735021,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "オウケンシルヴァー",
+      "type": "win",
+      "odds": 135.1,
+      "ev": 7.82426891205066,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "オウケンシルヴァー",
+      "type": "place",
+      "odds": 135.1,
+      "ev": 4.621208826179922,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "デリシュレーヌ",
+      "type": "win",
+      "odds": 176.1,
+      "ev": 7.8760774637645445,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "デリシュレーヌ",
+      "type": "place",
+      "odds": 176.1,
+      "ev": 4.651808252035935,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ロードインフェルノ",
+      "type": "win",
+      "odds": 41.5,
+      "ev": 2.269239428589201,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ロードインフェルノ",
+      "type": "place",
+      "odds": 41.5,
+      "ev": 1.340269537510497,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "プラチナジェット",
+      "type": "win",
+      "odds": 350.7,
+      "ev": 8.452376032663794,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "プラチナジェット",
+      "type": "place",
+      "odds": 350.7,
+      "ev": 5.3915593618354185,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ロストボール",
+      "type": "win",
+      "odds": 299.2,
+      "ev": 10.906339029709683,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ロストボール",
+      "type": "place",
+      "odds": 299.2,
+      "ev": 6.956881008576064,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ロクシアス",
+      "type": "win",
+      "odds": 53.4,
+      "ev": 4.09724839953936,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ロクシアス",
+      "type": "place",
+      "odds": 53.4,
+      "ev": 2.4199373359779353,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "セイロンジェムズ",
+      "type": "win",
+      "odds": 23.2,
+      "ev": 1.4616443966356079,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "インオービット",
+      "type": "win",
+      "odds": 345.3,
+      "ev": 10.368410302952448,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "インオービット",
+      "type": "place",
+      "odds": 345.3,
+      "ev": 6.613749721995794,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ユイノコキュウ",
+      "type": "win",
+      "odds": 163.0,
+      "ev": 8.312521944138737,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050807",
+      "horse": "ユイノコキュウ",
+      "type": "place",
+      "odds": 163.0,
+      "ev": 4.909583273256942,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ロードフロンティア",
+      "type": "win",
+      "odds": 27.7,
+      "ev": 1.5878899883209603,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "テセラリアン",
+      "type": "win",
+      "odds": 104.0,
+      "ev": 5.535244855929033,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "テセラリアン",
+      "type": "place",
+      "odds": 104.0,
+      "ev": 3.2692539930330855,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ニシノコニャック",
+      "type": "win",
+      "odds": 75.2,
+      "ev": 5.055206518000324,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ニシノコニャック",
+      "type": "place",
+      "odds": 75.2,
+      "ev": 2.9857313496939417,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ロープスピニング",
+      "type": "win",
+      "odds": 53.1,
+      "ev": 4.3505140407963765,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ロープスピニング",
+      "type": "place",
+      "odds": 53.1,
+      "ev": 2.3248059405505637,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ブルーノート",
+      "type": "win",
+      "odds": 54.7,
+      "ev": 4.147726688620541,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ブルーノート",
+      "type": "place",
+      "odds": 54.7,
+      "ev": 2.4497510754665073,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ファミリークレスト",
+      "type": "win",
+      "odds": 145.7,
+      "ev": 5.759539154158821,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "ファミリークレスト",
+      "type": "place",
+      "odds": 145.7,
+      "ev": 3.673866037959059,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "スマイルアップ",
+      "type": "win",
+      "odds": 194.7,
+      "ev": 6.270101565750933,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "スマイルアップ",
+      "type": "place",
+      "odds": 194.7,
+      "ev": 3.999541036253377,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "レディアス",
+      "type": "win",
+      "odds": 141.7,
+      "ev": 6.447830560555229,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "レディアス",
+      "type": "place",
+      "odds": 141.7,
+      "ev": 3.8082499248279325,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "シュバルツガイスト",
+      "type": "win",
+      "odds": 99.0,
+      "ev": 5.877934962882793,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "シュバルツガイスト",
+      "type": "place",
+      "odds": 99.0,
+      "ev": 3.47165533745265,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "フラッシュアーク",
+      "type": "win",
+      "odds": 328.9,
+      "ev": 7.937293937246707,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050808",
+      "horse": "フラッシュアーク",
+      "type": "place",
+      "odds": 328.9,
+      "ev": 5.063001370221244,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "ハイラント",
+      "type": "win",
+      "odds": 82.5,
+      "ev": 3.72907405636696,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "ハイラント",
+      "type": "place",
+      "odds": 82.5,
+      "ev": 2.3786831137050752,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "ウインマイルート",
+      "type": "win",
+      "odds": 30.5,
+      "ev": 1.690502544947682,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "フロムナウオン",
+      "type": "win",
+      "odds": 50.9,
+      "ev": 3.7629082285572384,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "フロムナウオン",
+      "type": "place",
+      "odds": 50.9,
+      "ev": 2.2224676724916193,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "ノーブルクライ",
+      "type": "win",
+      "odds": 47.7,
+      "ev": 2.3096647883782886,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "ノーブルクライ",
+      "type": "place",
+      "odds": 47.7,
+      "ev": 1.364145765635927,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "プレイリードリーム",
+      "type": "win",
+      "odds": 54.9,
+      "ev": 3.6822842490119285,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "プレイリードリーム",
+      "type": "place",
+      "odds": 54.9,
+      "ev": 2.174849134572671,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "オリエンタルナイト",
+      "type": "win",
+      "odds": 124.6,
+      "ev": 3.752517577370756,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "オリエンタルナイト",
+      "type": "place",
+      "odds": 124.6,
+      "ev": 2.3936371496653717,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "シュブリーム",
+      "type": "win",
+      "odds": 92.9,
+      "ev": 3.5497528840349544,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "シュブリーム",
+      "type": "place",
+      "odds": 92.9,
+      "ev": 2.264298620903797,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "ホウオウサンデー",
+      "type": "win",
+      "odds": 68.0,
+      "ev": 4.010582033625733,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "ホウオウサンデー",
+      "type": "place",
+      "odds": 68.0,
+      "ev": 2.3687500136101987,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "スズノマーベリック",
+      "type": "win",
+      "odds": 73.6,
+      "ev": 3.8430245686152356,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050809",
+      "horse": "スズノマーベリック",
+      "type": "place",
+      "odds": 73.6,
+      "ev": 2.269786385838374,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ララマセラシオン",
+      "type": "win",
+      "odds": 23.0,
+      "ev": 1.3094849208409598,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ハワイアンタイム",
+      "type": "win",
+      "odds": 40.0,
+      "ev": 1.9239252807884932,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ハワイアンタイム",
+      "type": "place",
+      "odds": 40.0,
+      "ev": 1.136318368965704,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "アーレンダール",
+      "type": "win",
+      "odds": 126.1,
+      "ev": 5.566211074071057,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "アーレンダール",
+      "type": "place",
+      "odds": 126.1,
+      "ev": 3.5505468888730762,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "トーセントラム",
+      "type": "win",
+      "odds": 132.6,
+      "ev": 4.966457839318486,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "トーセントラム",
+      "type": "place",
+      "odds": 132.6,
+      "ev": 3.1679792942552796,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ロゼル",
+      "type": "win",
+      "odds": 50.7,
+      "ev": 3.6000804114958975,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ロゼル",
+      "type": "place",
+      "odds": 50.7,
+      "ev": 2.126297493039765,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ジッピーレーサー",
+      "type": "win",
+      "odds": 330.7,
+      "ev": 8.719004130854236,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ジッピーレーサー",
+      "type": "place",
+      "odds": 330.7,
+      "ev": 5.561634759968648,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ブルトンクール",
+      "type": "win",
+      "odds": 59.5,
+      "ev": 3.7468273096533067,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ブルトンクール",
+      "type": "place",
+      "odds": 59.5,
+      "ev": 2.2129698797639845,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ルージュイストリア",
+      "type": "win",
+      "odds": 75.4,
+      "ev": 4.101931599182385,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050810",
+      "horse": "ルージュイストリア",
+      "type": "place",
+      "odds": 75.4,
+      "ev": 2.4227033507670965,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "シャフリヤール",
+      "type": "win",
+      "odds": 30.1,
+      "ev": 1.6239628932042223,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "シャフリヤール",
+      "type": "place",
+      "odds": 30.1,
+      "ev": 1.0230966227186602,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ローシャムパーク",
+      "type": "win",
+      "odds": 17.2,
+      "ev": 1.0671233071578186,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "スタニングローズ",
+      "type": "win",
+      "odds": 27.1,
+      "ev": 1.6155140384586744,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "スタニングローズ",
+      "type": "place",
+      "odds": 27.1,
+      "ev": 1.0177738442289648,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ダノンベルーガ",
+      "type": "win",
+      "odds": 122.4,
+      "ev": 4.3927972933329,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ダノンベルーガ",
+      "type": "place",
+      "odds": 122.4,
+      "ev": 2.988859278383705,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "シュトルーヴェ",
+      "type": "win",
+      "odds": 108.1,
+      "ev": 4.80496540573852,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "シュトルーヴェ",
+      "type": "place",
+      "odds": 108.1,
+      "ev": 3.2692984620644894,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "プログノーシス",
+      "type": "win",
+      "odds": 16.4,
+      "ev": 1.0893830271300347,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ブローザホーン",
+      "type": "win",
+      "odds": 35.1,
+      "ev": 1.6814921627697452,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ブローザホーン",
+      "type": "place",
+      "odds": 35.1,
+      "ev": 1.0593400625449396,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ディープボンド",
+      "type": "win",
+      "odds": 49.7,
+      "ev": 2.010739751326185,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ディープボンド",
+      "type": "place",
+      "odds": 49.7,
+      "ev": 1.2667660433354966,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "スターズオンアース",
+      "type": "win",
+      "odds": 17.6,
+      "ev": 1.0202210816698276,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ハヤヤッコ",
+      "type": "win",
+      "odds": 57.1,
+      "ev": 3.321732393030296,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050811",
+      "horse": "ハヤヤッコ",
+      "type": "place",
+      "odds": 57.1,
+      "ev": 2.260106720217814,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "エンヤラヴフェイス",
+      "type": "win",
+      "odds": 46.6,
+      "ev": 2.2695075150647095,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "エンヤラヴフェイス",
+      "type": "place",
+      "odds": 46.6,
+      "ev": 1.3404278760850943,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ビルカール",
+      "type": "win",
+      "odds": 140.6,
+      "ev": 4.998084189765289,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ビルカール",
+      "type": "place",
+      "odds": 140.6,
+      "ev": 3.188152952546534,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "サザンステート",
+      "type": "win",
+      "odds": 20.8,
+      "ev": 1.3856938098350964,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ダルダヌス",
+      "type": "win",
+      "odds": 21.0,
+      "ev": 1.3199996275240797,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "メイショウヒューマ",
+      "type": "win",
+      "odds": 65.2,
+      "ev": 4.2776383837746375,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "メイショウヒューマ",
+      "type": "place",
+      "odds": 65.2,
+      "ev": 2.5264801704168955,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ホウオウフウジン",
+      "type": "win",
+      "odds": 76.8,
+      "ev": 3.993323995665406,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ホウオウフウジン",
+      "type": "place",
+      "odds": 76.8,
+      "ev": 2.358556984939881,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ロードオブザチェコ",
+      "type": "win",
+      "odds": 31.3,
+      "ev": 1.7324820180727754,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ロードオブザチェコ",
+      "type": "place",
+      "odds": 31.3,
+      "ev": 1.023247191924233,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ヨーカイディスコ",
+      "type": "win",
+      "odds": 17.5,
+      "ev": 1.0541561861248692,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "スマートラプター",
+      "type": "win",
+      "odds": 63.6,
+      "ev": 4.574853033309698,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "スマートラプター",
+      "type": "place",
+      "odds": 63.6,
+      "ev": 2.702022572798541,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ダテボレアス",
+      "type": "win",
+      "odds": 65.5,
+      "ev": 3.89526828494789,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "ダテボレアス",
+      "type": "place",
+      "odds": 65.5,
+      "ev": 2.3006428307973477,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "カフジエニアゴン",
+      "type": "win",
+      "odds": 116.7,
+      "ev": 4.996207706602914,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "カフジエニアゴン",
+      "type": "place",
+      "odds": 116.7,
+      "ev": 3.1869559908493343,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "スタードラマー",
+      "type": "win",
+      "odds": 226.7,
+      "ev": 6.101116297285336,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202406050812",
+      "horse": "スタードラマー",
+      "type": "place",
+      "odds": 226.7,
+      "ev": 3.8917495581308845,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "ナリタヒカリ",
+      "type": "win",
+      "odds": 28.2,
+      "ev": 1.5166443353968893,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "スマートイザナミ",
+      "type": "win",
+      "odds": 92.1,
+      "ev": 6.483511517097602,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "スマートイザナミ",
+      "type": "place",
+      "odds": 92.1,
+      "ev": 3.829323989785772,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "アイドルアイズ",
+      "type": "win",
+      "odds": 102.3,
+      "ev": 6.4841914876769495,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "アイドルアイズ",
+      "type": "place",
+      "odds": 102.3,
+      "ev": 3.8297255974091997,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "トップレディー",
+      "type": "win",
+      "odds": 25.5,
+      "ev": 1.491317749208142,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "タガノキャロル",
+      "type": "win",
+      "odds": 265.8,
+      "ev": 8.772826360100455,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "タガノキャロル",
+      "type": "place",
+      "odds": 265.8,
+      "ev": 5.595966614449079,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "ゴルティス",
+      "type": "win",
+      "odds": 197.4,
+      "ev": 9.258680762618484,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "ゴルティス",
+      "type": "place",
+      "odds": 197.4,
+      "ev": 5.468408325421543,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "トゥルプ",
+      "type": "win",
+      "odds": 215.8,
+      "ev": 8.679524979529095,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "トゥルプ",
+      "type": "place",
+      "odds": 215.8,
+      "ev": 5.536451996317123,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "バストス",
+      "type": "win",
+      "odds": 291.6,
+      "ev": 7.688074913649298,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "バストス",
+      "type": "place",
+      "odds": 291.6,
+      "ev": 4.904030785544046,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "インマイブラッド",
+      "type": "win",
+      "odds": 162.6,
+      "ev": 8.810501548482698,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070801",
+      "horse": "インマイブラッド",
+      "type": "place",
+      "odds": 162.6,
+      "ev": 5.203702477072594,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "リアルフォルゴーレ",
+      "type": "win",
+      "odds": 31.3,
+      "ev": 1.5067604062536106,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "スリーセンス",
+      "type": "win",
+      "odds": 21.5,
+      "ev": 1.302246054823112,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "アメリータ",
+      "type": "win",
+      "odds": 25.9,
+      "ev": 1.3663593220589323,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ラヴスティンガー",
+      "type": "win",
+      "odds": 78.5,
+      "ev": 3.9860578459073963,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ラヴスティンガー",
+      "type": "place",
+      "odds": 78.5,
+      "ev": 2.0926803691013833,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "スマートセラム",
+      "type": "win",
+      "odds": 55.3,
+      "ev": 3.5292498376009735,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "スマートセラム",
+      "type": "place",
+      "odds": 55.3,
+      "ev": 1.8528561647405113,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "パヴィーア",
+      "type": "win",
+      "odds": 21.8,
+      "ev": 1.2513942266578832,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ヴァリオーサ",
+      "type": "win",
+      "odds": 131.4,
+      "ev": 5.56071769246069,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ヴァリオーサ",
+      "type": "place",
+      "odds": 131.4,
+      "ev": 2.919376788541863,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "エンチャントリバー",
+      "type": "win",
+      "odds": 61.0,
+      "ev": 3.5310756625047874,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "エンチャントリバー",
+      "type": "place",
+      "odds": 61.0,
+      "ev": 1.8538147228150135,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "タウングー",
+      "type": "win",
+      "odds": 311.5,
+      "ev": 7.205044690353388,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "タウングー",
+      "type": "place",
+      "odds": 311.5,
+      "ev": 4.085260339430372,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ナリタボニー",
+      "type": "win",
+      "odds": 282.2,
+      "ev": 9.484262409968569,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ナリタボニー",
+      "type": "place",
+      "odds": 282.2,
+      "ev": 5.377576786452178,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ジョウショーメイク",
+      "type": "win",
+      "odds": 47.6,
+      "ev": 2.0085044831063055,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ジョウショーメイク",
+      "type": "place",
+      "odds": 47.6,
+      "ev": 1.0544648536308106,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ジョウショーポプリ",
+      "type": "win",
+      "odds": 286.3,
+      "ev": 8.160806507644768,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070802",
+      "horse": "ジョウショーポプリ",
+      "type": "place",
+      "odds": 286.3,
+      "ev": 4.6271772898345835,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "ポッドデューク",
+      "type": "win",
+      "odds": 20.0,
+      "ev": 1.2735978342821368,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "ミルトライディーン",
+      "type": "win",
+      "odds": 39.6,
+      "ev": 1.6598245887803171,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "エスタア",
+      "type": "win",
+      "odds": 21.0,
+      "ev": 1.2602410661799266,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "ジュンライトニング",
+      "type": "win",
+      "odds": 22.1,
+      "ev": 1.2450256808540303,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "アルサクレイグ",
+      "type": "win",
+      "odds": 38.5,
+      "ev": 1.742555835121843,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "アトラクトラン",
+      "type": "win",
+      "odds": 42.7,
+      "ev": 1.6331724769240819,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "エコセーズ",
+      "type": "win",
+      "odds": 179.0,
+      "ev": 6.6233435411713275,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "エコセーズ",
+      "type": "place",
+      "odds": 179.0,
+      "ev": 3.755435787844143,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "アドマイヤアーデル",
+      "type": "win",
+      "odds": 210.8,
+      "ev": 5.4205004697682515,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "アドマイヤアーデル",
+      "type": "place",
+      "odds": 210.8,
+      "ev": 3.073423766358599,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "ハーイバービー",
+      "type": "win",
+      "odds": 31.5,
+      "ev": 1.5733351822074653,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "グーフドリファール",
+      "type": "win",
+      "odds": 150.3,
+      "ev": 6.489608114777527,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "グーフドリファール",
+      "type": "place",
+      "odds": 150.3,
+      "ev": 3.407044260258201,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "シーク",
+      "type": "win",
+      "odds": 63.9,
+      "ev": 3.4802079870286637,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "シーク",
+      "type": "place",
+      "odds": 63.9,
+      "ev": 1.8271091931900487,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "ヴリトラハン",
+      "type": "win",
+      "odds": 198.9,
+      "ev": 6.212506523890736,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070803",
+      "horse": "ヴリトラハン",
+      "type": "place",
+      "odds": 198.9,
+      "ev": 3.5224911990460472,
+      "finish": 18,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "エイシンガウディ",
+      "type": "win",
+      "odds": 27.5,
+      "ev": 1.8019221256626543,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "エイシンガウディ",
+      "type": "place",
+      "odds": 27.5,
+      "ev": 1.3098587759624682,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "セイルフリー",
+      "type": "win",
+      "odds": 62.4,
+      "ev": 4.198429650927974,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "セイルフリー",
+      "type": "place",
+      "odds": 62.4,
+      "ev": 3.2960902321054544,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "イフリーティア",
+      "type": "win",
+      "odds": 125.0,
+      "ev": 5.113700087591843,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "イフリーティア",
+      "type": "place",
+      "odds": 125.0,
+      "ev": 4.014647930304797,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "バイマイセルフ",
+      "type": "win",
+      "odds": 34.6,
+      "ev": 1.9772086861539409,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "バイマイセルフ",
+      "type": "place",
+      "odds": 34.6,
+      "ev": 1.4372786218580573,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "ヴォルオヴァン",
+      "type": "win",
+      "odds": 45.4,
+      "ev": 2.2124290898336376,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "ヴォルオヴァン",
+      "type": "place",
+      "odds": 45.4,
+      "ev": 1.6082657614559908,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "テルバスタ",
+      "type": "win",
+      "odds": 19.7,
+      "ev": 1.2441002632520133,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "コンドゥイア",
+      "type": "win",
+      "odds": 14.0,
+      "ev": 1.0178507149622846,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "フィルン",
+      "type": "win",
+      "odds": 112.6,
+      "ev": 5.800200085208749,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070804",
+      "horse": "フィルン",
+      "type": "place",
+      "odds": 112.6,
+      "ev": 4.553603236126191,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "アルデドゥオーモ",
+      "type": "win",
+      "odds": 27.5,
+      "ev": 1.7819329143291764,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "アルデドゥオーモ",
+      "type": "place",
+      "odds": 27.5,
+      "ev": 1.202804717172194,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "ディープマインド",
+      "type": "win",
+      "odds": 74.4,
+      "ev": 5.891669206552972,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "ディープマインド",
+      "type": "place",
+      "odds": 74.4,
+      "ev": 3.976876714423256,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "フィッシュポンド",
+      "type": "win",
+      "odds": 74.8,
+      "ev": 5.327219753982788,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "フィッシュポンド",
+      "type": "place",
+      "odds": 74.8,
+      "ev": 3.595873333938382,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "ベッサラビア",
+      "type": "win",
+      "odds": 112.2,
+      "ev": 4.93712476390807,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "ベッサラビア",
+      "type": "place",
+      "odds": 112.2,
+      "ev": 3.5991639528889827,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "プリンセスララア",
+      "type": "win",
+      "odds": 85.5,
+      "ev": 5.30726193408556,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "プリンセスララア",
+      "type": "place",
+      "odds": 85.5,
+      "ev": 3.582401805507753,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "アークデトリオンフ",
+      "type": "win",
+      "odds": 183.9,
+      "ev": 6.023957687429059,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "アークデトリオンフ",
+      "type": "place",
+      "odds": 183.9,
+      "ev": 4.391465154135784,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "サトノミスチーフ",
+      "type": "win",
+      "odds": 87.9,
+      "ev": 4.738852148250272,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "サトノミスチーフ",
+      "type": "place",
+      "odds": 87.9,
+      "ev": 3.4546232160744488,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "ララプロフォン",
+      "type": "win",
+      "odds": 47.4,
+      "ev": 2.617444055155752,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070805",
+      "horse": "ララプロフォン",
+      "type": "place",
+      "odds": 47.4,
+      "ev": 1.7667747372301326,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "レフレクシオ",
+      "type": "win",
+      "odds": 34.4,
+      "ev": 1.7258301867648158,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "レフレクシオ",
+      "type": "place",
+      "odds": 34.4,
+      "ev": 1.1649353760662509,
+      "finish": 3,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "ラムセスノムスメ",
+      "type": "win",
+      "odds": 52.8,
+      "ev": 3.234940333351474,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "ラムセスノムスメ",
+      "type": "place",
+      "odds": 52.8,
+      "ev": 2.3582715030132246,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "フララナキラ",
+      "type": "win",
+      "odds": 18.6,
+      "ev": 1.0401296407299887,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "ピンクベルズ",
+      "type": "win",
+      "odds": 51.2,
+      "ev": 3.5767376905399413,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "ピンクベルズ",
+      "type": "place",
+      "odds": 51.2,
+      "ev": 2.4142979411144605,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "サンレンブイ",
+      "type": "win",
+      "odds": 143.9,
+      "ev": 5.1209084797889854,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "サンレンブイ",
+      "type": "place",
+      "odds": 143.9,
+      "ev": 3.7331422817661704,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "アトラーレ",
+      "type": "win",
+      "odds": 24.6,
+      "ev": 1.441919296372034,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "ジャストオンタイム",
+      "type": "win",
+      "odds": 79.5,
+      "ev": 3.8673790232521044,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070806",
+      "horse": "ジャストオンタイム",
+      "type": "place",
+      "odds": 79.5,
+      "ev": 2.819319307950784,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ヤマカツパトリシア",
+      "type": "win",
+      "odds": 48.4,
+      "ev": 2.2894166162386007,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ヤマカツパトリシア",
+      "type": "place",
+      "odds": 48.4,
+      "ev": 1.352186688965924,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "トモジャアルマンド",
+      "type": "win",
+      "odds": 28.3,
+      "ev": 1.6804430941059088,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ゴイゴイスー",
+      "type": "win",
+      "odds": 35.9,
+      "ev": 1.9173873038461273,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ゴイゴイスー",
+      "type": "place",
+      "odds": 35.9,
+      "ev": 1.1324568763341192,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ロードドミニオン",
+      "type": "win",
+      "odds": 85.1,
+      "ev": 5.146313602166904,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ロードドミニオン",
+      "type": "place",
+      "odds": 85.1,
+      "ev": 3.039541471279828,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "イロハニホ",
+      "type": "win",
+      "odds": 315.0,
+      "ev": 8.471835141813644,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "イロハニホ",
+      "type": "place",
+      "odds": 315.0,
+      "ev": 5.403971841084379,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "プロテア",
+      "type": "win",
+      "odds": 67.8,
+      "ev": 4.672030805662193,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "プロテア",
+      "type": "place",
+      "odds": 67.8,
+      "ev": 2.7594181945942333,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ブルスケッタ",
+      "type": "win",
+      "odds": 293.2,
+      "ev": 9.864956688765641,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ブルスケッタ",
+      "type": "place",
+      "odds": 293.2,
+      "ev": 6.292609247846385,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ルージュルミナス",
+      "type": "win",
+      "odds": 130.3,
+      "ev": 6.632565919054787,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "ルージュルミナス",
+      "type": "place",
+      "odds": 130.3,
+      "ev": 3.917359245941734,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "フルオブプレイズ",
+      "type": "win",
+      "odds": 165.1,
+      "ev": 7.099764056619462,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070807",
+      "horse": "フルオブプレイズ",
+      "type": "place",
+      "odds": 165.1,
+      "ev": 4.528761997616141,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "スターペスカオリ",
+      "type": "win",
+      "odds": 98.8,
+      "ev": 4.881423879860716,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "スターペスカオリ",
+      "type": "place",
+      "odds": 98.8,
+      "ev": 3.321320807857231,
+      "finish": 1,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "バックトゥザライト",
+      "type": "win",
+      "odds": 33.9,
+      "ev": 1.9643429959426797,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "バックトゥザライト",
+      "type": "place",
+      "odds": 33.9,
+      "ev": 1.2375360874438883,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "トーセンサウダージ",
+      "type": "win",
+      "odds": 69.0,
+      "ev": 5.096708593490897,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "トーセンサウダージ",
+      "type": "place",
+      "odds": 69.0,
+      "ev": 3.2109264138992657,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "エヴィダンシア",
+      "type": "win",
+      "odds": 165.8,
+      "ev": 4.063637419059014,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "エヴィダンシア",
+      "type": "place",
+      "odds": 165.8,
+      "ev": 2.7648988999277533,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "ピースキーパー",
+      "type": "win",
+      "odds": 89.1,
+      "ev": 5.744003062878705,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "ピースキーパー",
+      "type": "place",
+      "odds": 89.1,
+      "ev": 3.618721929613585,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "スマートビクター",
+      "type": "win",
+      "odds": 97.7,
+      "ev": 5.530543570780195,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "スマートビクター",
+      "type": "place",
+      "odds": 97.7,
+      "ev": 3.4842424495915236,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "ライズンシャイン",
+      "type": "win",
+      "odds": 130.7,
+      "ev": 4.331364996042643,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "ライズンシャイン",
+      "type": "place",
+      "odds": 130.7,
+      "ev": 2.9470607433074143,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "サクハル",
+      "type": "win",
+      "odds": 127.6,
+      "ev": 5.157013649095014,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "サクハル",
+      "type": "place",
+      "odds": 127.6,
+      "ev": 3.508832086844248,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "コパノマイアミ",
+      "type": "win",
+      "odds": 55.0,
+      "ev": 4.581791303496704,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070808",
+      "horse": "コパノマイアミ",
+      "type": "place",
+      "odds": 55.0,
+      "ev": 2.611621042993121,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "サンライズゴラッソ",
+      "type": "win",
+      "odds": 29.9,
+      "ev": 1.721561597117702,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "サンライズゴラッソ",
+      "type": "place",
+      "odds": 29.9,
+      "ev": 1.016797318297643,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "クールブロン",
+      "type": "win",
+      "odds": 36.5,
+      "ev": 1.5927814130825242,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "ケイアイメキラ",
+      "type": "win",
+      "odds": 24.9,
+      "ev": 1.5809425593195,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "グレン",
+      "type": "win",
+      "odds": 34.9,
+      "ev": 1.818714846746728,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "グレン",
+      "type": "place",
+      "odds": 34.9,
+      "ev": 1.0741784563597865,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "スカイドゥエラー",
+      "type": "win",
+      "odds": 154.4,
+      "ev": 5.974081306423277,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "スカイドゥエラー",
+      "type": "place",
+      "odds": 154.4,
+      "ev": 3.810717113334748,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "リミットバスター",
+      "type": "win",
+      "odds": 50.4,
+      "ev": 2.7767107574142385,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "リミットバスター",
+      "type": "place",
+      "odds": 50.4,
+      "ev": 1.771194374385608,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "アルベリック",
+      "type": "win",
+      "odds": 19.0,
+      "ev": 1.1199070355518332,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "ミューオン",
+      "type": "win",
+      "odds": 260.4,
+      "ev": 7.564220819400865,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "ミューオン",
+      "type": "place",
+      "odds": 260.4,
+      "ev": 4.825027355175327,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "ユメハハテシナク",
+      "type": "win",
+      "odds": 36.3,
+      "ev": 1.7325374397986657,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "ユメハハテシナク",
+      "type": "place",
+      "odds": 36.3,
+      "ev": 1.023279925381087,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "デルマアートマン",
+      "type": "win",
+      "odds": 44.6,
+      "ev": 1.694257110806231,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070809",
+      "horse": "デルマアートマン",
+      "type": "place",
+      "odds": 44.6,
+      "ev": 1.0006706060699302,
+      "finish": 16,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "モズロックンロール",
+      "type": "win",
+      "odds": 34.6,
+      "ev": 2.102859118588988,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "モズロックンロール",
+      "type": "place",
+      "odds": 34.6,
+      "ev": 1.419429905047567,
+      "finish": 2,
+      "hit": true,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "シュタールヴィント",
+      "type": "win",
+      "odds": 16.3,
+      "ev": 1.1536584460382884,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ドットクルー",
+      "type": "win",
+      "odds": 42.8,
+      "ev": 2.092487466628311,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ドットクルー",
+      "type": "place",
+      "odds": 42.8,
+      "ev": 1.41242903997411,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ロワンディシー",
+      "type": "win",
+      "odds": 40.7,
+      "ev": 2.210467805844073,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ロワンディシー",
+      "type": "place",
+      "odds": 40.7,
+      "ev": 1.4920657689447496,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ニューノーマル",
+      "type": "win",
+      "odds": 92.7,
+      "ev": 5.9811705764936836,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ニューノーマル",
+      "type": "place",
+      "odds": 92.7,
+      "ev": 4.037290139133237,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "エリダヌス",
+      "type": "win",
+      "odds": 22.2,
+      "ev": 1.679110132648378,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "エリダヌス",
+      "type": "place",
+      "odds": 22.2,
+      "ev": 1.1333993395376554,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ニホンピロタイズ",
+      "type": "win",
+      "odds": 187.8,
+      "ev": 6.442774946462213,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ニホンピロタイズ",
+      "type": "place",
+      "odds": 187.8,
+      "ev": 4.696782935970953,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ワイドアラジン",
+      "type": "win",
+      "odds": 28.9,
+      "ev": 1.9531759382126006,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ワイドアラジン",
+      "type": "place",
+      "odds": 28.9,
+      "ev": 1.3183937582935052,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ゲンパチムサシ",
+      "type": "win",
+      "odds": 152.5,
+      "ev": 7.977207687763843,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "ゲンパチムサシ",
+      "type": "place",
+      "odds": 152.5,
+      "ev": 5.8153844043798415,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "セレブレイトガイズ",
+      "type": "win",
+      "odds": 163.9,
+      "ev": 7.129711436377808,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070810",
+      "horse": "セレブレイトガイズ",
+      "type": "place",
+      "odds": 163.9,
+      "ev": 5.197559637119422,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "メズメライザー",
+      "type": "win",
+      "odds": 58.8,
+      "ev": 3.3456320331961473,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "メズメライザー",
+      "type": "place",
+      "odds": 58.8,
+      "ev": 1.9760139196064748,
+      "finish": 4,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ハチメンロッピ",
+      "type": "win",
+      "odds": 23.0,
+      "ev": 1.4013918740132982,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ロードラディウス",
+      "type": "win",
+      "odds": 42.1,
+      "ev": 2.0147660369268388,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ロードラディウス",
+      "type": "place",
+      "odds": 42.1,
+      "ev": 1.1899711905599142,
+      "finish": 6,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ジャングロ",
+      "type": "win",
+      "odds": 60.0,
+      "ev": 3.0190298744759234,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ジャングロ",
+      "type": "place",
+      "odds": 60.0,
+      "ev": 1.9257636811813297,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ファーンヒル",
+      "type": "win",
+      "odds": 53.7,
+      "ev": 3.4484525178360705,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ファーンヒル",
+      "type": "place",
+      "odds": 53.7,
+      "ev": 2.03674226834693,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "クリノマジン",
+      "type": "win",
+      "odds": 174.9,
+      "ev": 5.163726955929533,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "クリノマジン",
+      "type": "place",
+      "odds": 174.9,
+      "ev": 3.2938123320135513,
+      "finish": 11,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "オメガシンフォニー",
+      "type": "win",
+      "odds": 43.9,
+      "ev": 1.919484237349088,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "オメガシンフォニー",
+      "type": "place",
+      "odds": 43.9,
+      "ev": 1.1336953776843053,
+      "finish": 12,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "ダノンセシボン",
+      "type": "win",
+      "odds": 30.7,
+      "ev": 1.6657422212544535,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "カルネアサーダ",
+      "type": "win",
+      "odds": 60.7,
+      "ev": 2.6600645678329484,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070811",
+      "horse": "カルネアサーダ",
+      "type": "place",
+      "odds": 60.7,
+      "ev": 1.6967886862064423,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ショウナンラウール",
+      "type": "win",
+      "odds": 23.7,
+      "ev": 1.2902433700826876,
+      "finish": 2,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "システムリブート",
+      "type": "win",
+      "odds": 33.3,
+      "ev": 1.6012756798769945,
+      "finish": 3,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "マテンロウボンド",
+      "type": "win",
+      "odds": 35.5,
+      "ev": 1.5705731108778733,
+      "finish": 5,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "スカプラリオ",
+      "type": "win",
+      "odds": 171.3,
+      "ev": 5.614362273532149,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "スカプラリオ",
+      "type": "place",
+      "odds": 171.3,
+      "ev": 3.3705989037452415,
+      "finish": 7,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ケイアイオメガ",
+      "type": "win",
+      "odds": 74.4,
+      "ev": 3.2616712089195805,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ケイアイオメガ",
+      "type": "place",
+      "odds": 74.4,
+      "ev": 1.9581539034254847,
+      "finish": 8,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ヴィアドロローサ",
+      "type": "win",
+      "odds": 217.8,
+      "ev": 5.6637370376622975,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ヴィアドロローサ",
+      "type": "place",
+      "odds": 217.8,
+      "ev": 3.400241188610672,
+      "finish": 9,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ルヴァンノワール",
+      "type": "win",
+      "odds": 53.2,
+      "ev": 3.383721162215624,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ルヴァンノワール",
+      "type": "place",
+      "odds": 53.2,
+      "ev": 1.8809508813492735,
+      "finish": 10,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "ロゼフレア",
+      "type": "win",
+      "odds": 20.9,
+      "ev": 1.304617992529206,
+      "finish": 13,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "アサギリ",
+      "type": "win",
+      "odds": 68.7,
+      "ev": 3.4408961004496743,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "アサギリ",
+      "type": "place",
+      "odds": 68.7,
+      "ev": 1.9127334205440838,
+      "finish": 14,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "エイムフォーエース",
+      "type": "win",
+      "odds": 21.7,
+      "ev": 1.2733400252774527,
+      "finish": 15,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "レッドバレンティア",
+      "type": "win",
+      "odds": 59.1,
+      "ev": 3.3693632169403087,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    },
+    {
+      "race_id": "202408070812",
+      "horse": "レッドバレンティア",
+      "type": "place",
+      "odds": 59.1,
+      "ev": 1.8729695529462307,
+      "finish": 17,
+      "hit": false,
+      "payout": 0
+    }
+  ],
+  "timestamp": "2026-01-02T09:38:48.690137"
+}

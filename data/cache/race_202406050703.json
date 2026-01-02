@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050703",
+  "title": "",
+  "horses": [
+    {
+      "num": 9,
+      "name": "コムユンプリュム",
+      "jockey": "菅原明良",
+      "odds": 3.3,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 5,
+      "name": "スターリーナイト",
+      "jockey": "マーカン",
+      "odds": 2.7,
+      "popularity": 1,
+      "finish": 2
+    },
+    {
+      "num": 16,
+      "name": "プリンセスロロ",
+      "jockey": "吉田豊",
+      "odds": 14.3,
+      "popularity": 5,
+      "finish": 3
+    },
+    {
+      "num": 7,
+      "name": "ペプロス",
+      "jockey": "石橋脩",
+      "odds": 16.6,
+      "popularity": 7,
+      "finish": 4
+    },
+    {
+      "num": 10,
+      "name": "アグネスヒーロー",
+      "jockey": "丹内祐次",
+      "odds": 309.3,
+      "popularity": 14,
+      "finish": 5
+    },
+    {
+      "num": 1,
+      "name": "スペシャルバニー",
+      "jockey": "荻野極",
+      "odds": 5.9,
+      "popularity": 3,
+      "finish": 6
+    },
+    {
+      "num": 6,
+      "name": "ダノンエンブレム",
+      "jockey": "北村宏司",
+      "odds": 6.2,
+      "popularity": 4,
+      "finish": 7
+    },
+    {
+      "num": 4,
+      "name": "テンミラージュ",
+      "jockey": "内田博幸",
+      "odds": 169.5,
+      "popularity": 10,
+      "finish": 8
+    },
+    {
+      "num": 14,
+      "name": "オカゲサン",
+      "jockey": "小林美駒",
+      "odds": 15.6,
+      "popularity": 6,
+      "finish": 9
+    },
+    {
+      "num": 12,
+      "name": "ムコウジマドリーム",
+      "jockey": "菊沢一樹",
+      "odds": 49.7,
+      "popularity": 9,
+      "finish": 10
+    },
+    {
+      "num": 3,
+      "name": "マロンカラノテガミ",
+      "jockey": "津村明秀",
+      "odds": 179.7,
+      "popularity": 11,
+      "finish": 11
+    },
+    {
+      "num": 2,
+      "name": "リリアンファスト",
+      "jockey": "横山和生",
+      "odds": 45.7,
+      "popularity": 8,
+      "finish": 12
+    },
+    {
+      "num": 13,
+      "name": "シャンハイナイト",
+      "jockey": "江田照男",
+      "odds": 180.1,
+      "popularity": 12,
+      "finish": 13
+    },
+    {
+      "num": 11,
+      "name": "シュエットアムール",
+      "jockey": "黛弘人",
+      "odds": 200.1,
+      "popularity": 13,
+      "finish": 14
+    },
+    {
+      "num": 8,
+      "name": "ケイツーペニー",
+      "jockey": "長浜鴻緒",
+      "odds": 364.1,
+      "popularity": 15,
+      "finish": 15
+    },
+    {
+      "num": 15,
+      "name": "スパイラル",
+      "jockey": "嶋田純次",
+      "odds": 735.8,
+      "popularity": 16,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "9": 330
+    },
+    "place": {
+      "9": 140,
+      "5": 130,
+      "16": 250
+    },
+    "trifecta": {}
+  }
+}

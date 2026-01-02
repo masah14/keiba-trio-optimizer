@@ -1,0 +1,139 @@
+{
+  "race_id": "202408070409",
+  "race_info": {
+    "course": "京都",
+    "distance": 2200
+  },
+  "horses": [
+    {
+      "num": 7,
+      "name": "マイネルエンペラー",
+      "horse_id": "2020105786",
+      "jockey": "デットー",
+      "jockey_id": "00875",
+      "odds": 4.0,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 6,
+      "name": "シェイクユアハート",
+      "horse_id": "2020103101",
+      "jockey": "古川吉洋",
+      "jockey_id": "01015",
+      "odds": 7.2,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 1,
+      "name": "メイショウゲキリン",
+      "horse_id": "2019104092",
+      "jockey": "池添謙一",
+      "jockey_id": "01032",
+      "odds": 14.0,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 9,
+      "name": "サブマリーナ",
+      "horse_id": "2021106449",
+      "jockey": "武豊",
+      "jockey_id": "00666",
+      "odds": 1.5,
+      "popularity": 1,
+      "finish": 4
+    },
+    {
+      "num": 8,
+      "name": "ミタマ",
+      "horse_id": "2020101892",
+      "jockey": "小崎綾也",
+      "jockey_id": "01152",
+      "odds": 277.9,
+      "popularity": 10,
+      "finish": 5
+    },
+    {
+      "num": 4,
+      "name": "カネフラ",
+      "horse_id": "2020103082",
+      "jockey": "藤岡佑介",
+      "jockey_id": "01093",
+      "odds": 78.0,
+      "popularity": 8,
+      "finish": 6
+    },
+    {
+      "num": 11,
+      "name": "ニホンピロタイズ",
+      "horse_id": "2018104160",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 328.2,
+      "popularity": 12,
+      "finish": 7
+    },
+    {
+      "num": 12,
+      "name": "オープンファイア",
+      "horse_id": "2020103373",
+      "jockey": "団野大成",
+      "jockey_id": "01180",
+      "odds": 17.5,
+      "popularity": 5,
+      "finish": 8
+    },
+    {
+      "num": 2,
+      "name": "ロードプレジール",
+      "horse_id": "2018102576",
+      "jockey": "松山弘平",
+      "jockey_id": "01126",
+      "odds": 40.1,
+      "popularity": 7,
+      "finish": 9
+    },
+    {
+      "num": 5,
+      "name": "ココクレーター",
+      "horse_id": "2020103590",
+      "jockey": "ルメール",
+      "jockey_id": "05339",
+      "odds": 22.4,
+      "popularity": 6,
+      "finish": 10
+    },
+    {
+      "num": 10,
+      "name": "シルキーヴォイス",
+      "horse_id": "2018100537",
+      "jockey": "水口優也",
+      "jockey_id": "01133",
+      "odds": 313.7,
+      "popularity": 11,
+      "finish": 11
+    },
+    {
+      "num": 3,
+      "name": "コスモサガルマータ",
+      "horse_id": "2020103881",
+      "jockey": "戸崎圭太",
+      "jockey_id": "05386",
+      "odds": 120.8,
+      "popularity": 9,
+      "finish": 12
+    }
+  ],
+  "payouts": {
+    "win": {
+      "7": 400
+    },
+    "place": {
+      "7": 260,
+      "6": 330,
+      "1": 510
+    }
+  }
+}

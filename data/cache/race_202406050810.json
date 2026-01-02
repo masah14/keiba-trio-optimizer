@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050810",
+  "title": "",
+  "horses": [
+    {
+      "num": 14,
+      "name": "ピックアチェリー",
+      "jockey": "横山武史",
+      "odds": 3.1,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 3,
+      "name": "ウインレイアー",
+      "jockey": "ドイル",
+      "odds": 13.6,
+      "popularity": 7,
+      "finish": 2
+    },
+    {
+      "num": 9,
+      "name": "ツルマウカタチ",
+      "jockey": "丸山元気",
+      "odds": 7.1,
+      "popularity": 4,
+      "finish": 3
+    },
+    {
+      "num": 10,
+      "name": "ララマセラシオン",
+      "jockey": "菅原明良",
+      "odds": 23.0,
+      "popularity": 9,
+      "finish": 4
+    },
+    {
+      "num": 8,
+      "name": "ユキノロイヤル",
+      "jockey": "石橋脩",
+      "odds": 6.6,
+      "popularity": 3,
+      "finish": 5
+    },
+    {
+      "num": 15,
+      "name": "ハワイアンタイム",
+      "jockey": "横山典弘",
+      "odds": 40.0,
+      "popularity": 10,
+      "finish": 6
+    },
+    {
+      "num": 7,
+      "name": "サロニコス",
+      "jockey": "Ｃ．デム",
+      "odds": 6.5,
+      "popularity": 2,
+      "finish": 7
+    },
+    {
+      "num": 2,
+      "name": "ケイケイ",
+      "jockey": "松山弘平",
+      "odds": 11.9,
+      "popularity": 5,
+      "finish": 8
+    },
+    {
+      "num": 13,
+      "name": "ラレーヌデリス",
+      "jockey": "戸崎圭太",
+      "odds": 12.8,
+      "popularity": 6,
+      "finish": 9
+    },
+    {
+      "num": 16,
+      "name": "アーレンダール",
+      "jockey": "野中悠太",
+      "odds": 126.1,
+      "popularity": 14,
+      "finish": 10
+    },
+    {
+      "num": 12,
+      "name": "ウインアイオライト",
+      "jockey": "マーカン",
+      "odds": 16.4,
+      "popularity": 8,
+      "finish": 11
+    },
+    {
+      "num": 4,
+      "name": "トーセントラム",
+      "jockey": "菊沢一樹",
+      "odds": 132.6,
+      "popularity": 15,
+      "finish": 12
+    },
+    {
+      "num": 1,
+      "name": "ロゼル",
+      "jockey": "杉原誠人",
+      "odds": 50.7,
+      "popularity": 11,
+      "finish": 13
+    },
+    {
+      "num": 11,
+      "name": "ジッピーレーサー",
+      "jockey": "黛弘人",
+      "odds": 330.7,
+      "popularity": 16,
+      "finish": 14
+    },
+    {
+      "num": 5,
+      "name": "ブルトンクール",
+      "jockey": "石田拓郎",
+      "odds": 59.5,
+      "popularity": 12,
+      "finish": 15
+    },
+    {
+      "num": 6,
+      "name": "ルージュイストリア",
+      "jockey": "大野拓弥",
+      "odds": 75.4,
+      "popularity": 13,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "14": 310
+    },
+    "place": {
+      "14": 140,
+      "3": 320,
+      "9": 220
+    },
+    "trifecta": {}
+  }
+}

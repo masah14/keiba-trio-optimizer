@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050708",
+  "title": "",
+  "horses": [
+    {
+      "num": 14,
+      "name": "レッドセニョール",
+      "jockey": "横山和生",
+      "odds": 4.9,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 15,
+      "name": "グランプレジール",
+      "jockey": "菅原明良",
+      "odds": 8.7,
+      "popularity": 5,
+      "finish": 2
+    },
+    {
+      "num": 2,
+      "name": "エスペラード",
+      "jockey": "原優介",
+      "odds": 179.7,
+      "popularity": 12,
+      "finish": 3
+    },
+    {
+      "num": 16,
+      "name": "マケズギライ",
+      "jockey": "マーカン",
+      "odds": 3.3,
+      "popularity": 1,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "バロン",
+      "jockey": "横山武史",
+      "odds": 6.2,
+      "popularity": 3,
+      "finish": 5
+    },
+    {
+      "num": 13,
+      "name": "ベベ",
+      "jockey": "小林脩斗",
+      "odds": 203.0,
+      "popularity": 14,
+      "finish": 6
+    },
+    {
+      "num": 7,
+      "name": "レグザゴン",
+      "jockey": "戸崎圭太",
+      "odds": 13.6,
+      "popularity": 7,
+      "finish": 7
+    },
+    {
+      "num": 3,
+      "name": "ガラスノブルース",
+      "jockey": "田辺裕信",
+      "odds": 6.7,
+      "popularity": 4,
+      "finish": 8
+    },
+    {
+      "num": 11,
+      "name": "ユニヴェールアン",
+      "jockey": "岩部純二",
+      "odds": 209.5,
+      "popularity": 15,
+      "finish": 9
+    },
+    {
+      "num": 10,
+      "name": "ネオゴールド",
+      "jockey": "津村明秀",
+      "odds": 36.9,
+      "popularity": 10,
+      "finish": 10
+    },
+    {
+      "num": 6,
+      "name": "ファンユー",
+      "jockey": "横山琉人",
+      "odds": 19.6,
+      "popularity": 8,
+      "finish": 11
+    },
+    {
+      "num": 12,
+      "name": "ロザシアニン",
+      "jockey": "長浜鴻緒",
+      "odds": 277.2,
+      "popularity": 16,
+      "finish": 12
+    },
+    {
+      "num": 9,
+      "name": "イコノスタシス",
+      "jockey": "北村宏司",
+      "odds": 10.6,
+      "popularity": 6,
+      "finish": 13
+    },
+    {
+      "num": 5,
+      "name": "プラティクレール",
+      "jockey": "佐々木大",
+      "odds": 23.1,
+      "popularity": 9,
+      "finish": 14
+    },
+    {
+      "num": 8,
+      "name": "シャインズオンユー",
+      "jockey": "内田博幸",
+      "odds": 77.9,
+      "popularity": 11,
+      "finish": 15
+    },
+    {
+      "num": 1,
+      "name": "ジナ",
+      "jockey": "的場勇人",
+      "odds": 179.7,
+      "popularity": 12,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "14": 490
+    },
+    "place": {
+      "14": 200,
+      "15": 270,
+      "2": 4600
+    },
+    "trifecta": {}
+  }
+}

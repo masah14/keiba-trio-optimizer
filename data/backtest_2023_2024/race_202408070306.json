@@ -1,0 +1,109 @@
+{
+  "race_id": "202408070306",
+  "race_info": {
+    "course": "京都",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 9,
+      "name": "グランドプラージュ",
+      "horse_id": "2022105722",
+      "jockey": "川田将雅",
+      "jockey_id": "01088",
+      "odds": 1.7,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 7,
+      "name": "ロッシニアーナ",
+      "horse_id": "2022110120",
+      "jockey": "ルメール",
+      "jockey_id": "05339",
+      "odds": 2.6,
+      "popularity": 2,
+      "finish": 2
+    },
+    {
+      "num": 6,
+      "name": "オーレアミスト",
+      "horse_id": "2022104841",
+      "jockey": "武豊",
+      "jockey_id": "00666",
+      "odds": 7.2,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 5,
+      "name": "メイショウアイナ",
+      "horse_id": "2022110133",
+      "jockey": "菱田裕二",
+      "jockey_id": "01144",
+      "odds": 25.0,
+      "popularity": 5,
+      "finish": 4
+    },
+    {
+      "num": 1,
+      "name": "サンディエゴ",
+      "horse_id": "2022104982",
+      "jockey": "三浦皇成",
+      "jockey_id": "01122",
+      "odds": 14.4,
+      "popularity": 4,
+      "finish": 5
+    },
+    {
+      "num": 4,
+      "name": "アニュスノーバス",
+      "horse_id": "2022100972",
+      "jockey": "秋山稔樹",
+      "jockey_id": "01181",
+      "odds": 136.7,
+      "popularity": 9,
+      "finish": 6
+    },
+    {
+      "num": 2,
+      "name": "メイショウゲキハ",
+      "horse_id": "2022102563",
+      "jockey": "幸英明",
+      "jockey_id": "00732",
+      "odds": 34.6,
+      "popularity": 6,
+      "finish": 7
+    },
+    {
+      "num": 3,
+      "name": "コパノディラン",
+      "horse_id": "2022104307",
+      "jockey": "荻野琢真",
+      "jockey_id": "01112",
+      "odds": 83.0,
+      "popularity": 8,
+      "finish": 8
+    },
+    {
+      "num": 8,
+      "name": "アドバンスオーセン",
+      "horse_id": "2022110086",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 66.9,
+      "popularity": 7,
+      "finish": 9
+    }
+  ],
+  "payouts": {
+    "win": {
+      "9": 170
+    },
+    "place": {
+      "9": 110,
+      "7": 110,
+      "6": 120
+    }
+  }
+}

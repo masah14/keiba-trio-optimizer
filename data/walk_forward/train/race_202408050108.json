@@ -1,0 +1,99 @@
+{
+  "race_id": "202408050108",
+  "race_info": {
+    "course": "京都",
+    "distance": 2400
+  },
+  "horses": [
+    {
+      "num": 2,
+      "name": "ヴェローチェエラ",
+      "horse_id": "2021105399",
+      "jockey": "川田将雅",
+      "jockey_id": "01088",
+      "odds": 1.1,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 7,
+      "name": "リッチブラック",
+      "horse_id": "2019103816",
+      "jockey": "西村淳也",
+      "jockey_id": "01171",
+      "odds": 7.1,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 3,
+      "name": "ノーブルライジング",
+      "horse_id": "2020101697",
+      "jockey": "国分恭介",
+      "jockey_id": "01124",
+      "odds": 7.1,
+      "popularity": 2,
+      "finish": 3
+    },
+    {
+      "num": 6,
+      "name": "ダンツエスプリ",
+      "horse_id": "2019106399",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 48.7,
+      "popularity": 7,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "プリマヴィータ",
+      "horse_id": "2019100831",
+      "jockey": "古川奈穂",
+      "jockey_id": "01190",
+      "odds": 67.3,
+      "popularity": 8,
+      "finish": 5
+    },
+    {
+      "num": 8,
+      "name": "マンクスホップ",
+      "horse_id": "2019104538",
+      "jockey": "角田大和",
+      "jockey_id": "01186",
+      "odds": 44.0,
+      "popularity": 5,
+      "finish": 6
+    },
+    {
+      "num": 5,
+      "name": "ペネトレイトゴー",
+      "horse_id": "2020101916",
+      "jockey": "永島まな",
+      "jockey_id": "01187",
+      "odds": 38.0,
+      "popularity": 4,
+      "finish": 7
+    },
+    {
+      "num": 1,
+      "name": "レッドエンヴィー",
+      "horse_id": "2016104519",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 47.8,
+      "popularity": 6,
+      "finish": 8
+    }
+  ],
+  "payouts": {
+    "win": {
+      "2": 110
+    },
+    "place": {
+      "2": 100,
+      "7": 110,
+      "3": 110
+    }
+  }
+}

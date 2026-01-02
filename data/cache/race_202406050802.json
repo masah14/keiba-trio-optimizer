@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050802",
+  "title": "",
+  "horses": [
+    {
+      "num": 12,
+      "name": "ドーバーブライト",
+      "jockey": "ムーア",
+      "odds": 4.6,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 4,
+      "name": "ブレトワルダ",
+      "jockey": "坂井瑠星",
+      "odds": 2.8,
+      "popularity": 1,
+      "finish": 2
+    },
+    {
+      "num": 13,
+      "name": "シュガーハイ",
+      "jockey": "木幡巧也",
+      "odds": 131.3,
+      "popularity": 15,
+      "finish": 3
+    },
+    {
+      "num": 14,
+      "name": "チンプンカンプン",
+      "jockey": "柴田大知",
+      "odds": 123.1,
+      "popularity": 14,
+      "finish": 4
+    },
+    {
+      "num": 8,
+      "name": "シュヴァルノワール",
+      "jockey": "北村宏司",
+      "odds": 34.7,
+      "popularity": 9,
+      "finish": 5
+    },
+    {
+      "num": 6,
+      "name": "ロジアヴァンセ",
+      "jockey": "野中悠太",
+      "odds": 70.9,
+      "popularity": 11,
+      "finish": 6
+    },
+    {
+      "num": 7,
+      "name": "スムースオペレター",
+      "jockey": "藤懸貴志",
+      "odds": 111.6,
+      "popularity": 13,
+      "finish": 7
+    },
+    {
+      "num": 15,
+      "name": "リュウジンマル",
+      "jockey": "江田照男",
+      "odds": 91.0,
+      "popularity": 12,
+      "finish": 8
+    },
+    {
+      "num": 9,
+      "name": "ファンタイムギフト",
+      "jockey": "マーカン",
+      "odds": 5.6,
+      "popularity": 3,
+      "finish": 9
+    },
+    {
+      "num": 1,
+      "name": "ベールドインパクト",
+      "jockey": "横山和生",
+      "odds": 6.7,
+      "popularity": 4,
+      "finish": 10
+    },
+    {
+      "num": 3,
+      "name": "グレーターバーチュ",
+      "jockey": "戸崎圭太",
+      "odds": 10.2,
+      "popularity": 5,
+      "finish": 11
+    },
+    {
+      "num": 5,
+      "name": "バトラーズワーフ",
+      "jockey": "鮫島克駿",
+      "odds": 59.3,
+      "popularity": 10,
+      "finish": 12
+    },
+    {
+      "num": 16,
+      "name": "ガイ",
+      "jockey": "菅原明良",
+      "odds": 15.3,
+      "popularity": 6,
+      "finish": 13
+    },
+    {
+      "num": 10,
+      "name": "レイデアスール",
+      "jockey": "横山武史",
+      "odds": 17.8,
+      "popularity": 7,
+      "finish": 14
+    },
+    {
+      "num": 2,
+      "name": "ビリーヴアンドラン",
+      "jockey": "原田和真",
+      "odds": 370.7,
+      "popularity": 16,
+      "finish": 15
+    },
+    {
+      "num": 11,
+      "name": "アルデヤーノ",
+      "jockey": "石橋脩",
+      "odds": 25.8,
+      "popularity": 8,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "12": 460
+    },
+    "place": {
+      "12": 170,
+      "4": 130,
+      "13": 1770
+    },
+    "trifecta": {}
+  }
+}

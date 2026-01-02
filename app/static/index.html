@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="三連複">
+    <meta name="theme-color" content="#22c55e">
+    <meta name="description" content="競馬三連複最適化戦略アプリ - バックテストROI 164.4%">
+
+    <title>競馬三連複 最適化戦略</title>
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans+JP:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="title-glow">競馬三連複 最適化戦略</h1>
+        <p style="color: var(--text-dim);">対象クラス: GIII / 1勝 / 2勝 / 未勝利 | ROI: 164.4%</p>
+    </header>
+
+    <main class="container">
+        <!-- 本日のレース取得 -->
+        <div id="scrape-section" class="card">
+            <div class="section-title">📅 対象レース一覧</div>
+            <div id="date-range-info" class="date-range-info"></div>
+            <div class="action-bar">
+                <button class="btn btn-primary" onclick="scrapeTodayRaces()">レースを取得</button>
+                <span id="scrape-status"></span>
+            </div>
+            <div id="race-list" class="race-list">
+                <!-- JS injected -->
+            </div>
+        </div>
+
+        <!-- 選択したレースの詳細 -->
+        <div id="race-detail" class="card" style="display: none;">
+            <div class="race-header">
+                <h2 id="race-title">-</h2>
+                <div id="race-meta" class="race-meta"></div>
+            </div>
+
+            <div class="section-title">出走馬 & EV分析</div>
+            <div style="overflow-x: auto;">
+                <table id="horse-table">
+                    <thead>
+                        <tr>
+                            <th>馬番</th>
+                            <th>馬名</th>
+                            <th>オッズ</th>
+                            <th>推定勝率</th>
+                            <th>単勝EV</th>
+                            <th>複勝EV</th>
+                            <th>評価</th>
+                        </tr>
+                    </thead>
+                    <tbody id="horse-list">
+                        <!-- JS injected -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 三連複推奨 -->
+        <div id="trio-section" class="card" style="display: none;">
+            <div class="section-title">🎰 三連複 推奨買い目</div>
+            <div id="trio-summary" class="trio-summary">
+                <!-- JS injected -->
+            </div>
+            <div id="trio-list" class="trio-grid">
+                <!-- JS injected -->
+            </div>
+        </div>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem; color: var(--text-dim); font-size: 0.8rem;">
+        &copy; 2026 競馬三連複 最適化戦略アプリ. バックテスト ROI 164.4%.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+{
+  "race_id": "202408070212",
+  "race_info": {
+    "course": "京都",
+    "distance": 1400
+  },
+  "horses": [
+    {
+      "num": 6,
+      "name": "ウルトラソニック",
+      "horse_id": "2018102091",
+      "jockey": "柴田裕一",
+      "jockey_id": "01212",
+      "odds": 34.6,
+      "popularity": 10,
+      "finish": 1
+    },
+    {
+      "num": 5,
+      "name": "メイショウカイト",
+      "horse_id": "2018103368",
+      "jockey": "幸英明",
+      "jockey_id": "00732",
+      "odds": 31.2,
+      "popularity": 9,
+      "finish": 2
+    },
+    {
+      "num": 4,
+      "name": "テラステラ",
+      "horse_id": "2020104083",
+      "jockey": "北村友一",
+      "jockey_id": "01102",
+      "odds": 2.7,
+      "popularity": 1,
+      "finish": 3
+    },
+    {
+      "num": 9,
+      "name": "クイックバイオ",
+      "horse_id": "2021105374",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 4.7,
+      "popularity": 2,
+      "finish": 4
+    },
+    {
+      "num": 2,
+      "name": "ルヴァンノワール",
+      "horse_id": "2018106701",
+      "jockey": "小沢大仁",
+      "jockey_id": "01185",
+      "odds": 27.7,
+      "popularity": 7,
+      "finish": 5
+    },
+    {
+      "num": 3,
+      "name": "レッドバレンティア",
+      "horse_id": "2020106413",
+      "jockey": "西村淳也",
+      "jockey_id": "01171",
+      "odds": 30.8,
+      "popularity": 8,
+      "finish": 6
+    },
+    {
+      "num": 12,
+      "name": "モズアンタレス",
+      "horse_id": "2020106519",
+      "jockey": "Ｍ．デム",
+      "jockey_id": "05212",
+      "odds": 5.2,
+      "popularity": 3,
+      "finish": 7
+    },
+    {
+      "num": 8,
+      "name": "システムリブート",
+      "horse_id": "2020106727",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 9.8,
+      "popularity": 5,
+      "finish": 8
+    },
+    {
+      "num": 11,
+      "name": "ヴァンヴィーヴ",
+      "horse_id": "2021101399",
+      "jockey": "高杉吏麒",
+      "jockey_id": "01213",
+      "odds": 5.4,
+      "popularity": 4,
+      "finish": 9
+    },
+    {
+      "num": 1,
+      "name": "ベジェサ",
+      "horse_id": "2019100168",
+      "jockey": "戸崎圭太",
+      "jockey_id": "05386",
+      "odds": 16.2,
+      "popularity": 6,
+      "finish": 10
+    },
+    {
+      "num": 10,
+      "name": "メイショウハボタン",
+      "horse_id": "2018106455",
+      "jockey": "西塚洸二",
+      "jockey_id": "01200",
+      "odds": 92.5,
+      "popularity": 11,
+      "finish": 11
+    },
+    {
+      "num": 7,
+      "name": "フォルガイル",
+      "horse_id": "2021101164",
+      "jockey": "川端海翼",
+      "jockey_id": "01195",
+      "odds": 310.5,
+      "popularity": 12,
+      "finish": 12
+    }
+  ],
+  "payouts": {
+    "win": {
+      "6": 3460
+    },
+    "place": {
+      "6": 570,
+      "5": 490,
+      "4": 150
+    }
+  }
+}

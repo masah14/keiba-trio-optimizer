@@ -1,0 +1,145 @@
+{
+  "race_id": "202406050803",
+  "title": "",
+  "horses": [
+    {
+      "num": 16,
+      "name": "ミクストベリーズ",
+      "jockey": "マーカン",
+      "odds": 4.1,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 3,
+      "name": "シルフレイ",
+      "jockey": "横山和生",
+      "odds": 7.4,
+      "popularity": 4,
+      "finish": 2
+    },
+    {
+      "num": 6,
+      "name": "ベルリネッタ",
+      "jockey": "菅原明良",
+      "odds": 10.3,
+      "popularity": 6,
+      "finish": 3
+    },
+    {
+      "num": 15,
+      "name": "ウインイザナミ",
+      "jockey": "Ｃ．デム",
+      "odds": 9.7,
+      "popularity": 5,
+      "finish": 4
+    },
+    {
+      "num": 9,
+      "name": "ペタルブランシュ",
+      "jockey": "横山典弘",
+      "odds": 38.4,
+      "popularity": 8,
+      "finish": 5
+    },
+    {
+      "num": 2,
+      "name": "ナンナンプー",
+      "jockey": "戸崎圭太",
+      "odds": 52.4,
+      "popularity": 12,
+      "finish": 6
+    },
+    {
+      "num": 8,
+      "name": "リケアエスプレッソ",
+      "jockey": "横山武史",
+      "odds": 42.7,
+      "popularity": 9,
+      "finish": 7
+    },
+    {
+      "num": 10,
+      "name": "アンダーザライト",
+      "jockey": "丸山元気",
+      "odds": 22.0,
+      "popularity": 7,
+      "finish": 8
+    },
+    {
+      "num": 7,
+      "name": "ユキノエミリオ",
+      "jockey": "三浦皇成",
+      "odds": 5.6,
+      "popularity": 3,
+      "finish": 9
+    },
+    {
+      "num": 11,
+      "name": "シンガソング",
+      "jockey": "木幡巧也",
+      "odds": 49.2,
+      "popularity": 10,
+      "finish": 10
+    },
+    {
+      "num": 1,
+      "name": "ソレイケギンチャン",
+      "jockey": "小林美駒",
+      "odds": 52.3,
+      "popularity": 11,
+      "finish": 11
+    },
+    {
+      "num": 13,
+      "name": "カウニスミエリ",
+      "jockey": "津村明秀",
+      "odds": 194.6,
+      "popularity": 13,
+      "finish": 12
+    },
+    {
+      "num": 5,
+      "name": "ブルーフラット",
+      "jockey": "長浜鴻緒",
+      "odds": 247.6,
+      "popularity": 15,
+      "finish": 13
+    },
+    {
+      "num": 12,
+      "name": "ハッピーダンシング",
+      "jockey": "石神深道",
+      "odds": 246.4,
+      "popularity": 14,
+      "finish": 14
+    },
+    {
+      "num": 14,
+      "name": "ニシノヘリオトロプ",
+      "jockey": "佐藤翔馬",
+      "odds": 416.2,
+      "popularity": 16,
+      "finish": 15
+    },
+    {
+      "num": 4,
+      "name": "タケショウブラボー",
+      "jockey": "横山琉人",
+      "odds": 3.0,
+      "popularity": 1,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "16": 410
+    },
+    "place": {
+      "16": 170,
+      "3": 210,
+      "6": 340
+    },
+    "trifecta": {}
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "race_id": "202408070307",
+  "race_info": {
+    "course": "京都",
+    "distance": 2000
+  },
+  "horses": [
+    {
+      "num": 8,
+      "name": "ダノンシーマ",
+      "horse_id": "2022104645",
+      "jockey": "川田将雅",
+      "jockey_id": "01088",
+      "odds": 1.9,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 2,
+      "name": "メイショウヤシマ",
+      "horse_id": "2022100061",
+      "jockey": "太宰啓介",
+      "jockey_id": "01037",
+      "odds": 19.6,
+      "popularity": 6,
+      "finish": 2
+    },
+    {
+      "num": 1,
+      "name": "エンスエーニョ",
+      "horse_id": "2022104936",
+      "jockey": "Ｃ．デム",
+      "jockey_id": "05473",
+      "odds": 5.3,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 3,
+      "name": "オーシンエス",
+      "horse_id": "2022101608",
+      "jockey": "坂井瑠星",
+      "jockey_id": "01163",
+      "odds": 51.2,
+      "popularity": 7,
+      "finish": 4
+    },
+    {
+      "num": 10,
+      "name": "カミノレアル",
+      "horse_id": "2022104550",
+      "jockey": "菱田裕二",
+      "jockey_id": "01144",
+      "odds": 8.2,
+      "popularity": 4,
+      "finish": 5
+    },
+    {
+      "num": 5,
+      "name": "コジオスコ",
+      "horse_id": "2022105091",
+      "jockey": "ルメール",
+      "jockey_id": "05339",
+      "odds": 3.6,
+      "popularity": 2,
+      "finish": 6
+    },
+    {
+      "num": 9,
+      "name": "ミンストレルソング",
+      "horse_id": "2022105404",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 15.0,
+      "popularity": 5,
+      "finish": 7
+    },
+    {
+      "num": 6,
+      "name": "ダイヤノエース",
+      "horse_id": "2022100124",
+      "jockey": "幸英明",
+      "jockey_id": "00732",
+      "odds": 59.4,
+      "popularity": 8,
+      "finish": 8
+    },
+    {
+      "num": 4,
+      "name": "マイネルルッチョラ",
+      "horse_id": "2022106812",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 291.2,
+      "popularity": 9,
+      "finish": 9
+    },
+    {
+      "num": 7,
+      "name": "クリノレガシー",
+      "horse_id": "2022102113",
+      "jockey": "荻野琢真",
+      "jockey_id": "01112",
+      "odds": 312.9,
+      "popularity": 10,
+      "finish": 10
+    }
+  ],
+  "payouts": {
+    "win": {
+      "8": 190
+    },
+    "place": {
+      "8": 110,
+      "2": 320,
+      "1": 190
+    }
+  }
+}

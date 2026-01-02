@@ -1,0 +1,88 @@
+{
+  "race_id": "202408070206",
+  "race_info": {
+    "course": "京都",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 6,
+      "name": "ソニックステップ",
+      "horse_id": "2022104854",
+      "jockey": "西村淳也",
+      "jockey_id": "01171",
+      "odds": 1.8,
+      "popularity": 1,
+      "finish": 1
+    },
+    {
+      "num": 7,
+      "name": "シュドゥン",
+      "horse_id": "2022105716",
+      "jockey": "団野大成",
+      "jockey_id": "01180",
+      "odds": 7.2,
+      "popularity": 4,
+      "finish": 2
+    },
+    {
+      "num": 1,
+      "name": "タイセイバンクール",
+      "horse_id": "2022104404",
+      "jockey": "戸崎圭太",
+      "jockey_id": "05386",
+      "odds": 3.0,
+      "popularity": 2,
+      "finish": 3
+    },
+    {
+      "num": 2,
+      "name": "クラヴィウス",
+      "horse_id": "2022103628",
+      "jockey": "幸英明",
+      "jockey_id": "00732",
+      "odds": 6.0,
+      "popularity": 3,
+      "finish": 4
+    },
+    {
+      "num": 5,
+      "name": "ジンガブリッツ",
+      "horse_id": "2022103037",
+      "jockey": "吉田隼人",
+      "jockey_id": "01095",
+      "odds": 43.5,
+      "popularity": 6,
+      "finish": 5
+    },
+    {
+      "num": 4,
+      "name": "ニホンピロカミーノ",
+      "horse_id": "2022103862",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 28.4,
+      "popularity": 5,
+      "finish": 6
+    },
+    {
+      "num": 3,
+      "name": "エルピーゾ",
+      "horse_id": "2022104021",
+      "jockey": "水口優也",
+      "jockey_id": "01133",
+      "odds": 50.7,
+      "popularity": 7,
+      "finish": 7
+    }
+  ],
+  "payouts": {
+    "win": {
+      "6": 180
+    },
+    "place": {
+      "6": 120,
+      "7": 240
+    }
+  }
+}

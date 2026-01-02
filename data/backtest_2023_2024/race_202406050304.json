@@ -1,0 +1,139 @@
+{
+  "race_id": "202406050304",
+  "race_info": {
+    "course": "中山",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 3,
+      "name": "オタマジャクシ",
+      "horse_id": "2022106494",
+      "jockey": "木幡育也",
+      "jockey_id": "01167",
+      "odds": 3.5,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 7,
+      "name": "アイオリア",
+      "horse_id": "2022104310",
+      "jockey": "横山和生",
+      "jockey_id": "01140",
+      "odds": 4.3,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 8,
+      "name": "ロンパイア",
+      "horse_id": "2022103708",
+      "jockey": "戸崎圭太",
+      "jockey_id": "05386",
+      "odds": 12.7,
+      "popularity": 5,
+      "finish": 3
+    },
+    {
+      "num": 2,
+      "name": "ジーティートゥルー",
+      "horse_id": "2022105487",
+      "jockey": "大野拓弥",
+      "jockey_id": "01096",
+      "odds": 21.3,
+      "popularity": 7,
+      "finish": 4
+    },
+    {
+      "num": 4,
+      "name": "グラスビジョン",
+      "horse_id": "2022102229",
+      "jockey": "木幡巧也",
+      "jockey_id": "01162",
+      "odds": 96.8,
+      "popularity": 9,
+      "finish": 5
+    },
+    {
+      "num": 6,
+      "name": "ランフォザプライド",
+      "horse_id": "2022105261",
+      "jockey": "菅原明良",
+      "jockey_id": "01179",
+      "odds": 5.3,
+      "popularity": 4,
+      "finish": 6
+    },
+    {
+      "num": 9,
+      "name": "ミスティマウンテン",
+      "horse_id": "2022101684",
+      "jockey": "内田博幸",
+      "jockey_id": "00422",
+      "odds": 34.9,
+      "popularity": 8,
+      "finish": 7
+    },
+    {
+      "num": 12,
+      "name": "スティーヴバローズ",
+      "horse_id": "2022104201",
+      "jockey": "石橋脩",
+      "jockey_id": "01077",
+      "odds": 3.1,
+      "popularity": 1,
+      "finish": 8
+    },
+    {
+      "num": 10,
+      "name": "ショウナンタハティ",
+      "horse_id": "2022103911",
+      "jockey": "マーカン",
+      "jockey_id": "05626",
+      "odds": 20.5,
+      "popularity": 6,
+      "finish": 9
+    },
+    {
+      "num": 11,
+      "name": "ヒソカ",
+      "horse_id": "2022104334",
+      "jockey": "佐藤翔馬",
+      "jockey_id": "01207",
+      "odds": 312.8,
+      "popularity": 12,
+      "finish": 10
+    },
+    {
+      "num": 1,
+      "name": "ガトリンテソーロ",
+      "horse_id": "2022102271",
+      "jockey": "原優介",
+      "jockey_id": "01184",
+      "odds": 100.8,
+      "popularity": 10,
+      "finish": 11
+    },
+    {
+      "num": 5,
+      "name": "キャバリエクエスト",
+      "horse_id": "2022107159",
+      "jockey": "菊沢一樹",
+      "jockey_id": "01161",
+      "odds": 136.2,
+      "popularity": 11,
+      "finish": 12
+    }
+  ],
+  "payouts": {
+    "win": {
+      "3": 350
+    },
+    "place": {
+      "3": 140,
+      "7": 190,
+      "8": 300
+    }
+  }
+}

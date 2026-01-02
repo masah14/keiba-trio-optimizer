@@ -1,0 +1,179 @@
+{
+  "race_id": "202408070708",
+  "race_info": {
+    "course": "京都",
+    "distance": 1400
+  },
+  "horses": [
+    {
+      "num": 5,
+      "name": "ビダーヤ",
+      "horse_id": "2021105537",
+      "jockey": "坂井瑠星",
+      "jockey_id": "01163",
+      "odds": 3.8,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 14,
+      "name": "メティエダール",
+      "horse_id": "2021110072",
+      "jockey": "鮫島克駿",
+      "jockey_id": "01157",
+      "odds": 7.3,
+      "popularity": 3,
+      "finish": 2
+    },
+    {
+      "num": 1,
+      "name": "ハイクライテリア",
+      "horse_id": "2020102910",
+      "jockey": "国分優作",
+      "jockey_id": "01125",
+      "odds": 385.3,
+      "popularity": 14,
+      "finish": 3
+    },
+    {
+      "num": 13,
+      "name": "ピストンボーイ",
+      "horse_id": "2021105447",
+      "jockey": "松山弘平",
+      "jockey_id": "01126",
+      "odds": 21.0,
+      "popularity": 8,
+      "finish": 4
+    },
+    {
+      "num": 3,
+      "name": "テーオードラッカー",
+      "horse_id": "2021102244",
+      "jockey": "川田将雅",
+      "jockey_id": "01088",
+      "odds": 2.7,
+      "popularity": 1,
+      "finish": 5
+    },
+    {
+      "num": 4,
+      "name": "アメリカンチーフ",
+      "horse_id": "2021110123",
+      "jockey": "吉村誠之",
+      "jockey_id": "01216",
+      "odds": 30.2,
+      "popularity": 10,
+      "finish": 6
+    },
+    {
+      "num": 7,
+      "name": "イナウィンク",
+      "horse_id": "2020100800",
+      "jockey": "団野大成",
+      "jockey_id": "01180",
+      "odds": 248.8,
+      "popularity": 13,
+      "finish": 7
+    },
+    {
+      "num": 2,
+      "name": "メイショウマジック",
+      "horse_id": "2020106995",
+      "jockey": "川端海翼",
+      "jockey_id": "01195",
+      "odds": 22.6,
+      "popularity": 9,
+      "finish": 8
+    },
+    {
+      "num": 16,
+      "name": "サリュエ",
+      "horse_id": "2021101650",
+      "jockey": "岩田望来",
+      "jockey_id": "01174",
+      "odds": 10.8,
+      "popularity": 5,
+      "finish": 9
+    },
+    {
+      "num": 15,
+      "name": "バレル",
+      "horse_id": "2019102672",
+      "jockey": "斎藤新",
+      "jockey_id": "01178",
+      "odds": 69.2,
+      "popularity": 11,
+      "finish": 10
+    },
+    {
+      "num": 12,
+      "name": "ランスオブセヘル",
+      "horse_id": "2021102754",
+      "jockey": "ルメール",
+      "jockey_id": "05339",
+      "odds": 8.1,
+      "popularity": 4,
+      "finish": 11
+    },
+    {
+      "num": 6,
+      "name": "パトジュニア",
+      "horse_id": "2021110135",
+      "jockey": "小崎綾也",
+      "jockey_id": "01152",
+      "odds": 421.6,
+      "popularity": 15,
+      "finish": 12
+    },
+    {
+      "num": 9,
+      "name": "ベルダイナフェロー",
+      "horse_id": "2021102982",
+      "jockey": "酒井学",
+      "jockey_id": "01034",
+      "odds": 21.0,
+      "popularity": 7,
+      "finish": 13
+    },
+    {
+      "num": 8,
+      "name": "ツッチーフェイス",
+      "horse_id": "2019100249",
+      "jockey": "小沢大仁",
+      "jockey_id": "01185",
+      "odds": 213.0,
+      "popularity": 12,
+      "finish": 14
+    },
+    {
+      "num": 10,
+      "name": "ウィービースティ",
+      "horse_id": "2020104768",
+      "jockey": "亀田温心",
+      "jockey_id": "01176",
+      "odds": 621.2,
+      "popularity": 16,
+      "finish": 15
+    },
+    {
+      "num": 11,
+      "name": "ローガンパス",
+      "horse_id": "2021105677",
+      "jockey": "Ｃ．デム",
+      "jockey_id": "05473",
+      "odds": 13.0,
+      "popularity": 6,
+      "finish": 16
+    }
+  ],
+  "payouts": {
+    "win": {
+      "5": 380
+    },
+    "place": {
+      "5": 210,
+      "14": 350,
+      "1": 6240
+    }
+  }
+}

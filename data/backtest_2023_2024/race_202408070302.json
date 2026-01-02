@@ -1,0 +1,88 @@
+{
+  "race_id": "202408070302",
+  "race_info": {
+    "course": "京都",
+    "distance": 1800
+  },
+  "horses": [
+    {
+      "num": 7,
+      "name": "カナルビーグル",
+      "horse_id": "2022104877",
+      "jockey": "Ｃ．デム",
+      "jockey_id": "05473",
+      "odds": 3.4,
+      "popularity": 2,
+      "finish": 1
+    },
+    {
+      "num": 1,
+      "name": "ポッドフォルク",
+      "horse_id": "2022100736",
+      "jockey": "中井裕二",
+      "jockey_id": "01141",
+      "odds": 1.7,
+      "popularity": 1,
+      "finish": 2
+    },
+    {
+      "num": 4,
+      "name": "スーパージョック",
+      "horse_id": "2022103733",
+      "jockey": "坂井瑠星",
+      "jockey_id": "01163",
+      "odds": 3.9,
+      "popularity": 3,
+      "finish": 3
+    },
+    {
+      "num": 3,
+      "name": "キンセンオー",
+      "horse_id": "2022101769",
+      "jockey": "幸英明",
+      "jockey_id": "00732",
+      "odds": 53.8,
+      "popularity": 5,
+      "finish": 4
+    },
+    {
+      "num": 5,
+      "name": "キタノロジック",
+      "horse_id": "2022101921",
+      "jockey": "菱田裕二",
+      "jockey_id": "01144",
+      "odds": 68.0,
+      "popularity": 6,
+      "finish": 5
+    },
+    {
+      "num": 2,
+      "name": "セイフウサツキ",
+      "horse_id": "2022101461",
+      "jockey": "武豊",
+      "jockey_id": "00666",
+      "odds": 10.3,
+      "popularity": 4,
+      "finish": 6
+    },
+    {
+      "num": 6,
+      "name": "ベンガルバローズ",
+      "horse_id": "2022103279",
+      "jockey": "田口貫太",
+      "jockey_id": "01208",
+      "odds": 142.6,
+      "popularity": 7,
+      "finish": 7
+    }
+  ],
+  "payouts": {
+    "win": {
+      "7": 340
+    },
+    "place": {
+      "7": 160,
+      "1": 110
+    }
+  }
+}
