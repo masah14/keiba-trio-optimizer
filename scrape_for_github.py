@@ -148,27 +148,45 @@ def scrape_races():
                 
                 # 馬データ
                 horses = []
-                rows = driver.find_elements(By.CSS_SELECTOR, '.HorseList tr.HorseList')
+                # セレクターを修正: テーブル直下のtr.HorseListを探す
+                rows = driver.find_elements(By.CSS_SELECTOR, 'table.Shutuba_Table tr.HorseList')
+                if not rows:
+                    # フォールバック
+                    rows = driver.find_elements(By.CSS_SELECTOR, 'tr.HorseList')
                 
                 for row in rows:
                     try:
                         horse = {}
                         
-                        num_elem = row.find_element(By.CSS_SELECTOR, 'td.Umaban')
-                        horse['num'] = int(num_elem.text.strip())
-                        
-                        name_elem = row.find_element(By.CSS_SELECTOR, '.HorseName a')
-                        horse['name'] = name_elem.text.strip()
-                        
+                        # 馬番を取得 (td[class*="Umaban"])
                         try:
-                            odds_elem = row.find_element(By.CSS_SELECTOR, '.Popular span')
-                            horse['popularity'] = int(odds_elem.text.strip())
+                            num_elem = row.find_element(By.CSS_SELECTOR, 'td[class*="Umaban"]')
+                            horse['num'] = int(num_elem.text.strip())
+                        except:
+                            continue  # 馬番がなければスキップ
+                        
+                        # 馬名
+                        try:
+                            name_elem = row.find_element(By.CSS_SELECTOR, '.HorseName')
+                            horse['name'] = name_elem.text.strip()
+                        except:
+                            horse['name'] = f'Horse{horse["num"]}'
+                        
+                        # 人気
+                        try:
+                            pop_elem = row.find_element(By.CSS_SELECTOR, 'td.Popular span')
+                            horse['popularity'] = int(pop_elem.text.strip())
                         except: pass
                         
+                        # オッズ
                         try:
-                            odds_elem = row.find_element(By.CSS_SELECTOR, '.Odds span')
+                            odds_elem = row.find_element(By.CSS_SELECTOR, '.Odds_Ninki')
                             horse['odds'] = float(odds_elem.text.strip())
-                        except: pass
+                        except:
+                            try:
+                                odds_elem = row.find_element(By.CSS_SELECTOR, 'td.Txt_R span')
+                                horse['odds'] = float(odds_elem.text.strip())
+                            except: pass
                         
                         horses.append(horse)
                     except:
