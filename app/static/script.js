@@ -1,5 +1,91 @@
 // 競馬三連複 最適化戦略アプリ
 
+// グローバル変数
+let allRaces = { target: [], other: [] };
+let currentFilter = 'all';
+
+// フィルターを設定
+function setFilter(filter) {
+    currentFilter = filter;
+
+    // ボタンのアクティブ状態を更新
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.filter === filter);
+    });
+
+    // レース一覧を再描画
+    renderFilteredRaces();
+}
+
+// フィルタリングされたレースを描画
+function renderFilteredRaces() {
+    const container = document.getElementById('race-list');
+    container.innerHTML = '';
+
+    // フィルター適用
+    let filteredTarget = allRaces.target.filter(race => matchesFilter(race));
+    let filteredOther = allRaces.other.filter(race => matchesFilter(race));
+
+    // 対象レースを表示
+    if (filteredTarget.length > 0) {
+        const targetHeader = document.createElement('div');
+        targetHeader.className = 'section-header target';
+        targetHeader.innerHTML = `<h2>🎯 対象レース（${filteredTarget.length}件）</h2><span>GIII / 1勝 / 2勝 / 未勝利</span>`;
+        container.appendChild(targetHeader);
+        renderRacesByDate(container, filteredTarget, true);
+    }
+
+    // 対象外レースを表示
+    if (filteredOther.length > 0) {
+        const otherHeader = document.createElement('div');
+        otherHeader.className = 'section-header other';
+        otherHeader.innerHTML = `<h2>📋 その他のレース（${filteredOther.length}件）</h2><span>GI / GII / OP など</span>`;
+        container.appendChild(otherHeader);
+        renderRacesByDate(container, filteredOther, false);
+    }
+
+    if (filteredTarget.length === 0 && filteredOther.length === 0) {
+        container.innerHTML = `
+            <div class="no-races">
+                <p>該当するレースがありません</p>
+            </div>
+        `;
+    }
+}
+
+// フィルター条件にマッチするか
+function matchesFilter(race) {
+    if (currentFilter === 'all') return true;
+
+    const distance = race.distance || 0;
+    const raceClass = race.class || '';
+
+    // 推奨条件: マイル/長距離 + GIII/未勝利/2勝クラス
+    if (currentFilter === 'recommended') {
+        const isMileOrLong = (distance >= 1401 && distance <= 1800) || distance >= 2500;
+        const isTargetClass = ['GIII', '未勝利', '2勝クラス'].includes(raceClass);
+        return isMileOrLong && isTargetClass;
+    }
+
+    if (currentFilter === 'mile') {
+        return distance >= 1401 && distance <= 1800;
+    }
+
+    if (currentFilter === 'long') {
+        return distance >= 2500;
+    }
+
+    if (currentFilter === 'maiden') {
+        return raceClass === '未勝利';
+    }
+
+    if (currentFilter === 'giii') {
+        return raceClass === 'GIII';
+    }
+
+    return true;
+}
+
 // 今日のレースを取得
 async function scrapeTodayRaces() {
     const statusEl = document.getElementById('scrape-status');
@@ -37,14 +123,12 @@ async function loadTodayRaces() {
             dateRangeEl.innerHTML = `対象期間: ${formatDate(data.date_from)} 〜 ${formatDate(data.date_to)}（${data.date_range.length}日間）/ 全${data.total_races || 0}レース`;
         }
 
-        const container = document.getElementById('race-list');
+        // グローバル変数に保存
+        allRaces.target = data.target_races || data.races || [];
+        allRaces.other = data.other_races || [];
 
-        // 対象レースと対象外レースを取得
-        const targetRaces = data.target_races || data.races || [];
-        const otherRaces = data.other_races || [];
-
-        if (targetRaces.length === 0 && otherRaces.length === 0) {
-            container.innerHTML = `
+        if (allRaces.target.length === 0 && allRaces.other.length === 0) {
+            document.getElementById('race-list').innerHTML = `
                 <div class="no-races">
                     <p>レースがありません</p>
                     <p class="hint">「レースを取得」ボタンをクリックしてください</p>
@@ -54,27 +138,8 @@ async function loadTodayRaces() {
             return;
         }
 
-        container.innerHTML = '';
-
-        // 対象レースを表示
-        if (targetRaces.length > 0) {
-            const targetHeader = document.createElement('div');
-            targetHeader.className = 'section-header target';
-            targetHeader.innerHTML = `<h2>🎯 対象レース（${targetRaces.length}件）</h2><span>GIII / 1勝 / 2勝 / 未勝利</span>`;
-            container.appendChild(targetHeader);
-
-            renderRacesByDate(container, targetRaces, true);
-        }
-
-        // 対象外レースを表示
-        if (otherRaces.length > 0) {
-            const otherHeader = document.createElement('div');
-            otherHeader.className = 'section-header other';
-            otherHeader.innerHTML = `<h2>📋 その他のレース（${otherRaces.length}件）</h2><span>GI / GII / OP など</span>`;
-            container.appendChild(otherHeader);
-
-            renderRacesByDate(container, otherRaces, false);
-        }
+        // フィルター適用して描画
+        renderFilteredRaces();
 
     } catch (err) {
         console.error('Error loading races:', err);

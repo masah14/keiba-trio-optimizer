@@ -40,6 +40,21 @@
                 <button class="btn btn-primary" onclick="scrapeTodayRaces()">レースを取得</button>
                 <span id="scrape-status"></span>
             </div>
+
+            <!-- フィルター -->
+            <div class="filter-section">
+                <span class="filter-label">🎯 絞り込み:</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">すべて</button>
+                    <button class="filter-btn" data-filter="recommended"
+                        onclick="setFilter('recommended')">推奨条件</button>
+                    <button class="filter-btn" data-filter="mile" onclick="setFilter('mile')">マイル</button>
+                    <button class="filter-btn" data-filter="long" onclick="setFilter('long')">長距離</button>
+                    <button class="filter-btn" data-filter="maiden" onclick="setFilter('maiden')">未勝利</button>
+                    <button class="filter-btn" data-filter="giii" onclick="setFilter('giii')">GIII</button>
+                </div>
+            </div>
+
             <div id="race-list" class="race-list">
                 <!-- JS injected -->
             </div>
