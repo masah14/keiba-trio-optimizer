@@ -273,7 +273,7 @@ function renderHorseTable(horses) {
             <td class="horse-name">${h.name}</td>
             <td class="popularity">${popularity}番人気</td>
             <td>${h.odds?.toFixed(1) || '-'}</td>
-            <td>${((h.estimated_prob || 0) * 100).toFixed(1)}%</td>
+            <td>${((h.true_win_prob || 0) * 100).toFixed(1)}%</td>
             <td class="${winEv >= 1.0 ? 'ev-high' : ''}">${winEv.toFixed(2)}</td>
             <td class="${placeEv >= 1.0 ? 'ev-high' : ''}">${placeEv.toFixed(2)}</td>
             <td class="rating">${rating}</td>
