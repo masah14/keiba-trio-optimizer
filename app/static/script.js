@@ -192,6 +192,44 @@ function renderHorseTable(horses) {
     const tbody = document.getElementById('horse-list');
     tbody.innerHTML = '';
 
+    // JRA枠色 (8枠制)
+    const bracketColors = {
+        1: { bg: '#ffffff', text: '#000000', name: '白' },
+        2: { bg: '#000000', text: '#ffffff', name: '黒' },
+        3: { bg: '#ff0000', text: '#ffffff', name: '赤' },
+        4: { bg: '#0066ff', text: '#ffffff', name: '青' },
+        5: { bg: '#ffff00', text: '#000000', name: '黄' },
+        6: { bg: '#00aa00', text: '#ffffff', name: '緑' },
+        7: { bg: '#ff8800', text: '#ffffff', name: '橙' },
+        8: { bg: '#ff66cc', text: '#000000', name: '桃' }
+    };
+
+    // 馬番から枠番を計算 (頭数によって異なる)
+    const totalHorses = horses.length;
+    function getBracket(num) {
+        if (totalHorses <= 8) return num;
+        if (totalHorses <= 16) {
+            // 8枠で均等に割り当て
+            if (num <= 2) return 1;
+            if (num <= 4) return 2;
+            if (num <= 6) return 3;
+            if (num <= 8) return 4;
+            if (num <= 10) return 5;
+            if (num <= 12) return 6;
+            if (num <= 14) return 7;
+            return 8;
+        }
+        // 18頭立て標準
+        if (num === 1) return 1;
+        if (num === 2) return 2;
+        if (num <= 4) return 3;
+        if (num <= 6) return 4;
+        if (num <= 8) return 5;
+        if (num <= 10) return 6;
+        if (num <= 13) return 7;
+        return 8;
+    }
+
     horses.forEach(h => {
         const winEv = h.win_ev || 0;
         const placeEv = h.place_ev || 0;
@@ -212,11 +250,20 @@ function renderHorseTable(horses) {
             ratingClass = 'normal';
         }
 
+        const bracket = getBracket(h.num);
+        const bracketColor = bracketColors[bracket] || bracketColors[1];
+        const popularity = h.popularity || '-';
+
         const tr = document.createElement('tr');
         tr.className = ratingClass;
         tr.innerHTML = `
-            <td><span class="badge">${h.num}</span></td>
+            <td>
+                <span class="badge-bracket" style="background: ${bracketColor.bg}; color: ${bracketColor.text}; border: 1px solid #333;">
+                    ${h.num}
+                </span>
+            </td>
             <td class="horse-name">${h.name}</td>
+            <td class="popularity">${popularity}番人気</td>
             <td>${h.odds?.toFixed(1) || '-'}</td>
             <td>${((h.estimated_prob || 0) * 100).toFixed(1)}%</td>
             <td class="${winEv >= 1.0 ? 'ev-high' : ''}">${winEv.toFixed(2)}</td>

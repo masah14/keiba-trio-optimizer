@@ -215,6 +215,22 @@ header {
     color: var(--bg-dark);
 }
 
+.badge-bracket {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.popularity {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+}
+
 .badge-class {
     background: var(--purple);
     color: white;
