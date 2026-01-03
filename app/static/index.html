@@ -45,42 +45,47 @@
             </div>
         </div>
 
-        <!-- 選択したレースの詳細 -->
-        <div id="race-detail" class="card" style="display: none;">
-            <div class="race-header">
-                <h2 id="race-title">-</h2>
-                <div id="race-meta" class="race-meta"></div>
-            </div>
+        <!-- モーダル: 選択したレースの詳細 -->
+        <div id="race-modal" class="modal" style="display: none;">
+            <div class="modal-backdrop" onclick="closeRaceDetail()"></div>
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeRaceDetail()">×</button>
 
-            <div class="section-title">出走馬 & EV分析</div>
-            <div style="overflow-x: auto;">
-                <table id="horse-table">
-                    <thead>
-                        <tr>
-                            <th>馬番</th>
-                            <th>馬名</th>
-                            <th>オッズ</th>
-                            <th>推定勝率</th>
-                            <th>単勝EV</th>
-                            <th>複勝EV</th>
-                            <th>評価</th>
-                        </tr>
-                    </thead>
-                    <tbody id="horse-list">
+                <div class="race-header">
+                    <h2 id="race-title">-</h2>
+                    <div id="race-meta" class="race-meta"></div>
+                </div>
+
+                <!-- 三連複推奨（対象レースなら上部に表示） -->
+                <div id="trio-section" class="trio-section" style="display: none;">
+                    <div class="section-title">🎰 三連複 推奨買い目</div>
+                    <div id="trio-summary" class="trio-summary">
                         <!-- JS injected -->
-                    </tbody>
-                </table>
-            </div>
-        </div>
+                    </div>
+                    <div id="trio-list" class="trio-grid">
+                        <!-- JS injected -->
+                    </div>
+                </div>
 
-        <!-- 三連複推奨 -->
-        <div id="trio-section" class="card" style="display: none;">
-            <div class="section-title">🎰 三連複 推奨買い目</div>
-            <div id="trio-summary" class="trio-summary">
-                <!-- JS injected -->
-            </div>
-            <div id="trio-list" class="trio-grid">
-                <!-- JS injected -->
+                <div class="section-title">📊 出走馬 & EV分析</div>
+                <div style="overflow-x: auto; max-height: 50vh;">
+                    <table id="horse-table">
+                        <thead>
+                            <tr>
+                                <th>馬番</th>
+                                <th>馬名</th>
+                                <th>オッズ</th>
+                                <th>推定勝率</th>
+                                <th>単勝EV</th>
+                                <th>複勝EV</th>
+                                <th>評価</th>
+                            </tr>
+                        </thead>
+                        <tbody id="horse-list">
+                            <!-- JS injected -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </main>

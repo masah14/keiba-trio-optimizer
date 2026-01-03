@@ -147,7 +147,7 @@ function getDistanceLabel(distance) {
     return '<span class="badge-dist long">長距離×2</span>';
 }
 
-// レース詳細を読み込み
+// レース詳細を読み込み（モーダル表示）
 async function loadRaceDetail(raceId) {
     try {
         const res = await fetch(`/api/race/${raceId}`);
@@ -161,10 +161,7 @@ async function loadRaceDetail(raceId) {
             ${data.is_target ? '<span class="badge-target">対象レース</span>' : '<span class="badge-nottarget">対象外</span>'}
         `;
 
-        // 馬テーブル
-        renderHorseTable(data.horses);
-
-        // 三連複
+        // 三連複（対象レースなら表示）
         if (data.is_target && data.trio_bets.length > 0) {
             renderTrioBets(data.trio_bets, data.summary);
             document.getElementById('trio-section').style.display = 'block';
@@ -172,11 +169,22 @@ async function loadRaceDetail(raceId) {
             document.getElementById('trio-section').style.display = 'none';
         }
 
-        document.getElementById('race-detail').style.display = 'block';
+        // 馬テーブル
+        renderHorseTable(data.horses);
+
+        // モーダル表示
+        document.getElementById('race-modal').style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // スクロール無効化
 
     } catch (err) {
         console.error('Error loading race detail:', err);
     }
+}
+
+// モーダルを閉じる
+function closeRaceDetail() {
+    document.getElementById('race-modal').style.display = 'none';
+    document.body.style.overflow = ''; // スクロール有効化
 }
 
 // 馬テーブル描画
