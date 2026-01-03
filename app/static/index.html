@@ -43,15 +43,49 @@
 
             <!-- フィルター -->
             <div class="filter-section">
-                <span class="filter-label">🎯 絞り込み:</span>
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">すべて</button>
-                    <button class="filter-btn" data-filter="recommended"
-                        onclick="setFilter('recommended')">推奨条件</button>
-                    <button class="filter-btn" data-filter="mile" onclick="setFilter('mile')">マイル</button>
-                    <button class="filter-btn" data-filter="long" onclick="setFilter('long')">長距離</button>
-                    <button class="filter-btn" data-filter="maiden" onclick="setFilter('maiden')">未勝利</button>
-                    <button class="filter-btn" data-filter="giii" onclick="setFilter('giii')">GIII</button>
+                <div class="filter-row">
+                    <span class="filter-label">📏 距離:</span>
+                    <div class="filter-buttons">
+                        <button class="filter-btn toggle" data-category="distance" data-value="sprint"
+                            onclick="toggleFilter('distance', 'sprint')">短距離</button>
+                        <button class="filter-btn toggle" data-category="distance" data-value="mile"
+                            onclick="toggleFilter('distance', 'mile')">マイル</button>
+                        <button class="filter-btn toggle" data-category="distance" data-value="middle"
+                            onclick="toggleFilter('distance', 'middle')">中距離</button>
+                        <button class="filter-btn toggle" data-category="distance" data-value="long"
+                            onclick="toggleFilter('distance', 'long')">長距離</button>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <span class="filter-label">🏆 クラス:</span>
+                    <div class="filter-buttons">
+                        <button class="filter-btn toggle" data-category="class" data-value="maiden"
+                            onclick="toggleFilter('class', 'maiden')">未勝利</button>
+                        <button class="filter-btn toggle" data-category="class" data-value="1win"
+                            onclick="toggleFilter('class', '1win')">1勝</button>
+                        <button class="filter-btn toggle" data-category="class" data-value="2win"
+                            onclick="toggleFilter('class', '2win')">2勝</button>
+                        <button class="filter-btn toggle" data-category="class" data-value="3win"
+                            onclick="toggleFilter('class', '3win')">3勝</button>
+                        <button class="filter-btn toggle" data-category="class" data-value="open"
+                            onclick="toggleFilter('class', 'open')">OP</button>
+                        <button class="filter-btn toggle" data-category="class" data-value="giii"
+                            onclick="toggleFilter('class', 'giii')">GIII</button>
+                        <button class="filter-btn toggle" data-category="class" data-value="gii"
+                            onclick="toggleFilter('class', 'gii')">GII</button>
+                        <button class="filter-btn toggle" data-category="class" data-value="gi"
+                            onclick="toggleFilter('class', 'gi')">GI</button>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <span class="filter-label">📍 場所:</span>
+                    <div class="filter-buttons" id="venue-filters">
+                        <!-- JS injected based on available venues -->
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <button class="btn btn-small" onclick="clearFilters()">🔄 クリア</button>
+                    <span id="filter-count" class="filter-count"></span>
                 </div>
             </div>
 

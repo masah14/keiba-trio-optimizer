@@ -164,16 +164,23 @@ header {
     font-weight: 600;
 }
 
-.filter-btn[data-filter="recommended"] {
-    background: linear-gradient(135deg, var(--success), #16a34a);
-    border-color: var(--success);
-    color: white;
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.filter-btn[data-filter="recommended"]:not(.active) {
-    background: rgba(34, 197, 94, 0.2);
-    border-color: var(--success);
-    color: var(--success);
+.filter-count {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    margin-left: 1rem;
+}
+
+.btn-small {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
 }
 
 /* Race List */

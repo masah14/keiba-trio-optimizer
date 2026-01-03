@@ -2,18 +2,50 @@
 
 // グローバル変数
 let allRaces = { target: [], other: [] };
-let currentFilter = 'all';
+let activeFilters = {
+    distance: [],  // 'sprint', 'mile', 'middle', 'long'
+    class: [],     // 'maiden', '1win', '2win', '3win', 'open', 'giii', 'gii', 'gi'
+    venue: []      // 'Tokyo', 'Nakayama', etc.
+};
 
-// フィルターを設定
-function setFilter(filter) {
-    currentFilter = filter;
+// フィルターをトグル
+function toggleFilter(category, value) {
+    const index = activeFilters[category].indexOf(value);
+    if (index === -1) {
+        activeFilters[category].push(value);
+    } else {
+        activeFilters[category].splice(index, 1);
+    }
 
-    // ボタンのアクティブ状態を更新
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.filter === filter);
-    });
+    // ボタンの状態を更新
+    updateFilterButtons();
 
     // レース一覧を再描画
+    renderFilteredRaces();
+}
+
+// フィルターボタンの状態を更新
+function updateFilterButtons() {
+    document.querySelectorAll('.filter-btn.toggle').forEach(btn => {
+        const category = btn.dataset.category;
+        const value = btn.dataset.value;
+        if (category && value) {
+            btn.classList.toggle('active', activeFilters[category].includes(value));
+        }
+    });
+
+    // フィルター件数を表示
+    const total = activeFilters.distance.length + activeFilters.class.length + activeFilters.venue.length;
+    const countEl = document.getElementById('filter-count');
+    if (countEl) {
+        countEl.textContent = total > 0 ? `${total}件の条件で絞り込み中` : '';
+    }
+}
+
+// フィルターをクリア
+function clearFilters() {
+    activeFilters = { distance: [], class: [], venue: [] };
+    updateFilterButtons();
     renderFilteredRaces();
 }
 
@@ -55,35 +87,63 @@ function renderFilteredRaces() {
 
 // フィルター条件にマッチするか
 function matchesFilter(race) {
-    if (currentFilter === 'all') return true;
-
     const distance = race.distance || 0;
     const raceClass = race.class || '';
+    const venue = race.track_name || '';
 
-    // 推奨条件: マイル/長距離 + GIII/未勝利/2勝クラス
-    if (currentFilter === 'recommended') {
-        const isMileOrLong = (distance >= 1401 && distance <= 1800) || distance >= 2500;
-        const isTargetClass = ['GIII', '未勝利', '2勝クラス'].includes(raceClass);
-        return isMileOrLong && isTargetClass;
+    // 距離フィルター
+    if (activeFilters.distance.length > 0) {
+        let distMatch = false;
+        if (activeFilters.distance.includes('sprint') && distance <= 1400) distMatch = true;
+        if (activeFilters.distance.includes('mile') && distance >= 1401 && distance <= 1800) distMatch = true;
+        if (activeFilters.distance.includes('middle') && distance >= 1801 && distance <= 2400) distMatch = true;
+        if (activeFilters.distance.includes('long') && distance >= 2500) distMatch = true;
+        if (!distMatch) return false;
     }
 
-    if (currentFilter === 'mile') {
-        return distance >= 1401 && distance <= 1800;
+    // クラスフィルター
+    if (activeFilters.class.length > 0) {
+        let classMatch = false;
+        if (activeFilters.class.includes('maiden') && raceClass === '未勝利') classMatch = true;
+        if (activeFilters.class.includes('newbie') && raceClass === '新馬') classMatch = true;
+        if (activeFilters.class.includes('1win') && raceClass === '1勝クラス') classMatch = true;
+        if (activeFilters.class.includes('2win') && raceClass === '2勝クラス') classMatch = true;
+        if (activeFilters.class.includes('3win') && raceClass === '3勝クラス') classMatch = true;
+        if (activeFilters.class.includes('open') && (raceClass === 'オープン' || raceClass === 'リステッド')) classMatch = true;
+        if (activeFilters.class.includes('giii') && raceClass === 'GIII') classMatch = true;
+        if (activeFilters.class.includes('gii') && raceClass === 'GII') classMatch = true;
+        if (activeFilters.class.includes('gi') && raceClass === 'GI') classMatch = true;
+        if (!classMatch) return false;
     }
 
-    if (currentFilter === 'long') {
-        return distance >= 2500;
-    }
-
-    if (currentFilter === 'maiden') {
-        return raceClass === '未勝利';
-    }
-
-    if (currentFilter === 'giii') {
-        return raceClass === 'GIII';
+    // 場所フィルター
+    if (activeFilters.venue.length > 0) {
+        if (!activeFilters.venue.includes(venue)) return false;
     }
 
     return true;
+}
+
+// 開催場所フィルターを更新
+function updateVenueFilters() {
+    const venues = new Set();
+    [...allRaces.target, ...allRaces.other].forEach(race => {
+        if (race.track_name) venues.add(race.track_name);
+    });
+
+    const container = document.getElementById('venue-filters');
+    if (!container) return;
+
+    container.innerHTML = '';
+    [...venues].sort().forEach(venue => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn toggle';
+        btn.dataset.category = 'venue';
+        btn.dataset.value = venue;
+        btn.textContent = venue;
+        btn.onclick = () => toggleFilter('venue', venue);
+        container.appendChild(btn);
+    });
 }
 
 // 今日のレースを取得
@@ -137,6 +197,9 @@ async function loadTodayRaces() {
             `;
             return;
         }
+
+        // 開催場所フィルターを更新
+        updateVenueFilters();
 
         // フィルター適用して描画
         renderFilteredRaces();
