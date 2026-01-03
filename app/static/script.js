@@ -230,13 +230,22 @@ function renderHorseTable(horses) {
         return 8;
     }
 
+    // オッズから人気順を計算
+    const sortedByOdds = [...horses].sort((a, b) => (a.odds || 999) - (b.odds || 999));
+    const popularityMap = {};
+    sortedByOdds.forEach((h, index) => {
+        popularityMap[h.num] = index + 1;
+    });
+
     horses.forEach(h => {
+        // オッズから計算した人気順を使用
+        const popularity = popularityMap[h.num] || h.popularity || '-';
         const winEv = h.win_ev || 0;
         const placeEv = h.place_ev || 0;
 
         let rating = '';
         let ratingClass = '';
-        if (h.popularity <= 2) {
+        if (popularity <= 2) {
             rating = '★ 軸馬候補';
             ratingClass = 'axis';
         } else if (placeEv >= 1.0 && h.odds >= 10 && h.odds <= 50) {
@@ -252,7 +261,6 @@ function renderHorseTable(horses) {
 
         const bracket = getBracket(h.num);
         const bracketColor = bracketColors[bracket] || bracketColors[1];
-        const popularity = h.popularity || '-';
 
         const tr = document.createElement('tr');
         tr.className = ratingClass;
